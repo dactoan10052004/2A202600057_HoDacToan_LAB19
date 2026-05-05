@@ -52,3 +52,46 @@ File chi tiết: `outputs/indexing_cost_summary.json`
 - NetworkX: dùng chính trong project vì chạy offline tốt, dễ inspect thuật toán BFS/multi-hop.
 - Neo4j: phù hợp nếu cần giao diện trực quan và Cypher cho graph lớn hơn.
 - NodeRAG: phù hợp nếu muốn framework GraphRAG trọn gói, nhưng lab này tự implement để thể hiện rõ pipeline.
+
+## 6. Trả lời câu hỏi nghiên cứu (Phần 1 — Research)
+
+### Câu 1: Làm sao để LLM phân biệt được đâu là thực thể (Node) và đâu là thuộc tính?
+
+Trong project này (`src/extractor.py`), LLM không tự do quyết định — nó bị ràng buộc bởi ba cơ chế:
+
+1. **Schema JSON cố định**: prompt yêu cầu LLM trả về đúng cấu trúc `{subject, predicate, object}`. Điều này buộc LLM phải map thông tin vào dạng triple, phân biệt rõ entity (subject/object) với loại quan hệ (predicate).
+
+2. **Whitelist 18 predicate**: biến `ALLOWED_PREDICATES` liệt kê chính xác các quan hệ được phép (`FOUNDED_BY`, `CEO_OF`, `ACQUIRED`, ...). Bất kỳ thuộc tính nào không nằm trong danh sách này (ví dụ: số nhân viên, doanh thu) đều bị hàm `_valid_triple()` loại bỏ ngay khi validate.
+
+3. **Confidence threshold**: triple phải có `confidence ∈ [0.5, 1.0]` — những suy diễn mơ hồ bị lọc ra. Hàm `_valid_triple()` kiểm tra đồng thời subject/object không rỗng, predicate nằm trong whitelist, và confidence hợp lệ.
+
+Kết quả: LLM chỉ trích xuất các **quan hệ tường minh có trong văn bản** ("Không suy diễn ngoài text" — trích prompt), còn mọi số liệu hay mô tả thuộc tính bị loại do không match predicate nào trong whitelist.
+
+---
+
+### Câu 2: Tại sao việc khử trùng lặp (Deduplication) lại quan trọng trong đồ thị?
+
+Corpus 50 công ty được chia thành 99 chunk có overlap. Cùng một sự kiện ("OpenAI được thành lập bởi Sam Altman") có thể xuất hiện ở nhiều chunk khác nhau, dẫn đến nhiều triple trùng nhau từ cả LLM lẫn rule-based.
+
+Hàm `deduplicate_triples()` trong `src/normalizer.py` giải quyết vấn đề này qua hai lớp:
+
+- **Normalize alias trước**: "Microsoft Corporation" → "Microsoft", "Meta Platforms, Inc." → "Meta" (ALIAS_MAP). Nếu không normalize, các tên khác nhau của cùng một entity sẽ tạo ra nhiều node riêng biệt, phá vỡ tính liên kết của graph.
+- **Merge theo key `(subject.lower(), predicate, obj.lower())`**: duplicate được gộp thành một, giữ bản có `confidence` cao nhất và hợp nhất toàn bộ `source_chunk_ids`.
+
+Nếu bỏ qua deduplication với `networkx.MultiDiGraph` (cho phép nhiều edge giữa cùng cặp node), cùng một quan hệ sẽ xuất hiện nhiều lần trong kết quả BFS, làm nhiễu evidence gửi cho LLM và thổi phồng số edge (thực tế có thể từ 1,432 lên vài nghìn).
+
+---
+
+### Câu 3: Sự khác biệt giữa duyệt đồ thị theo chiều rộng (BFS) và tìm kiếm vector thông thường là gì?
+
+| Tiêu chí | GraphRAG — BFS (`graph_query.py`) | Flat RAG — Vector Search (`flat_rag.py`) |
+|---------|-----------------------------------|------------------------------------------|
+| Đầu vào | Knowledge graph (node + edge) | Embedding vector của từng chunk |
+| Cách tìm | Duyệt BFS từ entity match, tối đa 2 hop, cả `successors` lẫn `predecessors` | Cosine similarity giữa query embedding và chunk embedding |
+| Kết quả trả về | Danh sách triple có cấu trúc `(subject, predicate, object)` | Top-k chunk văn bản thô |
+| Multi-hop | Có — theo cạnh graph qua nhiều node trung gian | Không — chỉ match theo nội dung chunk đơn lẻ |
+| Ví dụ thực tế | q011: "Who founded the company Microsoft invested in?" → BFS: Microsoft →(INVESTED\_IN)→ OpenAI →(FOUNDED\_BY)→ Elon Musk | Flat RAG cần chunk duy nhất chứa cả Microsoft + OpenAI + founder → thường không tồn tại |
+| Token tiêu thụ | Ít hơn — chỉ gửi top 35 triple liên quan (trung bình 596 token) | Nhiều hơn — gửi toàn bộ chunk (trung bình 1,420 token) |
+| Điểm yếu | Phụ thuộc chất lượng entity matching; entity viết tắt/alias có thể không match | Không thể suy luận qua nhiều bước; câu hỏi multi-hop dễ trả lời sai |
+
+Trong benchmark 20 câu: 3 câu mà Flat RAG sai đều là dạng multi-hop (q009, q011, q012) — đúng với lý thuyết trên. GraphRAG đạt 100% nhờ BFS traversal tìm được đường nối giữa các entity trung gian.
