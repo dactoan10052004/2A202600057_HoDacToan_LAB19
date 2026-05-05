@@ -59,6 +59,7 @@ def _clean_structured_value(value: str) -> str:
     value = re.sub(r"<!--.*?-->", "", value, flags=re.DOTALL)
     value = value.replace("}}", "")
     value = re.sub(r"\([^)]*\)", "", value)
+    value = re.sub(r"\s*\(.*$", "", value)
     value = re.sub(r"\s+", " ", value)
     return value.strip(" .;,")
 

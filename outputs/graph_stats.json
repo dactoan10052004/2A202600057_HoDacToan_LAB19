@@ -1,68 +1,68 @@
 {
-  "num_nodes": 767,
-  "num_edges": 987,
+  "num_nodes": 1077,
+  "num_edges": 1432,
   "top_degree_nodes": [
     [
-      "Amazon",
-      46
+      "Microsoft",
+      50
     ],
     [
-      "Microsoft",
-      43
+      "Meta",
+      44
     ],
     [
       "ByteDance",
       42
     ],
     [
-      "OpenAI",
-      38
+      "Amazon",
+      41
     ],
     [
-      "Meta",
-      38
+      "OpenAI",
+      39
+    ],
+    [
+      "SAP",
+      35
     ],
     [
       "Alibaba Group",
       33
     ],
     [
-      "Apple",
-      32
+      "SpaceX",
+      33
     ],
     [
       "Google",
-      31
+      32
     ],
     [
-      "Tencent",
-      31
-    ],
-    [
-      "Samsung Electronics",
-      29
+      "Apple",
+      32
     ]
   ],
-  "weakly_connected_components": 6,
+  "weakly_connected_components": 9,
   "predicates_count": {
-    "FOUNDED_BY": 186,
-    "CEO_OF": 29,
-    "FOUNDED_IN": 64,
-    "HEADQUARTERED_IN": 123,
-    "INDUSTRY": 117,
+    "FOUNDED_BY": 283,
+    "CEO_OF": 50,
+    "FOUNDED_IN": 105,
+    "HEADQUARTERED_IN": 189,
+    "INDUSTRY": 164,
     "DEVELOPED": 29,
-    "RELEASED": 21,
-    "PRODUCT": 185,
-    "SUBSIDIARY_OF": 28,
-    "ACQUIRED_BY": 9,
-    "PROVIDES_SERVICE": 89,
-    "ACQUIRED": 14,
-    "COMPETES_WITH": 19,
-    "OWNS": 31,
-    "INVESTED_IN": 2,
-    "PARENT_COMPANY": 10,
-    "CREATED_BY": 8,
-    "USES_TECHNOLOGY": 4,
-    "PARTNERED_WITH": 19
+    "RELEASED": 19,
+    "PRODUCT": 282,
+    "SUBSIDIARY_OF": 40,
+    "ACQUIRED_BY": 15,
+    "PROVIDES_SERVICE": 107,
+    "COMPETES_WITH": 25,
+    "ACQUIRED": 18,
+    "OWNS": 40,
+    "INVESTED_IN": 7,
+    "PARENT_COMPANY": 21,
+    "USES_TECHNOLOGY": 10,
+    "CREATED_BY": 12,
+    "PARTNERED_WITH": 16
   }
 }

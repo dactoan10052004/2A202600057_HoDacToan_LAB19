@@ -1,181 +1,176 @@
 ﻿question_id,question,type,expected_answer,flat_rag_answer,graphrag_answer,flat_rag_correct,graphrag_correct,flat_rag_latency,graphrag_latency,flat_rag_tokens,graphrag_tokens,graphrag_evidence_count,notes
-q001,Who founded OpenAI?,single-hop,Sam Altman,"OpenAI được thành lập bởi Elon Musk, Sam Altman, Ilya Sutskever, Greg Brockman, Trevor Blackwell, Vicki Cheung, Andrej Karpathy, Durk Kingma, John Schulman, Pamela Vagata và Wojciech Zaremba.","OpenAI được thành lập bởi các cá nhân sau:
+q001,Who founded OpenAI?,single-hop,Elon Musk,"OpenAI được thành lập bởi một nhóm sáng lập, gồm có Elon Musk, Sam Altman, Ilya Sutskever, Greg Brockman, Trevor Blackwell, Vicki Cheung, Andrej Karpathy, Durk Kingma, John Schulman, Pamela Vagata, và Wojciech Zaremba.","OpenAI được thành lập bởi những người sau:
 
-1. Greg Brockman
-2. Pamela Vagata
+1. Vicki Cheung
+2. Greg Brockman
 3. Wojciech Zaremba
-4. Trevor Blackwell
-5. Ilya Sutskever
-6. John Schulman
-7. Andrej Karpathy
-8. Elon Musk
-9. Durk Kingma
-10. Vicki Cheung
-11. Sam Altman
+4. Durk Kingma
+5. Sam Altman
+6. Trevor Blackwell
+7. Ilya Sutskever
+8. Andrej Karpathy
+9. John Schulman
+10. Pamela Vagata
+11. Elon Musk
 
-**Giải thích:** Dựa vào các chứng cứ trong graph, thông tin về người sáng lập OpenAI được ghi nhận qua nhiều triple với mối quan hệ FOUNDED_BY.",True,True,3.1289,3.0816,1562,674,35,
-q002,When was OpenAI founded?,single-hop,2015,OpenAI được thành lập vào năm 2015.,"OpenAI được thành lập vào ngày 08 tháng 12 năm 2015. 
+**Giải thích evidence:** Evidence đưa ra liệt kê chi tiết các cá nhân đã tham gia làm người sáng lập OpenAI thông qua các triples có liên kết FOUNDED_BY.",True,True,2.9476,3.1251,1570,645,35,
+q002,Who founded Google?,single-hop,Larry Page,Google được thành lập bởi hai nhà khoa học máy tính Larry Page và Sergey Brin.,"Google được sáng lập bởi Larry Page và Sergey Brin. 
 
-**Giải thích evidence:**
-- Mặc dù có một triple ghi rõ OpenAI FOUNDED_IN 2015, nhưng thông tin chính xác hơn là ghi ""OpenAI FOUNDED_IN 2015-12-08"", cho thấy ngày thành lập cụ thể.",True,True,2.6737,2.2069,1516,588,35,
-q003,Who founded Google?,single-hop,Larry Page,Google được thành lập bởi hai nhà khoa học máy tính Larry Page và Sergey Brin vào năm 1998.,"Google được thành lập bởi Larry Page và Sergey Brin. Dưới đây là các triple liên quan đến việc thành lập Google:
+**Các evidence liên quan:**
+- Google FOUNDED_BY Larry Page.
+- Google FOUNDED_BY Sergey Brin.
 
-1. Google FOUNDED_BY Larry Page.
-2. Google FOUNDED_BY Sergey Brin.
-3. Google FOUNDED_BY American computer scientists Larry Page.
-
-Các dữ kiện trên chỉ rõ Larry Page và Sergey Brin là những người sáng lập Google.",True,True,1.6009,2.9711,1594,541,35,
-q004,Who co-founded Google with Larry Page?,single-hop,Sergey Brin,Người đồng sáng lập Google cùng với Larry Page là Sergey Brin.,"Google được đồng sáng lập bởi Larry Page và Sergey Brin. Dưới đây là các triple liên quan:
-
-1. Google FOUNDED_BY Larry Page.
-2. Google FOUNDED_BY Sergey Brin.
-
-Chúng ta có đủ dữ kiện để xác nhận rằng Sergey Brin là người đồng sáng lập cùng Larry Page.",True,True,1.6679,2.5162,1536,625,35,
-q005,Who founded Microsoft?,single-hop,Bill Gates,Microsoft được thành lập bởi Bill Gates và Paul Allen vào năm 1975.,"Microsoft được thành lập bởi:
-
-1. **Bill Gates**
-2. **Paul Allen**
-
-Các triple liên quan đến việc thành lập Microsoft bao gồm:
-
-- Microsoft FOUNDED_BY Paul Allen.
-- Microsoft FOUNDED_BY Bill Gates and Paul Allen.
-- Microsoft FOUNDED_BY Bill Gates.
-- Microsoft FOUNDED_BY Paul Allen to market BASIC interpreters for the Altair 8800.
-
-Các evidence này cho thấy rằng cả Bill Gates và Paul Allen đều là những người đồng sáng lập Microsoft, trong đó Paul Allen cũng có vai trò quan trọng trong việc phát triển sản phẩm ban đầu.",True,True,1.4859,3.0765,1518,679,35,
-q006,Which Microsoft founder was Paul Allen's co-founder?,single-hop,Bill Gates,Người sáng lập Microsoft mà Paul Allen hợp tác là Bill Gates.,"Paul Allen đã có một người đồng sáng lập là Bill Gates. Dựa vào các evidence triples, có ba tri thức liên quan:
-
-1. Microsoft FOUNDED_BY Paul Allen.
-2. Microsoft FOUNDED_BY Bill Gates and Paul Allen.
-3. Microsoft FOUNDED_BY Bill Gates.
-
-Từ đó, có thể kết luận rằng Bill Gates là đồng sáng lập cùng với Paul Allen.",True,True,1.4574,1.9672,1336,639,35,
-q007,Who founded Apple?,single-hop,Steve Jobs,"Apple được thành lập bởi Steve Jobs, Steve Wozniak và Ronald Wayne vào năm 1976.","Apple được thành lập bởi ba người: 
-
-1. **Steve Wozniak** (FOUNDED_BY Steve Wozniak).
-2. **Ronald Wayne** (FOUNDED_BY Ronald Wayne).
-3. **Steve Jobs** (FOUNDED_BY Steve Jobs).
-
-Các triple này cho thấy cả ba cá nhân này đều có vai trò trong việc thành lập Apple.",True,True,2.1278,2.3594,1534,503,35,
-q008,Name another Apple founder besides Steve Jobs.,single-hop,Steve Wozniak,Một người sáng lập Apple khác bên cạnh Steve Jobs là Steve Wozniak.,"Một nhà sáng lập khác của Apple bên cạnh Steve Jobs là Steve Wozniak. 
-
-**Giải thích evidence**: 
-- Evidence chỉ ra rằng Apple được sáng lập bởi Steve Jobs (Apple FOUNDED_BY Steve Jobs) và Steve Wozniak (Apple FOUNDED_BY Steve Wozniak). Do đó, Steve Wozniak là một trong những người sáng lập Apple.",True,True,1.8433,2.0511,1484,494,35,
-q009,Who founded Nvidia?,single-hop,Jensen Huang,"Nvidia được sáng lập bởi Jensen Huang, Chris Malachowsky và Curtis Priem vào năm 1993.","Nvidia được thành lập bởi ba người: Jensen Huang, Chris Malachowsky và Curtis Priem. Điều này được chứng minh qua các evidence triples sau:
-
-- Nvidia FOUNDED_BY Jensen Huang.
-- Nvidia FOUNDED_BY Chris Malachowsky.
-- Nvidia FOUNDED_BY Curtis Priem.
-
-Như vậy, có đủ dữ kiện để xác định những người sáng lập Nvidia.",True,True,2.0581,2.1922,1145,542,35,
-q010,Who founded Amazon?,single-hop,Jeff Bezos,"Amazon được thành lập bởi Jeff Bezos vào năm 1994 tại Bellevue, Washington.","Amazon được thành lập bởi Jeff Bezos. 
-
-**Evidence:**
-- Amazon FOUNDED_BY Jeff Bezos.
-
-Thông tin này cho thấy Jeff Bezos là người sáng lập Amazon.",True,True,1.4633,1.962,1600,493,35,
-q011,Who founded Facebook or Meta?,single-hop,Mark Zuckerberg,"Facebook, hay còn gọi là Meta, được thành lập bởi Mark Zuckerberg cùng với các bạn học của ông là Eduardo Saverin, Dustin Moskovitz, Andrew McCollum, và Chris Hughes vào năm 2004.","Facebook và Meta đều được sáng lập bởi các cá nhân sau:
-
-1. **Mark Zuckerberg**
-2. **Eduardo Saverin**
-3. **Andrew McCollum**
-4. **Chris Hughes**
-5. **Dustin Moskovitz**
-
-Các evidence liên quan đến việc sáng lập Facebook và Meta đều có ghi nhận các cá nhân này, cho thấy họ không chỉ là người sáng lập Facebook mà còn là người sáng lập Meta. 
-
-Cụ thể:
-- Facebook FOUNDED_BY Mark Zuckerberg.
-- Meta FOUNDED_BY Mark Zuckerberg.
-- Các cá nhân khác cũng được liệt kê trong evidence tương ứng với cả hai thực thể. 
-
-Vì vậy, câu trả lời cho câu hỏi này là: Facebook được sáng lập bởi Mark Zuckerberg và các đồng sáng lập khác, và Meta cũng được sáng lập bởi cùng một nhóm cá nhân đó.",True,True,3.0545,2.704,1397,664,35,
-q012,Which company acquired DeepMind?,single-hop,Google; Alphabet,Công ty nào đã mua lại DeepMind là Google.,"Công ty đã mua lại DeepMind là Google. 
-
-**Giải thích evidence:**
-- DeepMind Technologies Limited **ACQUIRED_BY** Google.
-- Google DeepMind **ACQUIRED_BY** Google vào năm 2014 và hợp nhất với bộ phận Google AI's Google Brain để trở thành Google DeepMind vào tháng 4 năm 2023.
-
-Từ những dữ liệu này, có thể kết luận rằng Google là công ty đã mua lại DeepMind.",True,True,1.5164,2.5068,1330,591,35,
-q013,Which company acquired YouTube?,single-hop,Google,Công ty đã mua lại YouTube là Google.,"Công ty đã mua lại YouTube là **Google**.
-
-**Giải thích evidence:**
-- Từ triple ""YouTube ACQUIRED Google"" cho thấy YouTube đã được Google mua lại.
-- Ngoài ra, trong graph còn ghi nhận YouTube là một công ty con của Google (YouTube SUBSIDIARY_OF Alphabet) và Google là công ty mẹ của nhiều entity khác (Google PARENT_COMPANY Alphabet).
-
-Vậy Google chính là công ty đã mua lại YouTube.",True,True,1.6197,2.5166,1490,526,35,
-q014,Where is OpenAI headquartered?,single-hop,San Francisco,OpenAI có trụ sở chính tại San Francisco.,"OpenAI có trụ sở chính tại San Francisco, California, Hoa Kỳ. Điều này được xác nhận bởi các dữ liệu sau:
-
-- OpenAI HEADQUARTERED_IN San Francisco.
-- OpenAI HEADQUARTERED_IN California, U.S.
-- OpenAI HEADQUARTERED_IN 1455 3rd Street.
-
-Các triple này chỉ rõ vị trí cụ thể của trụ sở OpenAI.",True,True,2.0192,5.0335,1345,595,35,
-q015,Where is Apple headquartered?,single-hop,Cupertino,"Apple có trụ sở tại Cupertino, California.","Apple có trụ sở chính tại Cupertino, California. 
-
-Chứng cứ từ evidence triples cho thấy:
-- ""Apple HEADQUARTERED_IN Cupertino, California."" xác nhận địa điểm cụ thể là Cupertino, thuộc tiểu bang California.
-- Các triple khác cũng chỉ ra rằng Apple được đặt tại California, nhưng triple cụ thể trên cung cấp địa chỉ chính xác hơn.
-
-Do đó, câu trả lời là Cupertino, California.",True,True,1.4167,1.8817,1592,505,35,
-q016,Where is Microsoft headquartered?,single-hop,Redmond,"Microsoft có trụ sở tại Redmond, Washington.","Microsoft có trụ sở tại Redmond, Washington. 
-
-Dự liệu chứng minh điều này là:
-- ""Microsoft HEADQUARTERED_IN Redmond, Washington.""
-- ""Microsoft HEADQUARTERED_IN Washington.""
-- ""Microsoft HEADQUARTERED_IN Redmond."" 
-
-Các câu trên xác nhận rằng Redmond, Washington là địa điểm trụ sở của Microsoft.",True,True,1.7342,1.9145,1345,552,35,
-q017,What industry is Nvidia associated with?,single-hop,semiconductor,Nvidia liên quan đến ngành công nghiệp bán dẫn (semiconductors).,"Nvidia liên quan đến các ngành công nghiệp sau:
-
-1. **Semiconductors**: Thông qua triple ""Nvidia INDUSTRY Semiconductors"".
-2. **Artificial intelligence**: Thông qua triple ""Nvidia INDUSTRY artificial intelligence"".
-3. **Professional visualization**: Thông qua triple ""Nvidia INDUSTRY professional visualization"".
-4. **Supercomputing**: Thông qua triple ""Nvidia INDUSTRY supercomputing"".
-
-Do đó, Nvidia được liên kết với ngành công nghiệp chất bán dẫn, trí tuệ nhân tạo, hình ảnh chuyên nghiệp và siêu máy tính.",True,True,1.2881,4.4853,1296,537,35,
-q018,Who founded the company that Microsoft invested in?,multi-hop,Sam Altman,Không đủ dữ kiện để xác định ai là người sáng lập công ty mà Microsoft đã đầu tư.,"Công ty mà Microsoft đầu tư vào là OpenAI. Những người sáng lập của OpenAI được liệt kê như sau:
-
-- OpenAI FOUNDED_BY Greg Brockman.
-- OpenAI FOUNDED_BY Pamela Vagata.
-- OpenAI FOUNDED_BY Wojciech Zaremba.
-- OpenAI FOUNDED_BY Trevor Blackwell.
-- OpenAI FOUNDED_BY Ilya Sutskever.
-- OpenAI FOUNDED_BY John Schulman.
-- OpenAI FOUNDED_BY Andrej Karpathy.
-- OpenAI FOUNDED_BY Elon Musk.
-- OpenAI FOUNDED_BY Durk Kingma.
-- OpenAI FOUNDED_BY Vicki Cheung.
-- OpenAI FOUNDED_BY Sam Altman.
-
-Các evidence chỉ ra rằng OpenAI được thành lập bởi một nhóm nhiều người, bao gồm Greg Brockman, Elon Musk và Sam Altman, trong số những người khác.",False,True,1.5414,3.487,1344,751,35,
-q019,"Which parent or owner is connected to DeepMind, and who founded that owner?",multi-hop,Larry Page,"Cha mẹ hay chủ sở hữu nào liên quan đến DeepMind là Alphabet Inc., và Alphabet Inc. được thành lập bởi Larry Page và Sergey Brin.","DeepMind có chủ sở hữu là Alphabet. Các dữ kiện liên quan như sau:
-
-1. **DeepMind Technologies Limited SUBSIDIARY_OF Alphabet.**
-2. **Alphabet OWNS Google DeepMind.**
-3. **Google PARENT_COMPANY Alphabet.**
-
-Để tìm người sáng lập Alphabet, ta có các dữ kiện sau:
-
-1. **Google FOUNDED_BY Larry Page.**
-2. **Google FOUNDED_BY Sergey Brin.**
-3. **Google ACQUIRED_BY Alphabet.**
-
-Vậy, tổ chức mẹ của DeepMind là Alphabet, và người sáng lập Alphabet là Larry Page và Sergey Brin. 
-
-Kết luận: Chủ sở hữu của DeepMind là **Alphabet**, và người sáng lập Alphabet là **Larry Page, Sergey Brin**.",True,True,1.9122,3.4526,1589,666,35,
-q020,Which company owns YouTube and who founded that company?,multi-hop,Sergey Brin,YouTube thuộc sở hữu của công ty Google. Công ty này được thành lập bởi Larry Page và Sergey Brin vào năm 1998.,"Công ty sở hữu YouTube là Alphabet. Công ty Google là công ty mẹ của YouTube và cũng do Larry Page và Sergey Brin sáng lập.
+Hai thông tin này chỉ ra rằng cả Larry Page và Sergey Brin là những người sáng lập Google.",True,True,1.514,2.4111,1551,501,35,
+q003,Who founded Microsoft?,single-hop,Bill Gates,Microsoft được thành lập bởi Bill Gates và Paul Allen vào năm 1975.,"Microsoft được thành lập bởi Bill Gates và Paul Allen. 
 
 Các evidence liên quan:
+1. Microsoft FOUNDED_BY Bill Gates | Paul Allen.
+2. Microsoft FOUNDED_BY Bill Gates and Paul Allen.
+3. Microsoft FOUNDED_BY Bill Gates.
+4. Microsoft FOUNDED_BY Paul Allen.
+5. Microsoft FOUNDED_BY Paul Allen to market BASIC interpreters for the Altair 8800.
 
-1. **Ownership**:
-   - Alphabet OWNS YouTube.
-   - YouTube PARENT_COMPANY Google.
-   - Google PARENT_COMPANY Alphabet.
+Các triple này chỉ ra rằng cả Bill Gates và Paul Allen đều là những người sáng lập Microsoft.",True,True,1.4005,6.1898,1509,642,35,
+q004,"Who founded Tesla, Inc?",single-hop,Martin Eberhard,"Tesla, Inc. được thành lập bởi Martin Eberhard và Marc Tarpenning vào năm 2003. Elon Musk cũng được xem là một người đồng sáng lập sau khi dẫn dắt vòng gọi vốn đầu tiên vào năm 2004.","Tesla, Inc được thành lập bởi Marc Tarpenning và Martin Eberhard. Dữ liệu chứng minh điều này thông qua các triple:
 
-2. **Founders of Google**:
-   - Google FOUNDED_BY Larry Page.
-   - Google FOUNDED_BY Sergey Brin.
+- **Tesla, Inc FOUNDED_BY Marc Tarpenning.**
+- **Tesla, Inc FOUNDED_BY Martin Eberhard.**
 
-Tóm lại, Alphabet sở hữu YouTube, và Google được sáng lập bởi Larry Page và Sergey Brin.",True,True,1.9109,2.8275,1614,560,35,
+Elon Musk không phải là người sáng lập Tesla mà là người sở hữu (OWN) công ty này, nên không được xem là người sáng lập chính thức.",True,True,1.9979,2.7345,1510,582,35,
+q005,Who founded Adobe Inc?,single-hop,John Warnock,Adobe Inc. được thành lập bởi John Warnock và Charles Geschke vào năm 1982.,"Adobe Inc được thành lập bởi Charles Geschke và John Warnock. Dựa trên evidence, có các triple sau liên quan đến người sáng lập:
+
+- Adobe Inc FOUNDED_BY Charles Geschke.
+- Adobe Inc FOUNDED_BY John Warnock.
+
+Cả hai người này đều được ghi nhận trong các dữ kiện là người sáng lập Adobe Inc, cho thấy rằng họ là những nhân vật quan trọng trong việc thành lập công ty.",True,True,1.8293,2.4774,1298,546,35,
+q006,Who founded Netflix?,single-hop,Marc Randolph,Netflix được thành lập bởi Marc Randolph và Reed Hastings vào ngày 29 tháng 8 năm 1997.,"Netflix được sáng lập bởi **Marc Randolph** và **Reed Hastings**. 
+
+Chứng cứ từ graph cho thấy:
+- ""Netflix FOUNDED_BY Marc Randolph.""
+- ""Netflix FOUNDED_BY Reed Hastings.""
+
+Chất lượng thông tin này đủ để xác định hai người sáng lập Netflix.",True,True,2.0839,2.8314,1320,519,35,
+q007,Who founded Uber?,single-hop,Garrett Camp,Uber được thành lập bởi Garrett Camp và Travis Kalanick vào năm 2009.,"Uber được thành lập bởi Travis Kalanick và Garrett Camp. Các dữ kiện liên quan đến việc này là:
+
+- Uber FOUNDED_BY Travis Kalanick.
+- Uber FOUNDED_BY Garrett Camp.
+- Uber Technologies, Inc FOUNDED_BY Travis Kalanick.
+- Uber Technologies, Inc FOUNDED_BY Garrett Camp.
+
+Các thông tin này cho thấy cả hai cá nhân đều có vai trò quan trọng trong việc sáng lập Uber.",True,True,1.8928,2.7963,1487,588,35,
+q008,Who founded Airbnb?,single-hop,Brian Chesky,"Airbnb được thành lập bởi Brian Chesky, Nathan Blecharczyk và Joe Gebbia vào năm 2008.","Airbnb được thành lập bởi ba người: Nathan Blecharczyk, Joe Gebbia và Brian Chesky.
+
+Các triple liên quan đến việc thành lập Airbnb là:
+
+- Airbnb FOUNDED_BY Nathan Blecharczyk.
+- Airbnb FOUNDED_BY Joe Gebbia.
+- Airbnb FOUNDED_BY Brian Chesky.
+- Airbnb, Inc FOUNDED_BY Nathan Blecharczyk.
+- Airbnb, Inc FOUNDED_BY Joe Gebbia.
+- Airbnb, Inc FOUNDED_BY Brian Chesky.
+- AirBed & Breakfast FOUNDED_BY Nathan Blecharczyk.
+
+Các evidence này cho thấy tất cả các cá nhân trên đều có vai trò quan trọng trong việc thành lập Airbnb.",True,True,2.9513,4.8019,1053,543,27,
+q009,"Who founded Advanced Micro Devices, Inc?",single-hop,Team led by Jerry Sanders,"Advanced Micro Devices, Inc. (AMD) được thành lập bởi Jerry Sanders và nhóm các đồng nghiệp của ông từ Fairchild Semiconductor.","Advanced Micro Devices, Inc được thành lập bởi ""Team led by Jerry Sanders"".
+
+**Evidence:**
+- ""Advanced Micro Devices, Inc FOUNDED_BY Team led by Jerry Sanders.""
+- ""AMD FOUNDED_BY Team led by Jerry Sanders.""
+
+Cả hai triple đều đề cập đến nhóm do Jerry Sanders lãnh đạo là những người sáng lập AMD.",False,True,1.9185,2.2748,1163,619,35,
+q010,Who founded Intel Corporation?,single-hop,Robert Noyce,"Intel Corporation được thành lập bởi Robert Noyce, Gordon Moore và nhà đầu tư Arthur Rock vào năm 1968.","Intel Corporation được sáng lập bởi:
+
+1. Robert Noyce
+2. Gordon Moore
+3. Arthur Rock
+
+Các triple liên quan đến sự sáng lập của Intel Corporation cho thấy Robert Noyce, Gordon Moore, và Arthur Rock đều là những người sáng lập. Triple liên quan trực tiếp bao gồm:
+
+- Intel Corporation FOUNDED_BY Robert Noyce.
+- Intel Corporation FOUNDED_BY Gordon Moore.
+- Intel Corporation FOUNDED_BY Arthur Rock.
+
+Do đó, các nhà sáng lập của Intel Corporation là Robert Noyce, Gordon Moore và Arthur Rock.",True,True,2.053,4.6468,1240,621,35,
+q011,Who founded the company that Microsoft invested in?,multi-hop,Elon Musk,Thông tin trong bối cảnh không đủ để xác định công ty nào mà Microsoft đã đầu tư.,"Công ty mà Microsoft đầu tư là OpenAI. Những người sáng lập OpenAI là:
+
+- Vicki Cheung
+- Greg Brockman
+- Wojciech Zaremba
+- Durk Kingma
+- Sam Altman
+- Trevor Blackwell
+- Ilya Sutskever
+- Andrej Karpathy
+- John Schulman
+- Pamela Vagata
+- Elon Musk
+
+Các Triple FOUNDED_BY liên quan đến OpenAI cho thấy thông tin về các nhà sáng lập của công ty này.",False,True,2.367,5.3851,1344,644,35,
+q012,When was the company that Microsoft invested in founded?,multi-hop,2015,"Công ty mà Microsoft đầu tư vào không được đề cập đến trong đoạn văn đã cho, vì vậy không đủ dữ kiện để trả lời câu hỏi.","Công ty mà Microsoft đã đầu tư, OpenAI, được thành lập vào năm 2015. 
+
+Dữ kiện từ evidence cho thấy OpenAI có hai thông tin về năm thành lập: ""OpenAI FOUNDED_IN 2015"" và một thông tin cụ thể hơn là ""OpenAI FOUNDED_IN 2015-12-08"", cho thấy ngày thành lập là 8 tháng 12 năm 2015. 
+
+Do đó, câu trả lời là:
+
+**OpenAI được thành lập vào năm 2015.**",False,True,1.9533,2.6331,1432,617,35,
+q013,Who founded the company that Jeff Bezos owns?,multi-hop,Jeff Bezos,"Công ty mà Jeff Bezos sở hữu, Amazon.com, Inc., được thành lập bởi Jeff Bezos vào năm 1994.","Công ty mà Jeff Bezos sở hữu là Amazon, và Amazon được Jeff Bezos sáng lập. Dưới đây là các triple liên quan đến việc sáng lập:
+
+- Amazon FOUNDED_BY Jeff Bezos.
+
+Chứng minh: Dựa vào chứng cứ, Amazon được Jeff Bezos sáng lập và ông cũng là người sở hữu công ty này.",True,True,2.0056,2.6399,1622,564,35,
+q014,When was the company that Jeff Bezos owns founded?,multi-hop,1994,"Công ty mà Jeff Bezos sở hữu, Amazon.com, Inc., được thành lập vào năm 1994.","Công ty mà Jeff Bezos sở hữu, Amazon, được thành lập vào năm 1994. 
+
+**Giải thích evidence:**
+- Có thông tin ""Amazon FOUNDED_IN 1994"" và ""Amazon FOUNDED_BY Jeff Bezos"", cho thấy Jeff Bezos là người sáng lập và năm thành lập là 1994. 
+
+Do đó, câu trả lời là **1994**.",True,True,1.8016,3.2408,1507,609,35,
+q015,Who founded the company that Meta owns?,multi-hop,Mark Zuckerberg,"Công ty mà Meta sở hữu được thành lập bởi Mark Zuckerberg, cùng với các bạn học của anh là Eduardo Saverin, Dustin Moskovitz, Andrew McCollum và Chris Hughes.","Công ty mà Meta sở hữu là Facebook. 
+
+Dựa trên dữ liệu có sẵn, những người sáng lập Facebook (cũng là những người sáng lập Meta) bao gồm:
+
+- Mark Zuckerberg
+- Eduardo Saverin
+- Dustin Moskovitz
+- Andrew McCollum
+- Chris Hughes
+
+Các triple liên quan đến việc sáng lập Meta:
+- Meta FOUNDED_BY Mark Zuckerberg.
+- Meta FOUNDED_BY Eduardo Saverin.
+- Meta FOUNDED_BY Dustin Moskovitz.
+- Meta FOUNDED_BY Andrew McCollum.
+- Meta FOUNDED_BY Chris Hughes.
+
+Vì vậy, người sáng lập Facebook là: Mark Zuckerberg, Eduardo Saverin, Dustin Moskovitz, Andrew McCollum và Chris Hughes.",True,True,3.2375,6.8015,1547,635,35,
+q016,When was the company that Meta owns founded?,multi-hop,2004,Công ty mà Meta sở hữu được thành lập vào năm 2004.,"Công ty mà Meta sở hữu, Facebook, được thành lập vào năm 2004. 
+
+**Giải thích:**
+- Evidence chỉ ra rằng ""Facebook FOUNDED_IN 2004,"" cho thấy rằng Facebook được thành lập vào năm 2004, và Meta là một trong những công ty sở hữu Facebook (""Meta OWNS Facebook"").",True,True,1.6833,2.8086,1525,552,35,
+q017,Who founded the company that Larry Ellison owns?,multi-hop,Larry Ellison,"Công ty mà Larry Ellison sở hữu, Oracle, được đồng sáng lập bởi Larry Ellison, Bob Miner và Ed Oates vào năm 1977.","Larry Ellison là người sáng lập Oracle Corporation. Dựa trên các evidence triples, chúng ta có:
+
+1. **Oracle Corporation FOUNDED_BY Larry Ellison.**
+2. **Oracle FOUNDED_BY Larry Ellison, Bob Miner, Ed Oates.**
+
+Do đó, câu trả lời cho câu hỏi ""Ai sáng lập công ty mà Larry Ellison sở hữu?"" là: **Larry Ellison, Bob Miner, và Ed Oates**. 
+
+Điều này cho thấy Larry Ellison không chỉ là người sở hữu mà còn là một trong những người sáng lập công ty này.",True,True,2.0679,3.6156,1362,635,35,
+q018,When was the company that Larry Ellison owns founded?,multi-hop,1977,"Công ty mà Larry Ellison sở hữu, Oracle, được thành lập vào năm 1977.","Công ty mà Larry Ellison sở hữu là Oracle Corporation, được thành lập vào năm 1977. Evidence từ graph chỉ ra rằng:
+
+- Oracle Corporation FOUNDED_IN 1977.
+- Oracle Corporation FOUNDED_BY Larry Ellison.
+
+Do đó, câu trả lời là: Oracle Corporation được thành lập vào năm 1977.",True,True,2.1594,2.5532,1350,576,35,
+q019,Who founded the company that Elon Musk owns?,multi-hop,Martin Eberhard,"Công ty mà Elon Musk sở hữu, Tesla, Inc., được sáng lập bởi Martin Eberhard và Marc Tarpenning. Không đủ dữ kiện để xác nhận Elon Musk là người sáng lập, mặc dù ông đã dẫn dắt vòng tài trợ đầu tiên vào năm 2004 và tuyên bố là đồng sáng lập.","Công ty mà Elon Musk sở hữu là Tesla, Inc. và nó được thành lập bởi Marc Tarpenning và Martin Eberhard.
+
+### Danh sách FOUNDED_BY liên quan:
+- Tesla, Inc FOUNDED_BY Marc Tarpenning.
+- Tesla, Inc FOUNDED_BY Martin Eberhard.
+
+**Giải thích:** Theo evidence, Elon Musk không phải là người sáng lập Tesla, Inc., nhưng ông có sở hữu cổ phần. Các bằng chứng khác cho thấy ông là người sáng lập của nhiều công ty khác như SpaceX, OpenAI, và X Corp.",True,True,2.1878,2.6062,1530,644,35,
+q020,When was the company that Elon Musk owns founded?,multi-hop,2003,"Công ty mà Elon Musk sở hữu, Tesla, Inc., được thành lập vào năm 2003.","Công ty mà Elon Musk sở hữu là Tesla, Inc. và nó được thành lập vào năm 2003. 
+
+**Evidence:**
+- ""Tesla, Inc FOUNDED_IN 2003."" chỉ rõ năm thành lập của Tesla, Inc. 
+- Các thông tin khác cho thấy Elon Musk là chủ sở hữu của Tesla, Inc.: ""Elon Musk OWNS Tesla, Inc."" và ""Tesla, Inc SUBSIDIARY_OF Elon Musk.""
+
+Vì vậy, năm thành lập của công ty mà Elon Musk sở hữu là 2003.",True,True,1.846,2.3709,1485,637,35,

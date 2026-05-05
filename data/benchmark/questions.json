@@ -1,125 +1,162 @@
 [
   {
-    "id": "q001",
     "question": "Who founded OpenAI?",
-    "expected_answer": "Sam Altman",
-    "type": "single-hop"
+    "expected_answer": "Elon Musk",
+    "type": "single-hop",
+    "source": "llm_generated_from_triples",
+    "notes": "Directly from the founding information",
+    "id": "q001"
   },
   {
-    "id": "q002",
-    "question": "When was OpenAI founded?",
-    "expected_answer": "2015",
-    "type": "single-hop"
-  },
-  {
-    "id": "q003",
     "question": "Who founded Google?",
     "expected_answer": "Larry Page",
-    "type": "single-hop"
+    "type": "single-hop",
+    "source": "llm_generated_from_triples",
+    "notes": "Directly from the founding information",
+    "id": "q002"
   },
   {
-    "id": "q004",
-    "question": "Who co-founded Google with Larry Page?",
-    "expected_answer": "Sergey Brin",
-    "type": "single-hop"
-  },
-  {
-    "id": "q005",
     "question": "Who founded Microsoft?",
     "expected_answer": "Bill Gates",
-    "type": "single-hop"
+    "type": "single-hop",
+    "source": "llm_generated_from_triples",
+    "notes": "Directly from the founding information",
+    "id": "q003"
   },
   {
-    "id": "q006",
-    "question": "Which Microsoft founder was Paul Allen's co-founder?",
-    "expected_answer": "Bill Gates",
-    "type": "single-hop"
+    "question": "Who founded Tesla, Inc?",
+    "expected_answer": "Martin Eberhard",
+    "type": "single-hop",
+    "source": "llm_generated_from_triples",
+    "notes": "Directly from the founding information",
+    "id": "q004"
   },
   {
-    "id": "q007",
-    "question": "Who founded Apple?",
-    "expected_answer": "Steve Jobs",
-    "type": "single-hop"
+    "question": "Who founded Adobe Inc?",
+    "expected_answer": "John Warnock",
+    "type": "single-hop",
+    "source": "llm_generated_from_triples",
+    "notes": "Directly from the founding information",
+    "id": "q005"
   },
   {
-    "id": "q008",
-    "question": "Name another Apple founder besides Steve Jobs.",
-    "expected_answer": "Steve Wozniak",
-    "type": "single-hop"
+    "question": "Who founded Netflix?",
+    "expected_answer": "Marc Randolph",
+    "type": "single-hop",
+    "source": "llm_generated_from_triples",
+    "notes": "Directly from the founding information",
+    "id": "q006"
   },
   {
-    "id": "q009",
-    "question": "Who founded Nvidia?",
-    "expected_answer": "Jensen Huang",
-    "type": "single-hop"
+    "question": "Who founded Uber?",
+    "expected_answer": "Garrett Camp",
+    "type": "single-hop",
+    "source": "llm_generated_from_triples",
+    "notes": "Directly from the founding information",
+    "id": "q007"
   },
   {
-    "id": "q010",
-    "question": "Who founded Amazon?",
-    "expected_answer": "Jeff Bezos",
-    "type": "single-hop"
+    "question": "Who founded Airbnb?",
+    "expected_answer": "Brian Chesky",
+    "type": "single-hop",
+    "source": "llm_generated_from_triples",
+    "notes": "Directly from the founding information",
+    "id": "q008"
   },
   {
-    "id": "q011",
-    "question": "Who founded Facebook or Meta?",
-    "expected_answer": "Mark Zuckerberg",
-    "type": "single-hop"
+    "question": "Who founded Advanced Micro Devices, Inc?",
+    "expected_answer": "Team led by Jerry Sanders",
+    "type": "single-hop",
+    "source": "llm_generated_from_triples",
+    "notes": "Directly from the founding information",
+    "id": "q009"
   },
   {
-    "id": "q012",
-    "question": "Which company acquired DeepMind?",
-    "expected_answer": [
-      "Google",
-      "Alphabet"
-    ],
-    "type": "single-hop"
+    "question": "Who founded Intel Corporation?",
+    "expected_answer": "Robert Noyce",
+    "type": "single-hop",
+    "source": "llm_generated_from_triples",
+    "notes": "Directly from the founding information",
+    "id": "q010"
   },
   {
-    "id": "q013",
-    "question": "Which company acquired YouTube?",
-    "expected_answer": "Google",
-    "type": "single-hop"
-  },
-  {
-    "id": "q014",
-    "question": "Where is OpenAI headquartered?",
-    "expected_answer": "San Francisco",
-    "type": "single-hop"
-  },
-  {
-    "id": "q015",
-    "question": "Where is Apple headquartered?",
-    "expected_answer": "Cupertino",
-    "type": "single-hop"
-  },
-  {
-    "id": "q016",
-    "question": "Where is Microsoft headquartered?",
-    "expected_answer": "Redmond",
-    "type": "single-hop"
-  },
-  {
-    "id": "q017",
-    "question": "What industry is Nvidia associated with?",
-    "expected_answer": "semiconductor",
-    "type": "single-hop"
-  },
-  {
-    "id": "q018",
     "question": "Who founded the company that Microsoft invested in?",
-    "expected_answer": "Sam Altman",
-    "type": "multi-hop"
+    "expected_answer": "Elon Musk",
+    "type": "multi-hop",
+    "source": "llm_generated_from_triples",
+    "notes": "Path: Microsoft -[INVESTED_IN]-> OpenAI -[FOUNDED_BY]-> Elon Musk",
+    "id": "q011"
   },
   {
-    "id": "q019",
-    "question": "Which parent or owner is connected to DeepMind, and who founded that owner?",
-    "expected_answer": "Larry Page",
-    "type": "multi-hop"
+    "question": "When was the company that Microsoft invested in founded?",
+    "expected_answer": "2015",
+    "type": "multi-hop",
+    "source": "llm_generated_from_triples",
+    "notes": "Path: Microsoft -[INVESTED_IN]-> OpenAI -[FOUNDED_IN]-> 2015-12-08",
+    "id": "q012"
   },
   {
-    "id": "q020",
-    "question": "Which company owns YouTube and who founded that company?",
-    "expected_answer": "Sergey Brin",
-    "type": "multi-hop"
+    "question": "Who founded the company that Jeff Bezos owns?",
+    "expected_answer": "Jeff Bezos",
+    "type": "multi-hop",
+    "source": "llm_generated_from_triples",
+    "notes": "Path: Jeff Bezos -[OWNS]-> Amazon -[FOUNDED_BY]-> Jeff Bezos",
+    "id": "q013"
+  },
+  {
+    "question": "When was the company that Jeff Bezos owns founded?",
+    "expected_answer": "1994",
+    "type": "multi-hop",
+    "source": "llm_generated_from_triples",
+    "notes": "Path: Jeff Bezos -[OWNS]-> Amazon -[FOUNDED_IN]-> 1994 in Bellevue, Washington",
+    "id": "q014"
+  },
+  {
+    "question": "Who founded the company that Meta owns?",
+    "expected_answer": "Mark Zuckerberg",
+    "type": "multi-hop",
+    "source": "llm_generated_from_triples",
+    "notes": "Path: Meta -[OWNS]-> Facebook -[FOUNDED_BY]-> Mark Zuckerberg",
+    "id": "q015"
+  },
+  {
+    "question": "When was the company that Meta owns founded?",
+    "expected_answer": "2004",
+    "type": "multi-hop",
+    "source": "llm_generated_from_triples",
+    "notes": "Path: Meta -[OWNS]-> Facebook -[FOUNDED_IN]-> 2004",
+    "id": "q016"
+  },
+  {
+    "question": "Who founded the company that Larry Ellison owns?",
+    "expected_answer": "Larry Ellison",
+    "type": "multi-hop",
+    "source": "llm_generated_from_triples",
+    "notes": "Path: Larry Ellison -[OWNS]-> Oracle Corporation -[FOUNDED_BY]-> Larry Ellison",
+    "id": "q017"
+  },
+  {
+    "question": "When was the company that Larry Ellison owns founded?",
+    "expected_answer": "1977",
+    "type": "multi-hop",
+    "source": "llm_generated_from_triples",
+    "notes": "Path: Larry Ellison -[OWNS]-> Oracle Corporation -[FOUNDED_IN]-> 1977 in Santa Clara, California",
+    "id": "q018"
+  },
+  {
+    "question": "Who founded the company that Elon Musk owns?",
+    "expected_answer": "Martin Eberhard",
+    "type": "multi-hop",
+    "source": "generated_from_triples",
+    "path_hint": "Elon Musk -[OWNS]-> Tesla, Inc -[FOUNDED_BY]-> Martin Eberhard",
+    "id": "q019"
+  },
+  {
+    "question": "When was the company that Elon Musk owns founded?",
+    "expected_answer": "2003",
+    "type": "multi-hop",
+    "source": "generated_from_triples",
+    "path_hint": "Elon Musk -[OWNS]-> Tesla, Inc -[FOUNDED_IN]-> 2003 in San Carlos, California, US",
+    "id": "q020"
   }
 ]
