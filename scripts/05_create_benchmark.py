@@ -1,0 +1,44 @@
+from __future__ import annotations
+
+import json
+
+import _bootstrap  # noqa: F401
+from src.config import CONFIG
+from src.corpus_loader import ensure_dirs
+from src.utils import setup_logging, write_json
+
+
+QUESTIONS = [
+    {"id": "q001", "question": "Who founded OpenAI?", "expected_answer": "Sam Altman", "type": "single-hop"},
+    {"id": "q002", "question": "When was OpenAI founded?", "expected_answer": "2015", "type": "single-hop"},
+    {"id": "q003", "question": "Who founded Google?", "expected_answer": "Larry Page", "type": "single-hop"},
+    {"id": "q004", "question": "Who co-founded Google with Larry Page?", "expected_answer": "Sergey Brin", "type": "single-hop"},
+    {"id": "q005", "question": "Who founded Microsoft?", "expected_answer": "Bill Gates", "type": "single-hop"},
+    {"id": "q006", "question": "Which Microsoft founder was Paul Allen's co-founder?", "expected_answer": "Bill Gates", "type": "single-hop"},
+    {"id": "q007", "question": "Who founded Apple?", "expected_answer": "Steve Jobs", "type": "single-hop"},
+    {"id": "q008", "question": "Name another Apple founder besides Steve Jobs.", "expected_answer": "Steve Wozniak", "type": "single-hop"},
+    {"id": "q009", "question": "Who founded Nvidia?", "expected_answer": "Jensen Huang", "type": "single-hop"},
+    {"id": "q010", "question": "Who founded Amazon?", "expected_answer": "Jeff Bezos", "type": "single-hop"},
+    {"id": "q011", "question": "Who founded Facebook or Meta?", "expected_answer": "Mark Zuckerberg", "type": "single-hop"},
+    {"id": "q012", "question": "Which company acquired DeepMind?", "expected_answer": ["Google", "Alphabet"], "type": "single-hop"},
+    {"id": "q013", "question": "Which company acquired YouTube?", "expected_answer": "Google", "type": "single-hop"},
+    {"id": "q014", "question": "Where is OpenAI headquartered?", "expected_answer": "San Francisco", "type": "single-hop"},
+    {"id": "q015", "question": "Where is Apple headquartered?", "expected_answer": "Cupertino", "type": "single-hop"},
+    {"id": "q016", "question": "Where is Microsoft headquartered?", "expected_answer": "Redmond", "type": "single-hop"},
+    {"id": "q017", "question": "What industry is Nvidia associated with?", "expected_answer": "semiconductor", "type": "single-hop"},
+    {"id": "q018", "question": "Who founded the company that Microsoft invested in?", "expected_answer": "Sam Altman", "type": "multi-hop"},
+    {"id": "q019", "question": "Which parent or owner is connected to DeepMind, and who founded that owner?", "expected_answer": "Larry Page", "type": "multi-hop"},
+    {"id": "q020", "question": "Which company owns YouTube and who founded that company?", "expected_answer": "Sergey Brin", "type": "multi-hop"},
+]
+
+
+def main() -> None:
+    setup_logging()
+    ensure_dirs()
+    write_json(QUESTIONS, CONFIG.benchmark_questions_path)
+    print(json.dumps({"questions": len(QUESTIONS), "path": str(CONFIG.benchmark_questions_path)}, indent=2))
+
+
+if __name__ == "__main__":
+    main()
+

@@ -1,0 +1,14 @@
+{
+  "mode": "llm",
+  "chunks": 64,
+  "triples": 987,
+  "graph_nodes": 767,
+  "graph_edges": 987,
+  "indexing_seconds": 565.6905,
+  "extraction_token_usage": {
+    "prompt_tokens": 29723,
+    "completion_tokens": 27503,
+    "total_tokens": 57226
+  },
+  "notes": "Token usage is captured for OpenAI extraction calls; rule-based fallback uses zero tokens."
+}

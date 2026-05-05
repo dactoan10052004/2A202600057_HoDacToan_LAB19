@@ -1,0 +1,987 @@
+{"subject": "OpenAI", "predicate": "FOUNDED_BY", "object": "Elon Musk", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000001"]}
+{"subject": "OpenAI", "predicate": "FOUNDED_BY", "object": "Sam Altman", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000001"]}
+{"subject": "OpenAI", "predicate": "FOUNDED_BY", "object": "Ilya Sutskever", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000001"]}
+{"subject": "OpenAI", "predicate": "FOUNDED_BY", "object": "Greg Brockman", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000001"]}
+{"subject": "OpenAI", "predicate": "FOUNDED_BY", "object": "Trevor Blackwell", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000001"]}
+{"subject": "OpenAI", "predicate": "FOUNDED_BY", "object": "Vicki Cheung", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000001"]}
+{"subject": "OpenAI", "predicate": "FOUNDED_BY", "object": "Andrej Karpathy", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000001"]}
+{"subject": "OpenAI", "predicate": "FOUNDED_BY", "object": "Durk Kingma", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000001"]}
+{"subject": "OpenAI", "predicate": "FOUNDED_BY", "object": "John Schulman", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000001"]}
+{"subject": "OpenAI", "predicate": "FOUNDED_BY", "object": "Pamela Vagata", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000001"]}
+{"subject": "OpenAI", "predicate": "FOUNDED_BY", "object": "Wojciech Zaremba", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000001"]}
+{"subject": "OpenAI", "predicate": "FOUNDED_IN", "object": "2015-12-08", "confidence": 0.85, "method": "llm", "source_chunk_ids": ["chunk_000001"]}
+{"subject": "OpenAI", "predicate": "HEADQUARTERED_IN", "object": "San Francisco", "confidence": 0.95, "method": "llm", "source_chunk_ids": ["chunk_000001", "chunk_000002"]}
+{"subject": "OpenAI", "predicate": "CEO_OF", "object": "Sam Altman", "confidence": 0.85, "method": "llm", "source_chunk_ids": ["chunk_000001"]}
+{"subject": "OpenAI", "predicate": "INDUSTRY", "object": "Artificial intelligence", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000001"]}
+{"subject": "OpenAI", "predicate": "DEVELOPED", "object": "GPT family of large language models", "confidence": 0.85, "method": "llm", "source_chunk_ids": ["chunk_000001", "chunk_000002"]}
+{"subject": "OpenAI", "predicate": "DEVELOPED", "object": "DALL-E series of text-to-image models", "confidence": 0.85, "method": "llm", "source_chunk_ids": ["chunk_000001", "chunk_000002"]}
+{"subject": "OpenAI", "predicate": "DEVELOPED", "object": "Sora series of text-to-video models", "confidence": 0.85, "method": "llm", "source_chunk_ids": ["chunk_000001", "chunk_000002"]}
+{"subject": "OpenAI", "predicate": "RELEASED", "object": "ChatGPT", "confidence": 0.95, "method": "llm", "source_chunk_ids": ["chunk_000001", "chunk_000002"]}
+{"subject": "ChatGPT", "predicate": "RELEASED", "object": "November 2022", "confidence": 0.85, "method": "llm", "source_chunk_ids": ["chunk_000001", "chunk_000002"]}
+{"subject": "OpenAI", "predicate": "FOUNDED_IN", "object": "2015", "confidence": 0.95, "method": "llm", "source_chunk_ids": ["chunk_000001", "chunk_000002"]}
+{"subject": "OpenAI", "predicate": "HEADQUARTERED_IN", "object": "1455 3rd Street", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000001"]}
+{"subject": "OpenAI", "predicate": "HEADQUARTERED_IN", "object": "California, U.S", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000001"]}
+{"subject": "OpenAI", "predicate": "PRODUCT", "object": "ChatGPT", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000001"]}
+{"subject": "OpenAI", "predicate": "PRODUCT", "object": "GPT-5.5 OpenAI Codex", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000001"]}
+{"subject": "OpenAI", "predicate": "PRODUCT", "object": "GPT Image", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000001"]}
+{"subject": "OpenAI", "predicate": "PRODUCT", "object": "Deep Research", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000001"]}
+{"subject": "OpenAI", "predicate": "PRODUCT", "object": "ChatGPT agent", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000001"]}
+{"subject": "OpenAI", "predicate": "PRODUCT", "object": "ChatGPT Atlas", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000001"]}
+{"subject": "OpenAI", "predicate": "PRODUCT", "object": "ChatGPT Health", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000001"]}
+{"subject": "OpenAI", "predicate": "DEVELOPED", "object": "generative pre-trained transformer (GPT) family of large language models", "confidence": 0.62, "method": "rule_based", "source_chunk_ids": ["chunk_000001", "chunk_000002"]}
+{"subject": "OpenAI", "predicate": "FOUNDED_BY", "object": "nonprofit", "confidence": 0.85, "method": "llm", "source_chunk_ids": ["chunk_000002"]}
+{"subject": "OpenAI", "predicate": "SUBSIDIARY_OF", "object": "nonprofit", "confidence": 0.85, "method": "llm", "source_chunk_ids": ["chunk_000002"]}
+{"subject": "OpenAI", "predicate": "ACQUIRED_BY", "object": "Microsoft", "confidence": 0.85, "method": "llm", "source_chunk_ids": ["chunk_000002"]}
+{"subject": "Microsoft", "predicate": "INVESTED_IN", "object": "OpenAI", "confidence": 0.85, "method": "llm", "source_chunk_ids": ["chunk_000002"]}
+{"subject": "OpenAI", "predicate": "PROVIDES_SERVICE", "object": "Azure cloud computing resources", "confidence": 0.85, "method": "llm", "source_chunk_ids": ["chunk_000002"]}
+{"subject": "OpenAI", "predicate": "ACQUIRED", "object": "$6.6 billion share sale", "confidence": 0.85, "method": "llm", "source_chunk_ids": ["chunk_000002"]}
+{"subject": "OpenAI", "predicate": "COMPETES_WITH", "object": "authors and media companies", "confidence": 0.7, "method": "llm", "source_chunk_ids": ["chunk_000002"]}
+{"subject": "OpenAI", "predicate": "INDUSTRY", "object": "generative AI", "confidence": 0.8, "method": "llm", "source_chunk_ids": ["chunk_000002"]}
+{"subject": "Google", "predicate": "FOUNDED_BY", "object": "Larry Page", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000003", "chunk_000004"]}
+{"subject": "Google", "predicate": "FOUNDED_BY", "object": "Sergey Brin", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000003", "chunk_000004"]}
+{"subject": "Google", "predicate": "FOUNDED_IN", "object": "1998", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000003", "chunk_000004"]}
+{"subject": "Google", "predicate": "HEADQUARTERED_IN", "object": "Mountain View, California", "confidence": 0.85, "method": "llm", "source_chunk_ids": ["chunk_000003"]}
+{"subject": "Google", "predicate": "PARENT_COMPANY", "object": "Alphabet", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000003", "chunk_000004"]}
+{"subject": "Google", "predicate": "INDUSTRY", "object": "Internet", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000003"]}
+{"subject": "Google", "predicate": "INDUSTRY", "object": "Cloud computing", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000003"]}
+{"subject": "Google", "predicate": "INDUSTRY", "object": "Computer software", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000003"]}
+{"subject": "Google", "predicate": "INDUSTRY", "object": "Computer hardware", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000003"]}
+{"subject": "Google", "predicate": "INDUSTRY", "object": "Artificial intelligence", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000003"]}
+{"subject": "Google", "predicate": "INDUSTRY", "object": "Advertising", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000003"]}
+{"subject": "Google", "predicate": "PRODUCT", "object": "Google Search", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000003"]}
+{"subject": "Google", "predicate": "PRODUCT", "object": "Android", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000003"]}
+{"subject": "Google", "predicate": "PRODUCT", "object": "Nest", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000003"]}
+{"subject": "Google", "predicate": "PRODUCT", "object": "Pixel", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000003"]}
+{"subject": "Google", "predicate": "PRODUCT", "object": "Workspace", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000003"]}
+{"subject": "Google", "predicate": "PRODUCT", "object": "Fitbit", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000003"]}
+{"subject": "Google", "predicate": "PRODUCT", "object": "Waze", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000003"]}
+{"subject": "Google", "predicate": "PRODUCT", "object": "YouTube", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000003"]}
+{"subject": "Google", "predicate": "PRODUCT", "object": "Gemini", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000003"]}
+{"subject": "Google", "predicate": "HEADQUARTERED_IN", "object": "Mountain View", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000003"]}
+{"subject": "Google", "predicate": "HEADQUARTERED_IN", "object": "California", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000003"]}
+{"subject": "Google", "predicate": "PRODUCT", "object": "Full list", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000003"]}
+{"subject": "Google", "predicate": "CEO_OF", "object": "Sundar Pichai", "confidence": 0.85, "method": "llm", "source_chunk_ids": ["chunk_000004"]}
+{"subject": "Sundar Pichai", "predicate": "CEO_OF", "object": "Alphabet", "confidence": 0.85, "method": "llm", "source_chunk_ids": ["chunk_000004"]}
+{"subject": "Google", "predicate": "ACQUIRED_BY", "object": "Alphabet", "confidence": 0.85, "method": "llm", "source_chunk_ids": ["chunk_000004"]}
+{"subject": "Google", "predicate": "ACQUIRED", "object": "publicly listed shares", "confidence": 0.85, "method": "llm", "source_chunk_ids": ["chunk_000004"]}
+{"subject": "Google", "predicate": "HEADQUARTERED_IN", "object": "United States", "confidence": 0.85, "method": "llm", "source_chunk_ids": ["chunk_000004", "chunk_000062"]}
+{"subject": "Google", "predicate": "FOUNDED_BY", "object": "American computer scientists Larry Page", "confidence": 0.72, "method": "rule_based", "source_chunk_ids": ["chunk_000004"]}
+{"subject": "Microsoft", "predicate": "FOUNDED_BY", "object": "Bill Gates", "confidence": 0.95, "method": "llm", "source_chunk_ids": ["chunk_000005", "chunk_000006"]}
+{"subject": "Microsoft", "predicate": "FOUNDED_BY", "object": "Paul Allen", "confidence": 0.95, "method": "llm", "source_chunk_ids": ["chunk_000005"]}
+{"subject": "Microsoft", "predicate": "FOUNDED_IN", "object": "1975 in Albuquerque, New Mexico, U.S", "confidence": 0.95, "method": "llm", "source_chunk_ids": ["chunk_000005"]}
+{"subject": "Microsoft", "predicate": "HEADQUARTERED_IN", "object": "Redmond, Washington", "confidence": 0.95, "method": "llm", "source_chunk_ids": ["chunk_000005"]}
+{"subject": "Microsoft", "predicate": "CEO_OF", "object": "Satya Nadella", "confidence": 0.9, "method": "llm", "source_chunk_ids": ["chunk_000005"]}
+{"subject": "Microsoft", "predicate": "INDUSTRY", "object": "Information technology", "confidence": 0.9, "method": "llm", "source_chunk_ids": ["chunk_000005"]}
+{"subject": "Microsoft", "predicate": "PRODUCT", "object": "Software development", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000005"]}
+{"subject": "Microsoft", "predicate": "PRODUCT", "object": "Computer hardware", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000005"]}
+{"subject": "Microsoft", "predicate": "PRODUCT", "object": "Consumer electronics", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000005"]}
+{"subject": "Microsoft", "predicate": "PRODUCT", "object": "Social networking service", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000005"]}
+{"subject": "Microsoft", "predicate": "PRODUCT", "object": "Cloud computing", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000005"]}
+{"subject": "Microsoft", "predicate": "PRODUCT", "object": "Video games", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000005"]}
+{"subject": "Microsoft", "predicate": "PRODUCT", "object": "Corporate venture capital", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000005"]}
+{"subject": "Microsoft", "predicate": "FOUNDED_IN", "object": "1975", "confidence": 0.95, "method": "llm", "source_chunk_ids": ["chunk_000005", "chunk_000006"]}
+{"subject": "Microsoft", "predicate": "HEADQUARTERED_IN", "object": "Redmond", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000005"]}
+{"subject": "Microsoft", "predicate": "HEADQUARTERED_IN", "object": "Washington", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000005", "chunk_000006"]}
+{"subject": "Microsoft", "predicate": "PROVIDES_SERVICE", "object": "Edge", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000005"]}
+{"subject": "Microsoft", "predicate": "PROVIDES_SERVICE", "object": "Azure", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000005"]}
+{"subject": "Microsoft", "predicate": "PROVIDES_SERVICE", "object": "Bing", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000005"]}
+{"subject": "Microsoft", "predicate": "PROVIDES_SERVICE", "object": "LinkedIn", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000005"]}
+{"subject": "Microsoft", "predicate": "PROVIDES_SERVICE", "object": "Viva Engage", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000005"]}
+{"subject": "Microsoft", "predicate": "PROVIDES_SERVICE", "object": "Microsoft 365", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000005"]}
+{"subject": "Microsoft", "predicate": "PROVIDES_SERVICE", "object": "OneDrive", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000005"]}
+{"subject": "Microsoft", "predicate": "PROVIDES_SERVICE", "object": "Dynamics 365", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000005"]}
+{"subject": "Microsoft", "predicate": "PROVIDES_SERVICE", "object": "Outlook", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000005"]}
+{"subject": "Microsoft", "predicate": "PROVIDES_SERVICE", "object": "GitHub", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000005"]}
+{"subject": "Microsoft", "predicate": "PROVIDES_SERVICE", "object": "Microsoft Store", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000005"]}
+{"subject": "Microsoft", "predicate": "PROVIDES_SERVICE", "object": "Windows Update", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000005"]}
+{"subject": "Microsoft", "predicate": "PROVIDES_SERVICE", "object": "Game Pass", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000005"]}
+{"subject": "Microsoft", "predicate": "PROVIDES_SERVICE", "object": "Xbox network", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000005"]}
+{"subject": "Microsoft", "predicate": "FOUNDED_BY", "object": "Bill Gates and Paul Allen", "confidence": 0.95, "method": "llm", "source_chunk_ids": ["chunk_000006"]}
+{"subject": "Microsoft", "predicate": "CEO_OF", "object": "Steve Ballmer", "confidence": 0.85, "method": "llm", "source_chunk_ids": ["chunk_000006"]}
+{"subject": "Microsoft", "predicate": "ACQUIRED", "object": "Skype Technologies", "confidence": 0.85, "method": "llm", "source_chunk_ids": ["chunk_000006"]}
+{"subject": "Microsoft", "predicate": "INDUSTRY", "object": "Software", "confidence": 0.85, "method": "llm", "source_chunk_ids": ["chunk_000006"]}
+{"subject": "Microsoft", "predicate": "PRODUCT", "object": "Windows", "confidence": 0.95, "method": "llm", "source_chunk_ids": ["chunk_000006"]}
+{"subject": "Microsoft", "predicate": "PRODUCT", "object": "MS-DOS", "confidence": 0.95, "method": "llm", "source_chunk_ids": ["chunk_000006"]}
+{"subject": "Microsoft", "predicate": "COMPETES_WITH", "object": "Big Tech companies", "confidence": 0.85, "method": "llm", "source_chunk_ids": ["chunk_000006"]}
+{"subject": "Microsoft", "predicate": "FOUNDED_BY", "object": "Paul Allen to market BASIC interpreters for the Altair 8800", "confidence": 0.72, "method": "rule_based", "source_chunk_ids": ["chunk_000006"]}
+{"subject": "Microsoft", "predicate": "FOUNDED_BY", "object": "Microsoft rose to dominate the PC operating system market with MS-DOS in the mid-1980s", "confidence": 0.72, "method": "rule_based", "source_chunk_ids": ["chunk_000006"]}
+{"subject": "Microsoft", "predicate": "FOUNDED_BY", "object": "followed by Windows", "confidence": 0.72, "method": "rule_based", "source_chunk_ids": ["chunk_000006"]}
+{"subject": "Apple", "predicate": "FOUNDED_BY", "object": "Steve Jobs", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000007", "chunk_000008"]}
+{"subject": "Apple", "predicate": "FOUNDED_BY", "object": "Steve Wozniak", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000007", "chunk_000008"]}
+{"subject": "Apple", "predicate": "FOUNDED_BY", "object": "Ronald Wayne", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000007", "chunk_000008"]}
+{"subject": "Apple", "predicate": "FOUNDED_IN", "object": "1976", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000007", "chunk_000008"]}
+{"subject": "Apple", "predicate": "HEADQUARTERED_IN", "object": "Cupertino, California", "confidence": 0.85, "method": "llm", "source_chunk_ids": ["chunk_000007"]}
+{"subject": "Apple", "predicate": "INDUSTRY", "object": "Consumer electronics", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000007"]}
+{"subject": "Apple", "predicate": "INDUSTRY", "object": "Software services", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000007"]}
+{"subject": "Apple", "predicate": "INDUSTRY", "object": "Online services", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000007"]}
+{"subject": "Apple", "predicate": "COMPETES_WITH", "object": "Big Tech companies", "confidence": 0.85, "method": "llm", "source_chunk_ids": ["chunk_000007"]}
+{"subject": "Apple", "predicate": "HEADQUARTERED_IN", "object": "Cupertino", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000007"]}
+{"subject": "Apple", "predicate": "HEADQUARTERED_IN", "object": "California", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000007"]}
+{"subject": "Apple", "predicate": "PRODUCT", "object": "AirPods", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000007"]}
+{"subject": "Apple", "predicate": "PRODUCT", "object": "AirTag", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000007"]}
+{"subject": "Apple", "predicate": "PRODUCT", "object": "Apple TV", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000007"]}
+{"subject": "Apple", "predicate": "PRODUCT", "object": "Apple Vision Pro", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000007"]}
+{"subject": "Apple", "predicate": "PRODUCT", "object": "Apple Watch", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000007"]}
+{"subject": "Apple", "predicate": "PRODUCT", "object": "HomePod", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000007"]}
+{"subject": "Apple", "predicate": "PRODUCT", "object": "iPad", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000007"]}
+{"subject": "Apple", "predicate": "PRODUCT", "object": "iPhone", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000007"]}
+{"subject": "Apple", "predicate": "PRODUCT", "object": "Mac", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000007"]}
+{"subject": "Apple", "predicate": "PROVIDES_SERVICE", "object": "App Store", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000007"]}
+{"subject": "Apple", "predicate": "PROVIDES_SERVICE", "object": "Apple Arcade", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000007"]}
+{"subject": "Apple", "predicate": "PROVIDES_SERVICE", "object": "Apple Card", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000007"]}
+{"subject": "Apple", "predicate": "PROVIDES_SERVICE", "object": "Apple Music", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000007"]}
+{"subject": "Apple", "predicate": "PROVIDES_SERVICE", "object": "Apple Pay", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000007"]}
+{"subject": "Apple", "predicate": "PROVIDES_SERVICE", "object": "Apple TV", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000007"]}
+{"subject": "Apple", "predicate": "PROVIDES_SERVICE", "object": "CarPlay", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000007"]}
+{"subject": "Apple", "predicate": "PROVIDES_SERVICE", "object": "iCloud", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000007"]}
+{"subject": "Apple", "predicate": "PROVIDES_SERVICE", "object": "Pixelmator", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000007"]}
+{"subject": "Apple", "predicate": "PROVIDES_SERVICE", "object": "Shazam", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000007"]}
+{"subject": "Apple Computer Company", "predicate": "FOUNDED_BY", "object": "Steve Jobs", "confidence": 0.9, "method": "llm", "source_chunk_ids": ["chunk_000008"]}
+{"subject": "Apple Computer Company", "predicate": "FOUNDED_BY", "object": "Steve Wozniak", "confidence": 0.9, "method": "llm", "source_chunk_ids": ["chunk_000008"]}
+{"subject": "Apple Computer Company", "predicate": "FOUNDED_BY", "object": "Ronald Wayne", "confidence": 0.9, "method": "llm", "source_chunk_ids": ["chunk_000008"]}
+{"subject": "Apple Computer Company", "predicate": "FOUNDED_IN", "object": "1976", "confidence": 0.9, "method": "llm", "source_chunk_ids": ["chunk_000008"]}
+{"subject": "Apple Computer Company", "predicate": "CEO_OF", "object": "John Sculley", "confidence": 0.85, "method": "llm", "source_chunk_ids": ["chunk_000008"]}
+{"subject": "Apple Computer Company", "predicate": "INDUSTRY", "object": "consumer electronics", "confidence": 0.85, "method": "llm", "source_chunk_ids": ["chunk_000008"]}
+{"subject": "Apple II", "predicate": "DEVELOPED", "object": "Apple Computer Company", "confidence": 0.85, "method": "llm", "source_chunk_ids": ["chunk_000008"]}
+{"subject": "Apple Computer Company", "predicate": "RELEASED", "object": "Apple I personal computer", "confidence": 0.85, "method": "llm", "source_chunk_ids": ["chunk_000008"]}
+{"subject": "Apple Computer Company", "predicate": "RELEASED", "object": "Lisa", "confidence": 0.85, "method": "llm", "source_chunk_ids": ["chunk_000008"]}
+{"subject": "Apple Computer Company", "predicate": "RELEASED", "object": "Macintosh", "confidence": 0.85, "method": "llm", "source_chunk_ids": ["chunk_000008"]}
+{"subject": "Apple Computer Company", "predicate": "PARENT_COMPANY", "object": "Apple", "confidence": 0.85, "method": "llm", "source_chunk_ids": ["chunk_000008"]}
+{"subject": "Amazon", "predicate": "FOUNDED_BY", "object": "Jeff Bezos", "confidence": 0.9, "method": "llm", "source_chunk_ids": ["chunk_000009", "chunk_000010"]}
+{"subject": "Amazon", "predicate": "FOUNDED_IN", "object": "1994, in Bellevue, Washington, U.S", "confidence": 0.9, "method": "llm", "source_chunk_ids": ["chunk_000009"]}
+{"subject": "Amazon", "predicate": "HEADQUARTERED_IN", "object": "Seattle, Washington", "confidence": 0.85, "method": "llm", "source_chunk_ids": ["chunk_000009"]}
+{"subject": "Amazon", "predicate": "HEADQUARTERED_IN", "object": "Arlington County, Virginia", "confidence": 0.85, "method": "llm", "source_chunk_ids": ["chunk_000009"]}
+{"subject": "Jeff Bezos", "predicate": "OWNS", "object": "Amazon.com, Inc. (8.92%)", "confidence": 0.85, "method": "llm", "source_chunk_ids": ["chunk_000009"]}
+{"subject": "Amazon", "predicate": "INDUSTRY", "object": "Conglomerate", "confidence": 0.9, "method": "llm", "source_chunk_ids": ["chunk_000009"]}
+{"subject": "Amazon", "predicate": "PRODUCT", "object": "Echo", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000009"]}
+{"subject": "Amazon", "predicate": "PRODUCT", "object": "Fire Tablet", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000009"]}
+{"subject": "Amazon", "predicate": "PRODUCT", "object": "Fire TV", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000009"]}
+{"subject": "Amazon", "predicate": "PRODUCT", "object": "Fire OS", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000009"]}
+{"subject": "Amazon", "predicate": "PRODUCT", "object": "Kindle", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000009"]}
+{"subject": "Amazon", "predicate": "PROVIDES_SERVICE", "object": "Amazon.com", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000009"]}
+{"subject": "Amazon", "predicate": "PROVIDES_SERVICE", "object": "Amazon Alexa", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000009"]}
+{"subject": "Amazon", "predicate": "PROVIDES_SERVICE", "object": "Amazon Luna", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000009"]}
+{"subject": "Amazon", "predicate": "PROVIDES_SERVICE", "object": "Amazon Music", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000009"]}
+{"subject": "Amazon", "predicate": "PROVIDES_SERVICE", "object": "Amazon Pay", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000009"]}
+{"subject": "Amazon", "predicate": "PROVIDES_SERVICE", "object": "Amazon Prime", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000009"]}
+{"subject": "Amazon", "predicate": "PROVIDES_SERVICE", "object": "Amazon Prime Video", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000009"]}
+{"subject": "Amazon", "predicate": "PROVIDES_SERVICE", "object": "Amazon MGM Studios", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000009"]}
+{"subject": "Amazon", "predicate": "PROVIDES_SERVICE", "object": "Amazon Robotics", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000009"]}
+{"subject": "Amazon", "predicate": "PROVIDES_SERVICE", "object": "Amazon Web Services", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000009"]}
+{"subject": "Amazon", "predicate": "PROVIDES_SERVICE", "object": "MGM+", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000009"]}
+{"subject": "Amazon", "predicate": "PROVIDES_SERVICE", "object": "One Medical", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000009"]}
+{"subject": "Amazon", "predicate": "PROVIDES_SERVICE", "object": "Ring", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000009"]}
+{"subject": "Amazon", "predicate": "PROVIDES_SERVICE", "object": "Twitch", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000009"]}
+{"subject": "Amazon", "predicate": "FOUNDED_IN", "object": "1994", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000009", "chunk_000010"]}
+{"subject": "Amazon", "predicate": "HEADQUARTERED_IN", "object": "Seattle", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000009"]}
+{"subject": "Amazon", "predicate": "HEADQUARTERED_IN", "object": "Washington", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000009"]}
+{"subject": "Amazon", "predicate": "HEADQUARTERED_IN", "object": "Arlington County", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000009"]}
+{"subject": "Amazon", "predicate": "HEADQUARTERED_IN", "object": "Virginia", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000009"]}
+{"subject": "Jeff Bezos", "predicate": "OWNS", "object": "Amazon", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000009"]}
+{"subject": "Amazon", "predicate": "SUBSIDIARY_OF", "object": "Jeff Bezos", "confidence": 0.85, "method": "rule_based", "source_chunk_ids": ["chunk_000009"]}
+{"subject": "Amazon", "predicate": "HEADQUARTERED_IN", "object": "Bellevue, Washington", "confidence": 0.85, "method": "llm", "source_chunk_ids": ["chunk_000010"]}
+{"subject": "Amazon", "predicate": "INDUSTRY", "object": "Big Tech", "confidence": 0.85, "method": "llm", "source_chunk_ids": ["chunk_000010"]}
+{"subject": "Amazon", "predicate": "PRODUCT", "object": "online shopping retailer", "confidence": 0.9, "method": "llm", "source_chunk_ids": ["chunk_000010"]}
+{"subject": "Amazon", "predicate": "SUBSIDIARY_OF", "object": "Amazon Web Services (AWS)", "confidence": 0.8, "method": "llm", "source_chunk_ids": ["chunk_000010"]}
+{"subject": "Amazon", "predicate": "SUBSIDIARY_OF", "object": "Zoox", "confidence": 0.8, "method": "llm", "source_chunk_ids": ["chunk_000010"]}
+{"subject": "Amazon", "predicate": "SUBSIDIARY_OF", "object": "Kuiper Systems", "confidence": 0.8, "method": "llm", "source_chunk_ids": ["chunk_000010"]}
+{"subject": "Amazon", "predicate": "SUBSIDIARY_OF", "object": "Amazon Lab126", "confidence": 0.8, "method": "llm", "source_chunk_ids": ["chunk_000010"]}
+{"subject": "Amazon", "predicate": "SUBSIDIARY_OF", "object": "Ring", "confidence": 0.8, "method": "llm", "source_chunk_ids": ["chunk_000010"]}
+{"subject": "Amazon", "predicate": "SUBSIDIARY_OF", "object": "Twitch", "confidence": 0.8, "method": "llm", "source_chunk_ids": ["chunk_000010"]}
+{"subject": "Amazon", "predicate": "SUBSIDIARY_OF", "object": "IMDb", "confidence": 0.8, "method": "llm", "source_chunk_ids": ["chunk_000010"]}
+{"subject": "Amazon", "predicate": "SUBSIDIARY_OF", "object": "Whole Foods Market", "confidence": 0.8, "method": "llm", "source_chunk_ids": ["chunk_000010"]}
+{"subject": "Amazon", "predicate": "ACQUIRED", "object": "Whole Foods", "confidence": 0.9, "method": "llm", "source_chunk_ids": ["chunk_000010"]}
+{"subject": "Whole Foods", "predicate": "ACQUIRED_BY", "object": "Amazon", "confidence": 0.9, "method": "llm", "source_chunk_ids": ["chunk_000010"]}
+{"subject": "Amazon", "predicate": "COMPETES_WITH", "object": "other online retailers", "confidence": 0.7, "method": "llm", "source_chunk_ids": ["chunk_000010"]}
+{"subject": "Meta", "predicate": "HEADQUARTERED_IN", "object": "Menlo Park, California", "confidence": 0.95, "method": "llm", "source_chunk_ids": ["chunk_000011", "chunk_000012"]}
+{"subject": "Meta", "predicate": "FOUNDED_IN", "object": "2004 in Cambridge, Massachusetts, U.S", "confidence": 0.95, "method": "llm", "source_chunk_ids": ["chunk_000011"]}
+{"subject": "Meta", "predicate": "FOUNDED_BY", "object": "Mark Zuckerberg", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000011"]}
+{"subject": "Meta", "predicate": "FOUNDED_BY", "object": "Eduardo Saverin", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000011"]}
+{"subject": "Meta", "predicate": "FOUNDED_BY", "object": "Dustin Moskovitz", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000011"]}
+{"subject": "Meta", "predicate": "FOUNDED_BY", "object": "Andrew McCollum", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000011"]}
+{"subject": "Meta", "predicate": "FOUNDED_BY", "object": "Chris Hughes", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000011"]}
+{"subject": "Meta", "predicate": "CEO_OF", "object": "Mark Zuckerberg", "confidence": 0.95, "method": "llm", "source_chunk_ids": ["chunk_000011"]}
+{"subject": "Mark Zuckerberg", "predicate": "OWNS", "object": "Meta", "confidence": 0.85, "method": "llm", "source_chunk_ids": ["chunk_000011"]}
+{"subject": "Meta", "predicate": "INDUSTRY", "object": "Social media | Advertising", "confidence": 0.9, "method": "llm", "source_chunk_ids": ["chunk_000011"]}
+{"subject": "Meta", "predicate": "PRODUCT", "object": "Facebook", "confidence": 0.9, "method": "llm", "source_chunk_ids": ["chunk_000011"]}
+{"subject": "Meta", "predicate": "PRODUCT", "object": "Instagram", "confidence": 0.9, "method": "llm", "source_chunk_ids": ["chunk_000011"]}
+{"subject": "Meta", "predicate": "PRODUCT", "object": "Messenger", "confidence": 0.9, "method": "llm", "source_chunk_ids": ["chunk_000011"]}
+{"subject": "Meta", "predicate": "PRODUCT", "object": "Threads", "confidence": 0.9, "method": "llm", "source_chunk_ids": ["chunk_000011"]}
+{"subject": "Meta", "predicate": "PRODUCT", "object": "WhatsApp", "confidence": 0.9, "method": "llm", "source_chunk_ids": ["chunk_000011"]}
+{"subject": "Meta", "predicate": "FOUNDED_IN", "object": "2004", "confidence": 0.95, "method": "llm", "source_chunk_ids": ["chunk_000011", "chunk_000012"]}
+{"subject": "Meta", "predicate": "HEADQUARTERED_IN", "object": "Menlo Park", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000011"]}
+{"subject": "Meta", "predicate": "HEADQUARTERED_IN", "object": "California", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000011"]}
+{"subject": "Meta", "predicate": "INDUSTRY", "object": "Social media", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000011"]}
+{"subject": "Meta", "predicate": "INDUSTRY", "object": "Advertising", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000011"]}
+{"subject": "Mark Zuckerberg (13.68% equity", "predicate": "OWNS", "object": "Meta", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000011"]}
+{"subject": "Meta", "predicate": "SUBSIDIARY_OF", "object": "Mark Zuckerberg (13.68% equity", "confidence": 0.85, "method": "rule_based", "source_chunk_ids": ["chunk_000011"]}
+{"subject": "61.2% voting)", "predicate": "OWNS", "object": "Meta", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000011"]}
+{"subject": "Meta", "predicate": "SUBSIDIARY_OF", "object": "61.2% voting)", "confidence": 0.85, "method": "rule_based", "source_chunk_ids": ["chunk_000011"]}
+{"subject": "Meta", "predicate": "OWNS", "object": "Facebook", "confidence": 0.9, "method": "llm", "source_chunk_ids": ["chunk_000012", "chunk_000063"]}
+{"subject": "Meta", "predicate": "OWNS", "object": "Instagram", "confidence": 0.9, "method": "llm", "source_chunk_ids": ["chunk_000012"]}
+{"subject": "Meta", "predicate": "OWNS", "object": "WhatsApp", "confidence": 0.9, "method": "llm", "source_chunk_ids": ["chunk_000012"]}
+{"subject": "Meta", "predicate": "OWNS", "object": "Messenger", "confidence": 0.9, "method": "llm", "source_chunk_ids": ["chunk_000012"]}
+{"subject": "Meta", "predicate": "OWNS", "object": "Threads", "confidence": 0.9, "method": "llm", "source_chunk_ids": ["chunk_000012"]}
+{"subject": "Meta", "predicate": "OWNS", "object": "Manus", "confidence": 0.9, "method": "llm", "source_chunk_ids": ["chunk_000012"]}
+{"subject": "Meta", "predicate": "COMPETES_WITH", "object": "Alphabet (Google)", "confidence": 0.85, "method": "llm", "source_chunk_ids": ["chunk_000012"]}
+{"subject": "Meta", "predicate": "COMPETES_WITH", "object": "Amazon", "confidence": 0.85, "method": "llm", "source_chunk_ids": ["chunk_000012"]}
+{"subject": "Meta", "predicate": "COMPETES_WITH", "object": "Apple", "confidence": 0.85, "method": "llm", "source_chunk_ids": ["chunk_000012"]}
+{"subject": "Meta", "predicate": "COMPETES_WITH", "object": "Microsoft", "confidence": 0.85, "method": "llm", "source_chunk_ids": ["chunk_000012"]}
+{"subject": "Meta", "predicate": "COMPETES_WITH", "object": "Nvidia", "confidence": 0.85, "method": "llm", "source_chunk_ids": ["chunk_000012"]}
+{"subject": "Meta", "predicate": "RELEASED", "object": "TheFacebook", "confidence": 0.9, "method": "llm", "source_chunk_ids": ["chunk_000012"]}
+{"subject": "Meta", "predicate": "PARENT_COMPANY", "object": "Facebook, Inc", "confidence": 0.85, "method": "llm", "source_chunk_ids": ["chunk_000012"]}
+{"subject": "Nvidia", "predicate": "FOUNDED_BY", "object": "Jensen Huang", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000013"]}
+{"subject": "Nvidia", "predicate": "FOUNDED_BY", "object": "Chris Malachowsky", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000013"]}
+{"subject": "Nvidia", "predicate": "FOUNDED_BY", "object": "Curtis Priem", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000013"]}
+{"subject": "Nvidia", "predicate": "FOUNDED_IN", "object": "1993", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000013"]}
+{"subject": "Nvidia", "predicate": "HEADQUARTERED_IN", "object": "Santa Clara, California", "confidence": 0.85, "method": "llm", "source_chunk_ids": ["chunk_000013"]}
+{"subject": "Nvidia", "predicate": "INDUSTRY", "object": "Semiconductors", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000013"]}
+{"subject": "Nvidia", "predicate": "CEO_OF", "object": "Jensen Huang", "confidence": 0.85, "method": "llm", "source_chunk_ids": ["chunk_000013"]}
+{"subject": "Nvidia", "predicate": "HEADQUARTERED_IN", "object": "Santa Clara", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000013"]}
+{"subject": "Nvidia", "predicate": "HEADQUARTERED_IN", "object": "California", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000013"]}
+{"subject": "Nvidia", "predicate": "FOUNDED_BY", "object": "Nvidia has been widely described as a Big Tech company", "confidence": 0.72, "method": "rule_based", "source_chunk_ids": ["chunk_000013"]}
+{"subject": "Nvidia", "predicate": "OWNS", "object": "GeForce GPUs", "confidence": 0.85, "method": "llm", "source_chunk_ids": ["chunk_000014"]}
+{"subject": "Nvidia", "predicate": "PRODUCT", "object": "professional GPUs", "confidence": 0.85, "method": "llm", "source_chunk_ids": ["chunk_000014"]}
+{"subject": "Nvidia", "predicate": "INDUSTRY", "object": "artificial intelligence", "confidence": 0.85, "method": "llm", "source_chunk_ids": ["chunk_000014"]}
+{"subject": "Nvidia", "predicate": "INDUSTRY", "object": "supercomputing", "confidence": 0.85, "method": "llm", "source_chunk_ids": ["chunk_000014"]}
+{"subject": "Nvidia", "predicate": "INDUSTRY", "object": "professional visualization", "confidence": 0.85, "method": "llm", "source_chunk_ids": ["chunk_000014"]}
+{"subject": "Nvidia", "predicate": "INVESTED_IN", "object": "CUDA", "confidence": 0.85, "method": "llm", "source_chunk_ids": ["chunk_000014"]}
+{"subject": "CUDA", "predicate": "CREATED_BY", "object": "Nvidia", "confidence": 0.85, "method": "llm", "source_chunk_ids": ["chunk_000014"]}
+{"subject": "Nvidia", "predicate": "HEADQUARTERED_IN", "object": "the first quarter of 2025", "confidence": 0.85, "method": "llm", "source_chunk_ids": ["chunk_000014"]}
+{"subject": "Nvidia", "predicate": "ACQUIRED", "object": "92% share of the discrete desktop and laptop GPU market", "confidence": 0.85, "method": "llm", "source_chunk_ids": ["chunk_000014"]}
+{"subject": "Nvidia", "predicate": "ACQUIRED", "object": "more than 80% of the market", "confidence": 0.85, "method": "llm", "source_chunk_ids": ["chunk_000014"]}
+{"subject": "Tesla, Inc", "predicate": "FOUNDED_BY", "object": "Martin Eberhard", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000015"]}
+{"subject": "Tesla, Inc", "predicate": "FOUNDED_BY", "object": "Marc Tarpenning", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000015"]}
+{"subject": "Tesla, Inc", "predicate": "FOUNDED_IN", "object": "2003 in San Carlos, California, US", "confidence": 0.85, "method": "llm", "source_chunk_ids": ["chunk_000015"]}
+{"subject": "Tesla, Inc", "predicate": "HEADQUARTERED_IN", "object": "Austin, Texas", "confidence": 0.85, "method": "llm", "source_chunk_ids": ["chunk_000015"]}
+{"subject": "Tesla, Inc", "predicate": "OWNS", "object": "Elon Musk (13%)", "confidence": 0.85, "method": "llm", "source_chunk_ids": ["chunk_000015"]}
+{"subject": "Elon Musk", "predicate": "CEO_OF", "object": "Tesla, Inc", "confidence": 0.85, "method": "llm", "source_chunk_ids": ["chunk_000015"]}
+{"subject": "Tesla, Inc", "predicate": "INDUSTRY", "object": "Automotive", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000015"]}
+{"subject": "Tesla, Inc", "predicate": "INDUSTRY", "object": "Renewable energy", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000015"]}
+{"subject": "Tesla, Inc", "predicate": "PRODUCT", "object": "Cybertruck", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000015"]}
+{"subject": "Tesla, Inc", "predicate": "PRODUCT", "object": "Megapack", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000015"]}
+{"subject": "Tesla, Inc", "predicate": "PRODUCT", "object": "Model 3", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000015"]}
+{"subject": "Tesla, Inc", "predicate": "PRODUCT", "object": "Model Y", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000015"]}
+{"subject": "Tesla, Inc", "predicate": "PRODUCT", "object": "Powerwall", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000015"]}
+{"subject": "Tesla, Inc", "predicate": "PRODUCT", "object": "Semi", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000015"]}
+{"subject": "Tesla, Inc", "predicate": "PRODUCT", "object": "Solar Panels", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000015"]}
+{"subject": "Tesla, Inc", "predicate": "PRODUCT", "object": "Solar Roof", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000015"]}
+{"subject": "Tesla, Inc", "predicate": "FOUNDED_IN", "object": "2003", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000015"]}
+{"subject": "Tesla, Inc", "predicate": "HEADQUARTERED_IN", "object": "Austin", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000015"]}
+{"subject": "Tesla, Inc", "predicate": "HEADQUARTERED_IN", "object": "Texas", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000015"]}
+{"subject": "Tesla, Inc", "predicate": "PROVIDES_SERVICE", "object": "Charging", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000015"]}
+{"subject": "Tesla, Inc", "predicate": "PROVIDES_SERVICE", "object": "insurance", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000015"]}
+{"subject": "Tesla, Inc", "predicate": "PROVIDES_SERVICE", "object": "maintenance", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000015"]}
+{"subject": "Elon Musk", "predicate": "OWNS", "object": "Tesla, Inc", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000015"]}
+{"subject": "Tesla, Inc", "predicate": "SUBSIDIARY_OF", "object": "Elon Musk", "confidence": 0.85, "method": "rule_based", "source_chunk_ids": ["chunk_000015"]}
+{"subject": "Elon Musk", "predicate": "FOUNDED_BY", "object": "Tesla", "confidence": 0.85, "method": "llm", "source_chunk_ids": ["chunk_000016"]}
+{"subject": "Tesla", "predicate": "HEADQUARTERED_IN", "object": "United States", "confidence": 0.85, "method": "llm", "source_chunk_ids": ["chunk_000016"]}
+{"subject": "Elon Musk", "predicate": "CEO_OF", "object": "Tesla", "confidence": 0.85, "method": "llm", "source_chunk_ids": ["chunk_000016"]}
+{"subject": "Tesla", "predicate": "DEVELOPED", "object": "Roadster", "confidence": 0.85, "method": "llm", "source_chunk_ids": ["chunk_000016"]}
+{"subject": "Tesla", "predicate": "DEVELOPED", "object": "Model S", "confidence": 0.85, "method": "llm", "source_chunk_ids": ["chunk_000016"]}
+{"subject": "Tesla", "predicate": "DEVELOPED", "object": "Model X", "confidence": 0.85, "method": "llm", "source_chunk_ids": ["chunk_000016"]}
+{"subject": "Tesla", "predicate": "DEVELOPED", "object": "Model 3", "confidence": 0.85, "method": "llm", "source_chunk_ids": ["chunk_000016"]}
+{"subject": "Tesla", "predicate": "DEVELOPED", "object": "Model Y", "confidence": 0.85, "method": "llm", "source_chunk_ids": ["chunk_000016"]}
+{"subject": "Tesla", "predicate": "DEVELOPED", "object": "Tesla Semi", "confidence": 0.85, "method": "llm", "source_chunk_ids": ["chunk_000016"]}
+{"subject": "Tesla", "predicate": "DEVELOPED", "object": "Cybertruck", "confidence": 0.85, "method": "llm", "source_chunk_ids": ["chunk_000016"]}
+{"subject": "Tesla", "predicate": "INDUSTRY", "object": "Automotive", "confidence": 0.85, "method": "llm", "source_chunk_ids": ["chunk_000016"]}
+{"subject": "Tesla", "predicate": "COMPETES_WITH", "object": "other automakers", "confidence": 0.85, "method": "llm", "source_chunk_ids": ["chunk_000016"]}
+{"subject": "Tesla", "predicate": "ACQUIRED_BY", "object": "public investors", "confidence": 0.85, "method": "llm", "source_chunk_ids": ["chunk_000016"]}
+{"subject": "IBM", "predicate": "FOUNDED_BY", "object": "George Winthrop Fairchild", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000017"]}
+{"subject": "IBM", "predicate": "FOUNDED_BY", "object": "Charles Ranlett Flint", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000017"]}
+{"subject": "IBM", "predicate": "FOUNDED_BY", "object": "Herman Hollerith", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000017"]}
+{"subject": "IBM", "predicate": "FOUNDED_IN", "object": "1911", "confidence": 0.95, "method": "llm", "source_chunk_ids": ["chunk_000017", "chunk_000018"]}
+{"subject": "IBM", "predicate": "FOUNDED_IN", "object": "Endicott, New York, U.S", "confidence": 0.85, "method": "llm", "source_chunk_ids": ["chunk_000017"]}
+{"subject": "IBM", "predicate": "HEADQUARTERED_IN", "object": "Armonk, New York", "confidence": 0.85, "method": "llm", "source_chunk_ids": ["chunk_000017"]}
+{"subject": "IBM", "predicate": "CEO_OF", "object": "Arvind Krishna", "confidence": 0.85, "method": "llm", "source_chunk_ids": ["chunk_000017"]}
+{"subject": "IBM", "predicate": "INDUSTRY", "object": "Information technology", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000017"]}
+{"subject": "IBM", "predicate": "PRODUCT", "object": "Automation", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000017"]}
+{"subject": "IBM", "predicate": "PRODUCT", "object": "Robotics", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000017"]}
+{"subject": "IBM", "predicate": "PRODUCT", "object": "Artificial intelligence", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000017"]}
+{"subject": "IBM", "predicate": "PRODUCT", "object": "Cloud computing", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000017"]}
+{"subject": "IBM", "predicate": "PRODUCT", "object": "Consulting", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000017"]}
+{"subject": "IBM", "predicate": "PRODUCT", "object": "Blockchain", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000017"]}
+{"subject": "IBM", "predicate": "PRODUCT", "object": "Computer hardware", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000017"]}
+{"subject": "IBM", "predicate": "PRODUCT", "object": "Software", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000017"]}
+{"subject": "IBM", "predicate": "PRODUCT", "object": "Quantum computing", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000017"]}
+{"subject": "IBM", "predicate": "HEADQUARTERED_IN", "object": "Armonk", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000017"]}
+{"subject": "IBM", "predicate": "HEADQUARTERED_IN", "object": "New York", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000017"]}
+{"subject": "IBM", "predicate": "PROVIDES_SERVICE", "object": "Outsourcing", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000017"]}
+{"subject": "IBM", "predicate": "PROVIDES_SERVICE", "object": "Professional services", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000017"]}
+{"subject": "IBM", "predicate": "PROVIDES_SERVICE", "object": "Managed services", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000017"]}
+{"subject": "IBM", "predicate": "FOUNDED_BY", "object": "Computing-Tabulating-Recording Company (CTR)", "confidence": 0.9, "method": "llm", "source_chunk_ids": ["chunk_000018"]}
+{"subject": "IBM", "predicate": "RELEASED", "object": "System/360", "confidence": 0.85, "method": "llm", "source_chunk_ids": ["chunk_000018"]}
+{"subject": "IBM", "predicate": "HEADQUARTERED_IN", "object": "over 175 countries", "confidence": 0.8, "method": "llm", "source_chunk_ids": ["chunk_000018"]}
+{"subject": "IBM", "predicate": "COMPETES_WITH", "object": "other companies in the Dow Jones Industrial Average", "confidence": 0.75, "method": "llm", "source_chunk_ids": ["chunk_000018"]}
+{"subject": "IBM", "predicate": "PRODUCT", "object": "punch-card tabulating systems", "confidence": 0.85, "method": "llm", "source_chunk_ids": ["chunk_000018"]}
+{"subject": "IBM", "predicate": "INDUSTRY", "object": "computing", "confidence": 0.8, "method": "llm", "source_chunk_ids": ["chunk_000018"]}
+{"subject": "Oracle Corporation", "predicate": "FOUNDED_BY", "object": "Larry Ellison", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000019"]}
+{"subject": "Oracle Corporation", "predicate": "FOUNDED_BY", "object": "Bob Miner", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000019"]}
+{"subject": "Oracle Corporation", "predicate": "FOUNDED_BY", "object": "Ed Oates", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000019"]}
+{"subject": "Oracle Corporation", "predicate": "FOUNDED_IN", "object": "1977, in Santa Clara, California, United States", "confidence": 0.85, "method": "llm", "source_chunk_ids": ["chunk_000019"]}
+{"subject": "Oracle Corporation", "predicate": "HEADQUARTERED_IN", "object": "Austin, Texas", "confidence": 0.85, "method": "llm", "source_chunk_ids": ["chunk_000019"]}
+{"subject": "Oracle Corporation", "predicate": "INDUSTRY", "object": "Enterprise software | Business software | Cloud computing | Computer hardware | Consulting", "confidence": 0.85, "method": "llm", "source_chunk_ids": ["chunk_000019"]}
+{"subject": "Oracle Corporation", "predicate": "PRODUCT", "object": "Oracle Database", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000019"]}
+{"subject": "Oracle Corporation", "predicate": "PRODUCT", "object": "Oracle Applications", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000019"]}
+{"subject": "Oracle Corporation", "predicate": "PRODUCT", "object": "Oracle ERP", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000019"]}
+{"subject": "Oracle Corporation", "predicate": "PRODUCT", "object": "Oracle Cloud", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000019"]}
+{"subject": "Oracle Corporation", "predicate": "PRODUCT", "object": "Enterprise Manager", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000019"]}
+{"subject": "Oracle Corporation", "predicate": "PRODUCT", "object": "Fusion Middleware", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000019"]}
+{"subject": "Oracle Corporation", "predicate": "FOUNDED_IN", "object": "1977", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000019"]}
+{"subject": "Oracle Corporation", "predicate": "HEADQUARTERED_IN", "object": "Austin", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000019"]}
+{"subject": "Oracle Corporation", "predicate": "HEADQUARTERED_IN", "object": "Texas", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000019"]}
+{"subject": "Oracle Corporation", "predicate": "INDUSTRY", "object": "Enterprise software", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000019"]}
+{"subject": "Oracle Corporation", "predicate": "INDUSTRY", "object": "Business software", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000019"]}
+{"subject": "Oracle Corporation", "predicate": "INDUSTRY", "object": "Cloud computing", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000019"]}
+{"subject": "Oracle Corporation", "predicate": "INDUSTRY", "object": "Computer hardware", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000019"]}
+{"subject": "Oracle Corporation", "predicate": "INDUSTRY", "object": "Consulting", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000019"]}
+{"subject": "Oracle Corporation", "predicate": "PRODUCT", "object": "Oracle Solaris", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000019"]}
+{"subject": "Larry Ellison", "predicate": "OWNS", "object": "Oracle Corporation", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000019"]}
+{"subject": "Oracle Corporation", "predicate": "SUBSIDIARY_OF", "object": "Larry Ellison", "confidence": 0.85, "method": "rule_based", "source_chunk_ids": ["chunk_000019"]}
+{"subject": "Oracle Corporation", "predicate": "FOUNDED_BY", "object": "current chairman of the board", "confidence": 0.72, "method": "rule_based", "source_chunk_ids": ["chunk_000019"]}
+{"subject": "Oracle Corporation", "predicate": "FOUNDED_BY", "object": "chief technology officer Larry Ellison", "confidence": 0.72, "method": "rule_based", "source_chunk_ids": ["chunk_000019"]}
+{"subject": "Oracle Corporation", "predicate": "FOUNDED_BY", "object": "Oracle is among the 20 largest companies", "confidence": 0.72, "method": "rule_based", "source_chunk_ids": ["chunk_000019"]}
+{"subject": "Oracle", "predicate": "FOUNDED_BY", "object": "Larry Ellison, Bob Miner, Ed Oates", "confidence": 0.9, "method": "llm", "source_chunk_ids": ["chunk_000020"]}
+{"subject": "Oracle", "predicate": "FOUNDED_IN", "object": "1977", "confidence": 0.9, "method": "llm", "source_chunk_ids": ["chunk_000020"]}
+{"subject": "Oracle", "predicate": "HEADQUARTERED_IN", "object": "Santa Clara, California", "confidence": 0.85, "method": "llm", "source_chunk_ids": ["chunk_000020"]}
+{"subject": "Oracle", "predicate": "PRODUCT", "object": "database software", "confidence": 0.85, "method": "llm", "source_chunk_ids": ["chunk_000020"]}
+{"subject": "Oracle", "predicate": "PRODUCT", "object": "enterprise applications", "confidence": 0.85, "method": "llm", "source_chunk_ids": ["chunk_000020"]}
+{"subject": "Oracle", "predicate": "PRODUCT", "object": "cloud infrastructure and hardware", "confidence": 0.85, "method": "llm", "source_chunk_ids": ["chunk_000020"]}
+{"subject": "Oracle", "predicate": "CREATED_BY", "object": "Software Development Laboratories (SDL)", "confidence": 0.85, "method": "llm", "source_chunk_ids": ["chunk_000020"]}
+{"subject": "Intel Corporation", "predicate": "FOUNDED_BY", "object": "Robert Noyce", "confidence": 0.85, "method": "llm", "source_chunk_ids": ["chunk_000021"]}
+{"subject": "Intel Corporation", "predicate": "FOUNDED_BY", "object": "Gordon Moore", "confidence": 0.85, "method": "llm", "source_chunk_ids": ["chunk_000021"]}
+{"subject": "Intel Corporation", "predicate": "FOUNDED_IN", "object": "1968", "confidence": 0.85, "method": "llm", "source_chunk_ids": ["chunk_000021"]}
+{"subject": "Intel Corporation", "predicate": "HEADQUARTERED_IN", "object": "Santa Clara, California", "confidence": 0.85, "method": "llm", "source_chunk_ids": ["chunk_000021"]}
+{"subject": "Intel Corporation", "predicate": "CEO_OF", "object": "Lip-Bu Tan", "confidence": 0.85, "method": "llm", "source_chunk_ids": ["chunk_000021"]}
+{"subject": "Intel Corporation", "predicate": "INDUSTRY", "object": "Semiconductors", "confidence": 0.85, "method": "llm", "source_chunk_ids": ["chunk_000021"]}
+{"subject": "Intel", "predicate": "FOUNDED_BY", "object": "Robert Noyce", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000021", "chunk_000022"]}
+{"subject": "Intel", "predicate": "FOUNDED_BY", "object": "Gordon Moore", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000021", "chunk_000022"]}
+{"subject": "Intel", "predicate": "FOUNDED_IN", "object": "1968", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000021", "chunk_000022"]}
+{"subject": "Intel", "predicate": "HEADQUARTERED_IN", "object": "Santa Clara", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000021"]}
+{"subject": "Intel", "predicate": "HEADQUARTERED_IN", "object": "California", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000021"]}
+{"subject": "Intel", "predicate": "INDUSTRY", "object": "Semiconductors", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000021"]}
+{"subject": "Intel", "predicate": "HEADQUARTERED_IN", "object": "Santa Clara, California", "confidence": 0.68, "method": "rule_based", "source_chunk_ids": ["chunk_000021"]}
+{"subject": "Intel", "predicate": "FOUNDED_BY", "object": "Arthur Rock", "confidence": 0.85, "method": "llm", "source_chunk_ids": ["chunk_000022"]}
+{"subject": "Intel", "predicate": "DEVELOPED", "object": "x86 series of instruction sets", "confidence": 0.85, "method": "llm", "source_chunk_ids": ["chunk_000022"]}
+{"subject": "Intel", "predicate": "PRODUCT", "object": "Intel Core line of CPUs", "confidence": 0.85, "method": "llm", "source_chunk_ids": ["chunk_000022"]}
+{"subject": "Intel", "predicate": "PRODUCT", "object": "Intel Arc series of GPUs", "confidence": 0.85, "method": "llm", "source_chunk_ids": ["chunk_000022"]}
+{"subject": "Intel", "predicate": "FOUNDED_BY", "object": "engineers Gordon Moore", "confidence": 0.72, "method": "rule_based", "source_chunk_ids": ["chunk_000022"]}
+{"subject": "Intel", "predicate": "FOUNDED_BY", "object": "along with investor Arthur Rock", "confidence": 0.72, "method": "rule_based", "source_chunk_ids": ["chunk_000022"]}
+{"subject": "Intel", "predicate": "FOUNDED_BY", "object": "is associated with the executive leadership", "confidence": 0.72, "method": "rule_based", "source_chunk_ids": ["chunk_000022"]}
+{"subject": "Intel", "predicate": "FOUNDED_BY", "object": "vision of Andrew Grove", "confidence": 0.72, "method": "rule_based", "source_chunk_ids": ["chunk_000022"]}
+{"subject": "AMD", "predicate": "FOUNDED_BY", "object": "Team led by Jerry Sanders", "confidence": 0.9, "method": "llm", "source_chunk_ids": ["chunk_000023"]}
+{"subject": "AMD", "predicate": "FOUNDED_IN", "object": "1969", "confidence": 0.9, "method": "llm", "source_chunk_ids": ["chunk_000023", "chunk_000024"]}
+{"subject": "AMD", "predicate": "HEADQUARTERED_IN", "object": "Santa Clara, California", "confidence": 0.9, "method": "llm", "source_chunk_ids": ["chunk_000023"]}
+{"subject": "AMD", "predicate": "CEO_OF", "object": "Lisa Su", "confidence": 0.85, "method": "llm", "source_chunk_ids": ["chunk_000023"]}
+{"subject": "AMD", "predicate": "INDUSTRY", "object": "Semiconductors", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000023"]}
+{"subject": "AMD", "predicate": "INDUSTRY", "object": "Computer hardware", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000023"]}
+{"subject": "AMD", "predicate": "PRODUCT", "object": "AMD CPUs", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000023"]}
+{"subject": "AMD", "predicate": "PRODUCT", "object": "AMD GPUs", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000023"]}
+{"subject": "AMD", "predicate": "PRODUCT", "object": "AMD FPGAs", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000023"]}
+{"subject": "AMD", "predicate": "HEADQUARTERED_IN", "object": "Santa Clara", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000023"]}
+{"subject": "AMD", "predicate": "HEADQUARTERED_IN", "object": "California", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000023"]}
+{"subject": "AMD", "predicate": "FOUNDED_BY", "object": "Jerry Sanders and a group of his fellow Fairchild Semiconductor colleagues", "confidence": 0.9, "method": "llm", "source_chunk_ids": ["chunk_000024"]}
+{"subject": "AMD", "predicate": "ACQUIRED", "object": "Xilinx", "confidence": 0.85, "method": "llm", "source_chunk_ids": ["chunk_000024"]}
+{"subject": "AMD", "predicate": "USES_TECHNOLOGY", "object": "field-programmable gate array (FPGA) products", "confidence": 0.85, "method": "llm", "source_chunk_ids": ["chunk_000024"]}
+{"subject": "AMD", "predicate": "INDUSTRY", "object": "embedded processors, and graphics processors", "confidence": 0.85, "method": "llm", "source_chunk_ids": ["chunk_000024"]}
+{"subject": "AMD", "predicate": "FOUNDED_BY", "object": "Jerry Sanders", "confidence": 0.72, "method": "rule_based", "source_chunk_ids": ["chunk_000024"]}
+{"subject": "AMD", "predicate": "FOUNDED_BY", "object": "a group of his fellow Fairchild Semiconductor colleagues", "confidence": 0.72, "method": "rule_based", "source_chunk_ids": ["chunk_000024"]}
+{"subject": "Samsung Electronics Co., Ltd", "predicate": "FOUNDED_IN", "object": "1969", "confidence": 0.95, "method": "llm", "source_chunk_ids": ["chunk_000025"]}
+{"subject": "Samsung Electronics Co., Ltd", "predicate": "HEADQUARTERED_IN", "object": "Yeongtong District, Suwon, South Korea", "confidence": 0.95, "method": "llm", "source_chunk_ids": ["chunk_000025"]}
+{"subject": "Samsung Electronics Co., Ltd", "predicate": "PARENT_COMPANY", "object": "Samsung", "confidence": 0.85, "method": "llm", "source_chunk_ids": ["chunk_000025"]}
+{"subject": "Samsung Electronics Co., Ltd", "predicate": "INDUSTRY", "object": "Electronics", "confidence": 0.85, "method": "llm", "source_chunk_ids": ["chunk_000025"]}
+{"subject": "Samsung Electronics Co., Ltd", "predicate": "INDUSTRY", "object": "Consumer electronics", "confidence": 0.85, "method": "llm", "source_chunk_ids": ["chunk_000025"]}
+{"subject": "Samsung Electronics Co., Ltd", "predicate": "INDUSTRY", "object": "Semiconductors", "confidence": 0.85, "method": "llm", "source_chunk_ids": ["chunk_000025"]}
+{"subject": "Samsung Electronics Co., Ltd", "predicate": "INDUSTRY", "object": "Computer hardware", "confidence": 0.85, "method": "llm", "source_chunk_ids": ["chunk_000025"]}
+{"subject": "Samsung Electronics Co., Ltd", "predicate": "INDUSTRY", "object": "Home appliances", "confidence": 0.85, "method": "llm", "source_chunk_ids": ["chunk_000025"]}
+{"subject": "Samsung Electronics Co., Ltd", "predicate": "INDUSTRY", "object": "Internet of things", "confidence": 0.85, "method": "llm", "source_chunk_ids": ["chunk_000025"]}
+{"subject": "Samsung Electronics Co., Ltd", "predicate": "INDUSTRY", "object": "Medical devices", "confidence": 0.85, "method": "llm", "source_chunk_ids": ["chunk_000025"]}
+{"subject": "Samsung Electronics Co., Ltd", "predicate": "INDUSTRY", "object": "Telecommunications", "confidence": 0.85, "method": "llm", "source_chunk_ids": ["chunk_000025"]}
+{"subject": "Samsung Electronics", "predicate": "FOUNDED_IN", "object": "1969", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000025"]}
+{"subject": "Samsung Electronics", "predicate": "HEADQUARTERED_IN", "object": "Yeongtong District", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000025"]}
+{"subject": "Samsung Electronics", "predicate": "HEADQUARTERED_IN", "object": "Suwon", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000025"]}
+{"subject": "Samsung Electronics", "predicate": "PARENT_COMPANY", "object": "Samsung", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000025"]}
+{"subject": "Samsung Electronics", "predicate": "INDUSTRY", "object": "Electronics", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000025"]}
+{"subject": "Samsung Electronics", "predicate": "INDUSTRY", "object": "Consumer electronics", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000025"]}
+{"subject": "Samsung Electronics", "predicate": "INDUSTRY", "object": "Semiconductors", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000025"]}
+{"subject": "Samsung Electronics", "predicate": "INDUSTRY", "object": "Computer hardware", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000025"]}
+{"subject": "Samsung Electronics", "predicate": "INDUSTRY", "object": "Home appliances", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000025"]}
+{"subject": "Samsung Electronics", "predicate": "INDUSTRY", "object": "Internet of things", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000025"]}
+{"subject": "Samsung Electronics", "predicate": "INDUSTRY", "object": "Medical devices", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000025"]}
+{"subject": "Samsung Electronics", "predicate": "INDUSTRY", "object": "Telecommunications", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000025"]}
+{"subject": "Samsung Electronics", "predicate": "PRODUCT", "object": "See products listing", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000025"]}
+{"subject": "Samsung Electronics", "predicate": "HEADQUARTERED_IN", "object": "Yeongtong District, Suwon", "confidence": 0.68, "method": "rule_based", "source_chunk_ids": ["chunk_000025"]}
+{"subject": "Samsung Electronics", "predicate": "OWNS", "object": "majority ownership by foreign investors", "confidence": 0.85, "method": "llm", "source_chunk_ids": ["chunk_000026"]}
+{"subject": "Samsung Electronics", "predicate": "HEADQUARTERED_IN", "object": "Samsung chaebol", "confidence": 0.85, "method": "llm", "source_chunk_ids": ["chunk_000026"]}
+{"subject": "Samsung Electronics", "predicate": "INDUSTRY", "object": "technology", "confidence": 0.85, "method": "llm", "source_chunk_ids": ["chunk_000026"]}
+{"subject": "Samsung Electronics", "predicate": "PRODUCT", "object": "Samsung Galaxy brand", "confidence": 0.85, "method": "llm", "source_chunk_ids": ["chunk_000026"]}
+{"subject": "Samsung Electronics", "predicate": "COMPETES_WITH", "object": "world's fourth-largest technology company by revenue", "confidence": 0.85, "method": "llm", "source_chunk_ids": ["chunk_000026"]}
+{"subject": "Samsung Electronics", "predicate": "RELEASED", "object": "Galaxy S series", "confidence": 0.85, "method": "llm", "source_chunk_ids": ["chunk_000026"]}
+{"subject": "Samsung Electronics", "predicate": "RELEASED", "object": "Galaxy A series", "confidence": 0.85, "method": "llm", "source_chunk_ids": ["chunk_000026"]}
+{"subject": "Samsung Electronics", "predicate": "RELEASED", "object": "Galaxy M series", "confidence": 0.85, "method": "llm", "source_chunk_ids": ["chunk_000026"]}
+{"subject": "Samsung Electronics", "predicate": "RELEASED", "object": "Galaxy Fold series", "confidence": 0.85, "method": "llm", "source_chunk_ids": ["chunk_000026"]}
+{"subject": "Samsung Electronics", "predicate": "RELEASED", "object": "Galaxy Flip series", "confidence": 0.85, "method": "llm", "source_chunk_ids": ["chunk_000026"]}
+{"subject": "Samsung Electronics", "predicate": "RELEASED", "object": "Galaxy Note family", "confidence": 0.85, "method": "llm", "source_chunk_ids": ["chunk_000026"]}
+{"subject": "Samsung Electronics", "predicate": "RELEASED", "object": "Galaxy Tab A series", "confidence": 0.85, "method": "llm", "source_chunk_ids": ["chunk_000026"]}
+{"subject": "Samsung Electronics", "predicate": "RELEASED", "object": "Galaxy Tab S series", "confidence": 0.85, "method": "llm", "source_chunk_ids": ["chunk_000026"]}
+{"subject": "Samsung Electronics", "predicate": "ACQUIRED", "object": "largest vendor of smartphones since 2012", "confidence": 0.85, "method": "llm", "source_chunk_ids": ["chunk_000026"]}
+{"subject": "Samsung Electronics", "predicate": "ACQUIRED", "object": "largest television manufacturer since 2006", "confidence": 0.85, "method": "llm", "source_chunk_ids": ["chunk_000026"]}
+{"subject": "Sony", "predicate": "FOUNDED_BY", "object": "Masaru Ibuka", "confidence": 0.9, "method": "llm", "source_chunk_ids": ["chunk_000027", "chunk_000028"]}
+{"subject": "Sony", "predicate": "FOUNDED_BY", "object": "Akio Morita", "confidence": 0.9, "method": "llm", "source_chunk_ids": ["chunk_000027", "chunk_000028"]}
+{"subject": "Sony", "predicate": "FOUNDED_IN", "object": "1946", "confidence": 0.9, "method": "llm", "source_chunk_ids": ["chunk_000027", "chunk_000028"]}
+{"subject": "Sony", "predicate": "HEADQUARTERED_IN", "object": "Minato, Tokyo, Japan", "confidence": 0.9, "method": "llm", "source_chunk_ids": ["chunk_000027"]}
+{"subject": "Sony", "predicate": "INDUSTRY", "object": "Conglomerate", "confidence": 0.9, "method": "llm", "source_chunk_ids": ["chunk_000027"]}
+{"subject": "Sony", "predicate": "PRODUCT", "object": "Automotive", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000027"]}
+{"subject": "Sony", "predicate": "PRODUCT", "object": "Anime", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000027"]}
+{"subject": "Sony", "predicate": "PRODUCT", "object": "Cameras", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000027"]}
+{"subject": "Sony", "predicate": "PRODUCT", "object": "Computer hardware", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000027"]}
+{"subject": "Sony", "predicate": "PRODUCT", "object": "Consumer electronics", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000027"]}
+{"subject": "Sony", "predicate": "PRODUCT", "object": "Films", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000027"]}
+{"subject": "Sony", "predicate": "PRODUCT", "object": "Music", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000027"]}
+{"subject": "Sony", "predicate": "PRODUCT", "object": "Robots", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000027"]}
+{"subject": "Sony", "predicate": "PRODUCT", "object": "Semiconductors", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000027"]}
+{"subject": "Sony", "predicate": "PRODUCT", "object": "Telecommunications equipment", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000027"]}
+{"subject": "Sony", "predicate": "PRODUCT", "object": "Television shows", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000027"]}
+{"subject": "Sony", "predicate": "PRODUCT", "object": "Video games", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000027"]}
+{"subject": "Sony", "predicate": "PROVIDES_SERVICE", "object": "Advertising agency", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000027"]}
+{"subject": "Sony", "predicate": "PROVIDES_SERVICE", "object": "Network services", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000027"]}
+{"subject": "Sony", "predicate": "HEADQUARTERED_IN", "object": "Minato", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000027"]}
+{"subject": "Sony", "predicate": "HEADQUARTERED_IN", "object": "Tokyo", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000027"]}
+{"subject": "Sony", "predicate": "PRODUCT", "object": "TR-55 transistor radio", "confidence": 0.85, "method": "llm", "source_chunk_ids": ["chunk_000028"]}
+{"subject": "Sony", "predicate": "PRODUCT", "object": "CV-2000 home video tape recorder", "confidence": 0.85, "method": "llm", "source_chunk_ids": ["chunk_000028"]}
+{"subject": "Sony", "predicate": "CEO_OF", "object": "Akio Morita", "confidence": 0.85, "method": "llm", "source_chunk_ids": ["chunk_000028"]}
+{"subject": "Sony", "predicate": "ACQUIRED", "object": "CBS Records", "confidence": 0.85, "method": "llm", "source_chunk_ids": ["chunk_000028"]}
+{"subject": "Sony", "predicate": "ACQUIRED", "object": "Columbia Pictures Entertainment", "confidence": 0.85, "method": "llm", "source_chunk_ids": ["chunk_000028"]}
+{"subject": "Salesforce, Inc", "predicate": "FOUNDED_BY", "object": "Marc Benioff", "confidence": 0.85, "method": "llm", "source_chunk_ids": ["chunk_000029"]}
+{"subject": "Salesforce, Inc", "predicate": "FOUNDED_BY", "object": "Parker Harris", "confidence": 0.85, "method": "llm", "source_chunk_ids": ["chunk_000029"]}
+{"subject": "Salesforce, Inc", "predicate": "FOUNDED_BY", "object": "Dave Moellenhoff", "confidence": 0.85, "method": "llm", "source_chunk_ids": ["chunk_000029"]}
+{"subject": "Salesforce, Inc", "predicate": "FOUNDED_BY", "object": "Frank Dominguez", "confidence": 0.85, "method": "llm", "source_chunk_ids": ["chunk_000029"]}
+{"subject": "Salesforce, Inc", "predicate": "FOUNDED_IN", "object": "1999", "confidence": 0.85, "method": "llm", "source_chunk_ids": ["chunk_000029"]}
+{"subject": "Salesforce, Inc", "predicate": "HEADQUARTERED_IN", "object": "San Francisco, California", "confidence": 0.85, "method": "llm", "source_chunk_ids": ["chunk_000029"]}
+{"subject": "Salesforce, Inc", "predicate": "INDUSTRY", "object": "Cloud computing", "confidence": 0.85, "method": "llm", "source_chunk_ids": ["chunk_000029"]}
+{"subject": "Salesforce, Inc", "predicate": "INDUSTRY", "object": "Enterprise software", "confidence": 0.85, "method": "llm", "source_chunk_ids": ["chunk_000029"]}
+{"subject": "Salesforce, Inc", "predicate": "INDUSTRY", "object": "Consulting", "confidence": 0.85, "method": "llm", "source_chunk_ids": ["chunk_000029"]}
+{"subject": "Salesforce, Inc", "predicate": "INDUSTRY", "object": "Artificial intelligence", "confidence": 0.85, "method": "llm", "source_chunk_ids": ["chunk_000029"]}
+{"subject": "Salesforce, Inc", "predicate": "INDUSTRY", "object": "Business software", "confidence": 0.85, "method": "llm", "source_chunk_ids": ["chunk_000029"]}
+{"subject": "Salesforce, Inc", "predicate": "INDUSTRY", "object": "Software as a service", "confidence": 0.85, "method": "llm", "source_chunk_ids": ["chunk_000029"]}
+{"subject": "Salesforce, Inc", "predicate": "PROVIDES_SERVICE", "object": "Cloud computing", "confidence": 0.85, "method": "llm", "source_chunk_ids": ["chunk_000029"]}
+{"subject": "Salesforce", "predicate": "FOUNDED_BY", "object": "Marc Benioff", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000029", "chunk_000030"]}
+{"subject": "Salesforce", "predicate": "FOUNDED_BY", "object": "Parker Harris", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000029", "chunk_000030"]}
+{"subject": "Salesforce", "predicate": "FOUNDED_BY", "object": "Dave Moellenhoff", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000029", "chunk_000030"]}
+{"subject": "Salesforce", "predicate": "FOUNDED_BY", "object": "Frank Dominguez", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000029", "chunk_000030"]}
+{"subject": "Salesforce", "predicate": "FOUNDED_IN", "object": "1999", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000029", "chunk_000030"]}
+{"subject": "Salesforce", "predicate": "HEADQUARTERED_IN", "object": "Salesforce Tower", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000029"]}
+{"subject": "Salesforce", "predicate": "HEADQUARTERED_IN", "object": "San Francisco", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000029"]}
+{"subject": "Salesforce", "predicate": "HEADQUARTERED_IN", "object": "California, U.S", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000029"]}
+{"subject": "Salesforce", "predicate": "INDUSTRY", "object": "Cloud computing", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000029"]}
+{"subject": "Salesforce", "predicate": "INDUSTRY", "object": "Enterprise software", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000029"]}
+{"subject": "Salesforce", "predicate": "INDUSTRY", "object": "Consulting", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000029"]}
+{"subject": "Salesforce", "predicate": "INDUSTRY", "object": "Artificial intelligence", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000029"]}
+{"subject": "Salesforce", "predicate": "INDUSTRY", "object": "Business software", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000029"]}
+{"subject": "Salesforce", "predicate": "INDUSTRY", "object": "Software as a service", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000029"]}
+{"subject": "Salesforce", "predicate": "PROVIDES_SERVICE", "object": "Cloud computing", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000029"]}
+{"subject": "Salesforce", "predicate": "FOUNDED_BY", "object": "former Oracle executive Marc Benioff in March 1999", "confidence": 0.72, "method": "rule_based", "source_chunk_ids": ["chunk_000029"]}
+{"subject": "Salesforce", "predicate": "FOUNDED_BY", "object": "Salesforce grew quickly", "confidence": 0.72, "method": "rule_based", "source_chunk_ids": ["chunk_000029"]}
+{"subject": "Salesforce", "predicate": "FOUNDED_BY", "object": "making its initial public offering", "confidence": 0.72, "method": "rule_based", "source_chunk_ids": ["chunk_000029"]}
+{"subject": "Salesforce", "predicate": "FOUNDED_IN", "object": "2004", "confidence": 0.72, "method": "rule_based", "source_chunk_ids": ["chunk_000029"]}
+{"subject": "Salesforce", "predicate": "HEADQUARTERED_IN", "object": "San Francisco, California", "confidence": 0.68, "method": "rule_based", "source_chunk_ids": ["chunk_000029"]}
+{"subject": "Salesforce", "predicate": "FOUNDED_IN", "object": "1999-03-08", "confidence": 0.9, "method": "llm", "source_chunk_ids": ["chunk_000030"]}
+{"subject": "Salesforce", "predicate": "RELEASED", "object": "first prototype", "confidence": 0.85, "method": "llm", "source_chunk_ids": ["chunk_000030"]}
+{"subject": "Salesforce", "predicate": "ACQUIRED_BY", "object": "Larry Ellison", "confidence": 0.7, "method": "llm", "source_chunk_ids": ["chunk_000030"]}
+{"subject": "Salesforce", "predicate": "ACQUIRED_BY", "object": "Halsey Minor", "confidence": 0.7, "method": "llm", "source_chunk_ids": ["chunk_000030"]}
+{"subject": "Salesforce", "predicate": "FOUNDED_BY", "object": "former Oracle executive Marc Benioff", "confidence": 0.72, "method": "rule_based", "source_chunk_ids": ["chunk_000030"]}
+{"subject": "Salesforce", "predicate": "FOUNDED_BY", "object": "together with Parker Harris", "confidence": 0.72, "method": "rule_based", "source_chunk_ids": ["chunk_000030"]}
+{"subject": "Salesforce", "predicate": "FOUNDED_BY", "object": "Frank Dominguez as a software-as-a-service (SaaS) company", "confidence": 0.72, "method": "rule_based", "source_chunk_ids": ["chunk_000030"]}
+{"subject": "Adobe Inc", "predicate": "FOUNDED_BY", "object": "John Warnock", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000031", "chunk_000032"]}
+{"subject": "Adobe Inc", "predicate": "FOUNDED_BY", "object": "Charles Geschke", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000031", "chunk_000032"]}
+{"subject": "Adobe Inc", "predicate": "FOUNDED_IN", "object": "1982; Mountain View, California, U.S", "confidence": 0.85, "method": "llm", "source_chunk_ids": ["chunk_000031"]}
+{"subject": "Adobe Inc", "predicate": "HEADQUARTERED_IN", "object": "San Jose, California", "confidence": 0.85, "method": "llm", "source_chunk_ids": ["chunk_000031"]}
+{"subject": "Shantanu Narayen", "predicate": "CEO_OF", "object": "Adobe Inc", "confidence": 0.85, "method": "llm", "source_chunk_ids": ["chunk_000031"]}
+{"subject": "Adobe Inc", "predicate": "INDUSTRY", "object": "Software", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000031"]}
+{"subject": "Adobe Inc", "predicate": "PRODUCT", "object": "Photoshop", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000031"]}
+{"subject": "Adobe Inc", "predicate": "PRODUCT", "object": "Acrobat", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000031"]}
+{"subject": "Adobe Inc", "predicate": "PRODUCT", "object": "Illustrator", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000031"]}
+{"subject": "Adobe Inc", "predicate": "PRODUCT", "object": "PDF", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000031"]}
+{"subject": "Adobe Inc", "predicate": "PRODUCT", "object": "Lightroom", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000031"]}
+{"subject": "Adobe Inc", "predicate": "PRODUCT", "object": "Captivate", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000031"]}
+{"subject": "Adobe Inc", "predicate": "PRODUCT", "object": "ColdFusion", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000031"]}
+{"subject": "Adobe Inc", "predicate": "PRODUCT", "object": "XD", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000031"]}
+{"subject": "Adobe Inc", "predicate": "PRODUCT", "object": "Dreamweaver", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000031"]}
+{"subject": "Adobe Inc", "predicate": "PRODUCT", "object": "InDesign", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000031"]}
+{"subject": "Adobe Inc", "predicate": "PRODUCT", "object": "Spark", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000031"]}
+{"subject": "Adobe Inc", "predicate": "PRODUCT", "object": "Premiere", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000031"]}
+{"subject": "Adobe Inc", "predicate": "PRODUCT", "object": "RoboHelp", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000031"]}
+{"subject": "Adobe Inc", "predicate": "PRODUCT", "object": "FrameMaker", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000031"]}
+{"subject": "Adobe Inc", "predicate": "PRODUCT", "object": "Creative Cloud", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000031"]}
+{"subject": "Adobe Inc", "predicate": "PROVIDES_SERVICE", "object": "SaaS", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000031"]}
+{"subject": "Adobe Inc", "predicate": "FOUNDED_IN", "object": "1982", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000031"]}
+{"subject": "Adobe Inc", "predicate": "HEADQUARTERED_IN", "object": "San Jose", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000031"]}
+{"subject": "Adobe Inc", "predicate": "HEADQUARTERED_IN", "object": "California", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000031"]}
+{"subject": "Adobe", "predicate": "FOUNDED_BY", "object": "John Warnock", "confidence": 0.85, "method": "llm", "source_chunk_ids": ["chunk_000032"]}
+{"subject": "Adobe", "predicate": "FOUNDED_BY", "object": "Charles Geschke", "confidence": 0.85, "method": "llm", "source_chunk_ids": ["chunk_000032"]}
+{"subject": "Adobe", "predicate": "FOUNDED_IN", "object": "December 1982", "confidence": 0.85, "method": "llm", "source_chunk_ids": ["chunk_000032"]}
+{"subject": "Adobe Inc", "predicate": "FOUNDED_BY", "object": "who established", "confidence": 0.72, "method": "rule_based", "source_chunk_ids": ["chunk_000032"]}
+{"subject": "Netflix", "predicate": "FOUNDED_IN", "object": "1997", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000033", "chunk_000034"]}
+{"subject": "Netflix", "predicate": "PARENT_COMPANY", "object": "Netflix, Inc", "confidence": 0.85, "method": "llm", "source_chunk_ids": ["chunk_000033"]}
+{"subject": "Netflix", "predicate": "INDUSTRY", "object": "Entertainment | mass media", "confidence": 0.85, "method": "llm", "source_chunk_ids": ["chunk_000033"]}
+{"subject": "Netflix", "predicate": "PRODUCT", "object": "Streaming television | video on demand | digital distribution", "confidence": 0.85, "method": "llm", "source_chunk_ids": ["chunk_000033"]}
+{"subject": "Netflix", "predicate": "PROVIDES_SERVICE", "object": "Film production | film distribution | television production | television distribution", "confidence": 0.85, "method": "llm", "source_chunk_ids": ["chunk_000033"]}
+{"subject": "Netflix", "predicate": "RELEASED", "object": "2007", "confidence": 0.85, "method": "llm", "source_chunk_ids": ["chunk_000033"]}
+{"subject": "Netflix", "predicate": "COMPETES_WITH", "object": "video on demand streaming media services", "confidence": 0.85, "method": "llm", "source_chunk_ids": ["chunk_000033"]}
+{"subject": "Netflix", "predicate": "USES_TECHNOLOGY", "object": "DVD-by-mail", "confidence": 0.85, "method": "llm", "source_chunk_ids": ["chunk_000033"]}
+{"subject": "Netflix", "predicate": "PARENT_COMPANY", "object": "Netflix", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000033"]}
+{"subject": "Netflix", "predicate": "PARENT_COMPANY", "object": "Inc", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000033"]}
+{"subject": "Netflix", "predicate": "INDUSTRY", "object": "Entertainment", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000033"]}
+{"subject": "Netflix", "predicate": "INDUSTRY", "object": "mass media", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000033"]}
+{"subject": "Netflix", "predicate": "PRODUCT", "object": "Streaming television", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000033"]}
+{"subject": "Netflix", "predicate": "PRODUCT", "object": "video on demand", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000033"]}
+{"subject": "Netflix", "predicate": "PRODUCT", "object": "digital distribution", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000033"]}
+{"subject": "Netflix", "predicate": "PROVIDES_SERVICE", "object": "Film production", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000033"]}
+{"subject": "Netflix", "predicate": "PROVIDES_SERVICE", "object": "film distribution", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000033"]}
+{"subject": "Netflix", "predicate": "PROVIDES_SERVICE", "object": "television production", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000033"]}
+{"subject": "Netflix", "predicate": "PROVIDES_SERVICE", "object": "television distribution", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000033"]}
+{"subject": "Netflix", "predicate": "FOUNDED_BY", "object": "Marc Randolph", "confidence": 0.85, "method": "llm", "source_chunk_ids": ["chunk_000034"]}
+{"subject": "Netflix", "predicate": "FOUNDED_BY", "object": "Reed Hastings", "confidence": 0.85, "method": "llm", "source_chunk_ids": ["chunk_000034"]}
+{"subject": "Netflix", "predicate": "FOUNDED_IN", "object": "1997-08-29", "confidence": 0.85, "method": "llm", "source_chunk_ids": ["chunk_000034"]}
+{"subject": "Netflix", "predicate": "HEADQUARTERED_IN", "object": "Scotts Valley, California", "confidence": 0.85, "method": "llm", "source_chunk_ids": ["chunk_000034"]}
+{"subject": "Netflix", "predicate": "FOUNDED_BY", "object": "Reed Hastings as a DVD rental service on August 29", "confidence": 0.72, "method": "rule_based", "source_chunk_ids": ["chunk_000034"]}
+{"subject": "Netflix", "predicate": "FOUNDED_BY", "object": "1997", "confidence": 0.72, "method": "rule_based", "source_chunk_ids": ["chunk_000034"]}
+{"subject": "Netflix", "predicate": "FOUNDED_BY", "object": "in Scotts Valley", "confidence": 0.72, "method": "rule_based", "source_chunk_ids": ["chunk_000034"]}
+{"subject": "Netflix", "predicate": "FOUNDED_BY", "object": "California", "confidence": 0.72, "method": "rule_based", "source_chunk_ids": ["chunk_000034"]}
+{"subject": "Uber Technologies, Inc", "predicate": "FOUNDED_BY", "object": "Garrett Camp", "confidence": 0.9, "method": "llm", "source_chunk_ids": ["chunk_000035"]}
+{"subject": "Uber Technologies, Inc", "predicate": "FOUNDED_BY", "object": "Travis Kalanick", "confidence": 0.9, "method": "llm", "source_chunk_ids": ["chunk_000035"]}
+{"subject": "Uber Technologies, Inc", "predicate": "FOUNDED_IN", "object": "2009", "confidence": 0.9, "method": "llm", "source_chunk_ids": ["chunk_000035"]}
+{"subject": "Uber Technologies, Inc", "predicate": "HEADQUARTERED_IN", "object": "San Francisco, California, United States", "confidence": 0.9, "method": "llm", "source_chunk_ids": ["chunk_000035"]}
+{"subject": "Uber Technologies, Inc", "predicate": "CEO_OF", "object": "Dara Khosrowshahi", "confidence": 0.85, "method": "llm", "source_chunk_ids": ["chunk_000035"]}
+{"subject": "Uber Technologies, Inc", "predicate": "INDUSTRY", "object": "Transportation", "confidence": 0.85, "method": "llm", "source_chunk_ids": ["chunk_000035"]}
+{"subject": "Uber Technologies, Inc", "predicate": "INDUSTRY", "object": "Mobility as a service", "confidence": 0.85, "method": "llm", "source_chunk_ids": ["chunk_000035"]}
+{"subject": "Uber Technologies, Inc", "predicate": "PROVIDES_SERVICE", "object": "ride-hailing services", "confidence": 0.9, "method": "llm", "source_chunk_ids": ["chunk_000035"]}
+{"subject": "Uber Technologies, Inc", "predicate": "PROVIDES_SERVICE", "object": "courier services", "confidence": 0.9, "method": "llm", "source_chunk_ids": ["chunk_000035"]}
+{"subject": "Uber Technologies, Inc", "predicate": "PROVIDES_SERVICE", "object": "food delivery", "confidence": 0.9, "method": "llm", "source_chunk_ids": ["chunk_000035"]}
+{"subject": "Uber Technologies, Inc", "predicate": "PROVIDES_SERVICE", "object": "freight transport", "confidence": 0.9, "method": "llm", "source_chunk_ids": ["chunk_000035"]}
+{"subject": "Uber", "predicate": "FOUNDED_BY", "object": "Garrett Camp", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000035", "chunk_000036"]}
+{"subject": "Uber", "predicate": "FOUNDED_BY", "object": "Travis Kalanick", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000035"]}
+{"subject": "Uber", "predicate": "FOUNDED_IN", "object": "2009", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000035"]}
+{"subject": "Uber", "predicate": "HEADQUARTERED_IN", "object": "1725 3rd St", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000035"]}
+{"subject": "Uber", "predicate": "HEADQUARTERED_IN", "object": "San Francisco", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000035"]}
+{"subject": "Uber", "predicate": "HEADQUARTERED_IN", "object": "California", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000035"]}
+{"subject": "Uber", "predicate": "HEADQUARTERED_IN", "object": "United States", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000035"]}
+{"subject": "Uber", "predicate": "INDUSTRY", "object": "Transportation", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000035"]}
+{"subject": "Uber", "predicate": "INDUSTRY", "object": "Mobility as a service", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000035"]}
+{"subject": "Uber", "predicate": "PROVIDES_SERVICE", "object": "Taxi", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000035"]}
+{"subject": "Uber", "predicate": "PROVIDES_SERVICE", "object": "Food delivery", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000035", "chunk_000036"]}
+{"subject": "Uber", "predicate": "PROVIDES_SERVICE", "object": "Package delivery", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000035"]}
+{"subject": "Uber", "predicate": "PROVIDES_SERVICE", "object": "Freight transport", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000035"]}
+{"subject": "Uber", "predicate": "HEADQUARTERED_IN", "object": "San Francisco, California", "confidence": 0.68, "method": "rule_based", "source_chunk_ids": ["chunk_000035"]}
+{"subject": "Uber", "predicate": "FOUNDED_IN", "object": "2010", "confidence": 0.85, "method": "llm", "source_chunk_ids": ["chunk_000036"]}
+{"subject": "Uber", "predicate": "HEADQUARTERED_IN", "object": "Francisco, California", "confidence": 0.85, "method": "llm", "source_chunk_ids": ["chunk_000036"]}
+{"subject": "Uber", "predicate": "COMPETES_WITH", "object": "ridesharing companies", "confidence": 0.85, "method": "llm", "source_chunk_ids": ["chunk_000036"]}
+{"subject": "Uber", "predicate": "PROVIDES_SERVICE", "object": "mobility services", "confidence": 0.85, "method": "llm", "source_chunk_ids": ["chunk_000036"]}
+{"subject": "Uber", "predicate": "PARTNERED_WITH", "object": "Lucid Motors", "confidence": 0.85, "method": "llm", "source_chunk_ids": ["chunk_000036"]}
+{"subject": "Uber", "predicate": "PARTNERED_WITH", "object": "Nuro", "confidence": 0.85, "method": "llm", "source_chunk_ids": ["chunk_000036"]}
+{"subject": "Uber", "predicate": "PARTNERED_WITH", "object": "Baidu", "confidence": 0.85, "method": "llm", "source_chunk_ids": ["chunk_000036"]}
+{"subject": "Uber", "predicate": "PARTNERED_WITH", "object": "Pony.ai", "confidence": 0.85, "method": "llm", "source_chunk_ids": ["chunk_000036"]}
+{"subject": "Uber", "predicate": "PARTNERED_WITH", "object": "Avride", "confidence": 0.85, "method": "llm", "source_chunk_ids": ["chunk_000036"]}
+{"subject": "Uber", "predicate": "PARTNERED_WITH", "object": "Nissan", "confidence": 0.85, "method": "llm", "source_chunk_ids": ["chunk_000036"]}
+{"subject": "Uber", "predicate": "PARTNERED_WITH", "object": "Rivian", "confidence": 0.85, "method": "llm", "source_chunk_ids": ["chunk_000036"]}
+{"subject": "Uber", "predicate": "PARTNERED_WITH", "object": "Zoox", "confidence": 0.85, "method": "llm", "source_chunk_ids": ["chunk_000036"]}
+{"subject": "Uber", "predicate": "PARTNERED_WITH", "object": "Stellantis", "confidence": 0.85, "method": "llm", "source_chunk_ids": ["chunk_000036"]}
+{"subject": "Uber", "predicate": "PARTNERED_WITH", "object": "Wayve", "confidence": 0.85, "method": "llm", "source_chunk_ids": ["chunk_000036"]}
+{"subject": "Uber", "predicate": "PARTNERED_WITH", "object": "Nvidia", "confidence": 0.85, "method": "llm", "source_chunk_ids": ["chunk_000036"]}
+{"subject": "Airbnb, Inc", "predicate": "FOUNDED_BY", "object": "Brian Chesky", "confidence": 0.95, "method": "llm", "source_chunk_ids": ["chunk_000037"]}
+{"subject": "Airbnb, Inc", "predicate": "FOUNDED_BY", "object": "Nathan Blecharczyk", "confidence": 0.95, "method": "llm", "source_chunk_ids": ["chunk_000037"]}
+{"subject": "Airbnb, Inc", "predicate": "FOUNDED_BY", "object": "Joe Gebbia", "confidence": 0.95, "method": "llm", "source_chunk_ids": ["chunk_000037"]}
+{"subject": "Airbnb, Inc", "predicate": "FOUNDED_IN", "object": "2008", "confidence": 0.95, "method": "llm", "source_chunk_ids": ["chunk_000037"]}
+{"subject": "Airbnb, Inc", "predicate": "HEADQUARTERED_IN", "object": "San Francisco, California, U.S", "confidence": 0.95, "method": "llm", "source_chunk_ids": ["chunk_000037"]}
+{"subject": "Brian Chesky", "predicate": "CEO_OF", "object": "Airbnb, Inc", "confidence": 0.95, "method": "llm", "source_chunk_ids": ["chunk_000037"]}
+{"subject": "Airbnb, Inc", "predicate": "INDUSTRY", "object": "Lodging", "confidence": 0.95, "method": "llm", "source_chunk_ids": ["chunk_000037"]}
+{"subject": "Airbnb, Inc", "predicate": "PROVIDES_SERVICE", "object": "Lodging", "confidence": 0.85, "method": "llm", "source_chunk_ids": ["chunk_000037"]}
+{"subject": "Airbnb, Inc", "predicate": "PROVIDES_SERVICE", "object": "Hospitality", "confidence": 0.85, "method": "llm", "source_chunk_ids": ["chunk_000037"]}
+{"subject": "Airbnb, Inc", "predicate": "PROVIDES_SERVICE", "object": "Homestay", "confidence": 0.85, "method": "llm", "source_chunk_ids": ["chunk_000037"]}
+{"subject": "Airbnb", "predicate": "FOUNDED_BY", "object": "Brian Chesky", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000037"]}
+{"subject": "Airbnb", "predicate": "FOUNDED_BY", "object": "Joe Gebbia", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000037"]}
+{"subject": "Airbnb", "predicate": "FOUNDED_BY", "object": "Nathan Blecharczyk", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000037"]}
+{"subject": "Airbnb", "predicate": "FOUNDED_IN", "object": "2008", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000037"]}
+{"subject": "Airbnb", "predicate": "INDUSTRY", "object": "Lodging", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000037"]}
+{"subject": "Airbnb", "predicate": "PROVIDES_SERVICE", "object": "Lodging", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000037"]}
+{"subject": "Airbnb", "predicate": "PROVIDES_SERVICE", "object": "Hospitality", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000037"]}
+{"subject": "Airbnb", "predicate": "PROVIDES_SERVICE", "object": "Homestay", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000037"]}
+{"subject": "Brian Chesky", "predicate": "OWNS", "object": "Airbnb", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000037"]}
+{"subject": "Airbnb", "predicate": "SUBSIDIARY_OF", "object": "Brian Chesky", "confidence": 0.85, "method": "rule_based", "source_chunk_ids": ["chunk_000037"]}
+{"subject": "Nathan Blecharczyk", "predicate": "OWNS", "object": "Airbnb", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000037"]}
+{"subject": "Airbnb", "predicate": "SUBSIDIARY_OF", "object": "Nathan Blecharczyk", "confidence": 0.85, "method": "rule_based", "source_chunk_ids": ["chunk_000037"]}
+{"subject": "Joe Gebbia", "predicate": "OWNS", "object": "Airbnb", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000037"]}
+{"subject": "Airbnb", "predicate": "SUBSIDIARY_OF", "object": "Joe Gebbia", "confidence": 0.85, "method": "rule_based", "source_chunk_ids": ["chunk_000037"]}
+{"subject": "AirBed & Breakfast", "predicate": "FOUNDED_BY", "object": "Nathan Blecharczyk", "confidence": 0.85, "method": "llm", "source_chunk_ids": ["chunk_000038"]}
+{"subject": "AirBed & Breakfast", "predicate": "FOUNDED_BY", "object": "Chesky", "confidence": 0.85, "method": "llm", "source_chunk_ids": ["chunk_000038"]}
+{"subject": "AirBed & Breakfast", "predicate": "FOUNDED_IN", "object": "February 2008", "confidence": 0.85, "method": "llm", "source_chunk_ids": ["chunk_000038"]}
+{"subject": "Nathan Blecharczyk", "predicate": "CEO_OF", "object": "AirBed & Breakfast", "confidence": 0.85, "method": "llm", "source_chunk_ids": ["chunk_000038"]}
+{"subject": "Chesky", "predicate": "CEO_OF", "object": "AirBed & Breakfast", "confidence": 0.85, "method": "llm", "source_chunk_ids": ["chunk_000038"]}
+{"subject": "AirBed & Breakfast", "predicate": "PROVIDES_SERVICE", "object": "short-term living quarters and breakfast", "confidence": 0.85, "method": "llm", "source_chunk_ids": ["chunk_000038"]}
+{"subject": "Spotify", "predicate": "FOUNDED_BY", "object": "Daniel Ek", "confidence": 0.9, "method": "llm", "source_chunk_ids": ["chunk_000039"]}
+{"subject": "Spotify", "predicate": "FOUNDED_BY", "object": "Martin Lorentzon", "confidence": 0.9, "method": "llm", "source_chunk_ids": ["chunk_000039"]}
+{"subject": "Spotify", "predicate": "FOUNDED_IN", "object": "April 2006", "confidence": 0.9, "method": "llm", "source_chunk_ids": ["chunk_000039"]}
+{"subject": "Spotify", "predicate": "HEADQUARTERED_IN", "object": "Stockholm, Sweden", "confidence": 0.85, "method": "llm", "source_chunk_ids": ["chunk_000039"]}
+{"subject": "Spotify", "predicate": "HEADQUARTERED_IN", "object": "Luxembourg, Luxembourg", "confidence": 0.85, "method": "llm", "source_chunk_ids": ["chunk_000039"]}
+{"subject": "Spotify", "predicate": "INDUSTRY", "object": "Audio streaming", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000039"]}
+{"subject": "Spotify", "predicate": "INDUSTRY", "object": "Podcasting", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000039"]}
+{"subject": "Spotify", "predicate": "PRODUCT", "object": "Over 100 million songs and over 7 million podcast titles", "confidence": 0.85, "method": "llm", "source_chunk_ids": ["chunk_000039"]}
+{"subject": "Spotify", "predicate": "FOUNDED_IN", "object": "2006", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000039"]}
+{"subject": "Spotify", "predicate": "HEADQUARTERED_IN", "object": "Luxembourg", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000039"]}
+{"subject": "Spotify", "predicate": "HEADQUARTERED_IN", "object": "Stockholm", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000039"]}
+{"subject": "Spotify", "predicate": "HEADQUARTERED_IN", "object": "Sweden", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000039"]}
+{"subject": "Spotify", "predicate": "FOUNDED_BY", "object": "the businessmen Daniel Ek", "confidence": 0.72, "method": "rule_based", "source_chunk_ids": ["chunk_000039"]}
+{"subject": "Spotify", "predicate": "PRODUCT", "object": "DRM-protected audio content", "confidence": 0.85, "method": "llm", "source_chunk_ids": ["chunk_000040"]}
+{"subject": "Spotify", "predicate": "PRODUCT", "object": "over 100 million songs", "confidence": 0.85, "method": "llm", "source_chunk_ids": ["chunk_000040"]}
+{"subject": "Spotify", "predicate": "PRODUCT", "object": "over 7 million podcast titles", "confidence": 0.85, "method": "llm", "source_chunk_ids": ["chunk_000040"]}
+{"subject": "Spotify", "predicate": "PROVIDES_SERVICE", "object": "freemium service", "confidence": 0.85, "method": "llm", "source_chunk_ids": ["chunk_000040"]}
+{"subject": "Spotify", "predicate": "HEADQUARTERED_IN", "object": "Europe, Africa, the Americas, Asia, and Oceania", "confidence": 0.85, "method": "llm", "source_chunk_ids": ["chunk_000040"]}
+{"subject": "Spotify", "predicate": "INDUSTRY", "object": "music streaming", "confidence": 0.85, "method": "llm", "source_chunk_ids": ["chunk_000040"]}
+{"subject": "ByteDance", "predicate": "FOUNDED_BY", "object": "Zhang Yiming", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000041", "chunk_000042"]}
+{"subject": "ByteDance", "predicate": "FOUNDED_BY", "object": "Liang Rubo", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000041", "chunk_000042"]}
+{"subject": "ByteDance", "predicate": "FOUNDED_IN", "object": "2012", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000041", "chunk_000042"]}
+{"subject": "ByteDance", "predicate": "HEADQUARTERED_IN", "object": "Haidian, Beijing, China", "confidence": 0.85, "method": "llm", "source_chunk_ids": ["chunk_000041"]}
+{"subject": "ByteDance", "predicate": "HEADQUARTERED_IN", "object": "Cayman Islands", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000041"]}
+{"subject": "ByteDance", "predicate": "DEVELOPED", "object": "TikTok/Douyin", "confidence": 0.85, "method": "llm", "source_chunk_ids": ["chunk_000041"]}
+{"subject": "ByteDance", "predicate": "DEVELOPED", "object": "Toutiao", "confidence": 0.85, "method": "llm", "source_chunk_ids": ["chunk_000041"]}
+{"subject": "ByteDance", "predicate": "DEVELOPED", "object": "CapCut", "confidence": 0.85, "method": "llm", "source_chunk_ids": ["chunk_000041"]}
+{"subject": "ByteDance", "predicate": "DEVELOPED", "object": "Lemon8", "confidence": 0.85, "method": "llm", "source_chunk_ids": ["chunk_000041"]}
+{"subject": "ByteDance", "predicate": "INDUSTRY", "object": "Internet", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000041"]}
+{"subject": "ByteDance", "predicate": "HEADQUARTERED_IN", "object": "Haidian", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000041"]}
+{"subject": "ByteDance", "predicate": "HEADQUARTERED_IN", "object": "Beijing", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000041"]}
+{"subject": "ByteDance", "predicate": "HEADQUARTERED_IN", "object": "China", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000041"]}
+{"subject": "ByteDance", "predicate": "PRODUCT", "object": "TikTok", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000041"]}
+{"subject": "ByteDance", "predicate": "PRODUCT", "object": "TikTok Music", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000041"]}
+{"subject": "ByteDance", "predicate": "PRODUCT", "object": "Doubao", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000041"]}
+{"subject": "ByteDance", "predicate": "PRODUCT", "object": "Seed", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000041"]}
+{"subject": "ByteDance", "predicate": "PRODUCT", "object": "Seed-oss", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000041"]}
+{"subject": "ByteDance", "predicate": "PRODUCT", "object": "Seedance", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000041"]}
+{"subject": "ByteDance", "predicate": "PRODUCT", "object": "Seedream", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000041"]}
+{"subject": "ByteDance", "predicate": "PRODUCT", "object": "CapCut", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000041"]}
+{"subject": "ByteDance", "predicate": "PRODUCT", "object": "Toutiao", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000041"]}
+{"subject": "ByteDance", "predicate": "PRODUCT", "object": "Whee", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000041"]}
+{"subject": "ByteDance", "predicate": "PRODUCT", "object": "Lark", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000041"]}
+{"subject": "ByteDance", "predicate": "PRODUCT", "object": "PICO", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000041"]}
+{"subject": "ByteDance", "predicate": "PRODUCT", "object": "Lemon8", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000041"]}
+{"subject": "ByteDance", "predicate": "PRODUCT", "object": "SoundOn", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000041"]}
+{"subject": "ByteDance", "predicate": "PRODUCT", "object": "Baike.com", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000041"]}
+{"subject": "ByteDance", "predicate": "PRODUCT", "object": "BuzzVideo", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000041"]}
+{"subject": "ByteDance", "predicate": "PRODUCT", "object": "Trae", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000041"]}
+{"subject": "Zhang Yiming", "predicate": "OWNS", "object": "ByteDance", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000041"]}
+{"subject": "ByteDance", "predicate": "SUBSIDIARY_OF", "object": "Zhang Yiming", "confidence": 0.85, "method": "rule_based", "source_chunk_ids": ["chunk_000041"]}
+{"subject": "Sequoia Capital", "predicate": "OWNS", "object": "ByteDance", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000041"]}
+{"subject": "ByteDance", "predicate": "SUBSIDIARY_OF", "object": "Sequoia Capital", "confidence": 0.85, "method": "rule_based", "source_chunk_ids": ["chunk_000041"]}
+{"subject": "SoftBank Group", "predicate": "OWNS", "object": "ByteDance", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000041"]}
+{"subject": "ByteDance", "predicate": "SUBSIDIARY_OF", "object": "SoftBank Group", "confidence": 0.85, "method": "rule_based", "source_chunk_ids": ["chunk_000041"]}
+{"subject": "KKR & Co", "predicate": "OWNS", "object": "ByteDance", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000041"]}
+{"subject": "ByteDance", "predicate": "SUBSIDIARY_OF", "object": "KKR & Co", "confidence": 0.85, "method": "rule_based", "source_chunk_ids": ["chunk_000041"]}
+{"subject": "ByteDance", "predicate": "FOUNDED_BY", "object": "a team of others in 2012", "confidence": 0.72, "method": "rule_based", "source_chunk_ids": ["chunk_000041"]}
+{"subject": "ByteDance", "predicate": "FOUNDED_BY", "object": "ByteDance developed the video-sharing app TikTok/Douyin", "confidence": 0.72, "method": "rule_based", "source_chunk_ids": ["chunk_000041"]}
+{"subject": "ByteDance", "predicate": "HEADQUARTERED_IN", "object": "Haidian, Beijing", "confidence": 0.68, "method": "rule_based", "source_chunk_ids": ["chunk_000041"]}
+{"subject": "99fang.com", "predicate": "CREATED_BY", "object": "Zhang Yiming", "confidence": 0.85, "method": "llm", "source_chunk_ids": ["chunk_000042"]}
+{"subject": "99fang.com", "predicate": "CREATED_BY", "object": "Liang Rubo", "confidence": 0.85, "method": "llm", "source_chunk_ids": ["chunk_000042"]}
+{"subject": "Toutiao", "predicate": "DEVELOPED", "object": "ByteDance", "confidence": 0.85, "method": "llm", "source_chunk_ids": ["chunk_000042"]}
+{"subject": "Tencent", "predicate": "FOUNDED_BY", "object": "Pony Ma", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000043"]}
+{"subject": "Tencent", "predicate": "FOUNDED_BY", "object": "Tony Zhang", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000043"]}
+{"subject": "Tencent", "predicate": "FOUNDED_BY", "object": "Xu Chenye", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000043"]}
+{"subject": "Tencent", "predicate": "FOUNDED_BY", "object": "Charles Chen", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000043"]}
+{"subject": "Tencent", "predicate": "FOUNDED_BY", "object": "Zeng Liqing", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000043"]}
+{"subject": "Tencent", "predicate": "FOUNDED_IN", "object": "1998", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000043", "chunk_000044"]}
+{"subject": "Tencent", "predicate": "HEADQUARTERED_IN", "object": "Shenzhen", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000043"]}
+{"subject": "Tencent", "predicate": "CEO_OF", "object": "Pony Ma", "confidence": 0.85, "method": "llm", "source_chunk_ids": ["chunk_000043"]}
+{"subject": "Tencent", "predicate": "INDUSTRY", "object": "Technology", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000043"]}
+{"subject": "Tencent", "predicate": "INDUSTRY", "object": "Video games", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000043"]}
+{"subject": "Tencent", "predicate": "PRODUCT", "object": "Artificial intelligence", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000043"]}
+{"subject": "Tencent", "predicate": "PRODUCT", "object": "cloud computing", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000043"]}
+{"subject": "Tencent", "predicate": "PRODUCT", "object": "automation", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000043"]}
+{"subject": "Tencent", "predicate": "PRODUCT", "object": "search engine", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000043"]}
+{"subject": "Tencent", "predicate": "PRODUCT", "object": "social networking", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000043"]}
+{"subject": "Tencent", "predicate": "PRODUCT", "object": "instant messaging", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000043"]}
+{"subject": "Tencent", "predicate": "PRODUCT", "object": "mass media", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000043"]}
+{"subject": "Tencent", "predicate": "PRODUCT", "object": "web portals", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000043"]}
+{"subject": "Tencent", "predicate": "PRODUCT", "object": "e-commerce", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000043"]}
+{"subject": "Tencent", "predicate": "PRODUCT", "object": "web browser", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000043"]}
+{"subject": "Tencent", "predicate": "PRODUCT", "object": "antivirus software", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000043"]}
+{"subject": "Tencent", "predicate": "PRODUCT", "object": "music", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000043"]}
+{"subject": "Tencent", "predicate": "PRODUCT", "object": "payment system", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000043"]}
+{"subject": "Tencent", "predicate": "PRODUCT", "object": "film production", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000043"]}
+{"subject": "Tencent", "predicate": "PRODUCT", "object": "video games", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000043"]}
+{"subject": "Tencent", "predicate": "PRODUCT", "object": "online services", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000043"]}
+{"subject": "Tencent", "predicate": "HEADQUARTERED_IN", "object": "Tencent Binhai Mansion", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000043"]}
+{"subject": "Tencent", "predicate": "HEADQUARTERED_IN", "object": "Nanshan District", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000043"]}
+{"subject": "Tencent", "predicate": "HEADQUARTERED_IN", "object": "Guangdong", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000043"]}
+{"subject": "Tencent", "predicate": "HEADQUARTERED_IN", "object": "China", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000043"]}
+{"subject": "Tencent Holdings Ltd", "predicate": "FOUNDED_IN", "object": "1998", "confidence": 0.85, "method": "llm", "source_chunk_ids": ["chunk_000044"]}
+{"subject": "Tencent Holdings Ltd", "predicate": "HEADQUARTERED_IN", "object": "Shenzhen", "confidence": 0.85, "method": "llm", "source_chunk_ids": ["chunk_000044"]}
+{"subject": "Tencent Holdings Ltd", "predicate": "INDUSTRY", "object": "video game industry", "confidence": 0.85, "method": "llm", "source_chunk_ids": ["chunk_000044"]}
+{"subject": "Tencent Holdings Ltd", "predicate": "OWNS", "object": "Tencent Seafront Towers", "confidence": 0.85, "method": "llm", "source_chunk_ids": ["chunk_000044"]}
+{"subject": "Tencent Holdings Ltd", "predicate": "RELEASED", "object": "Tencent Helix", "confidence": 0.85, "method": "llm", "source_chunk_ids": ["chunk_000044"]}
+{"subject": "Tencent Holdings Ltd", "predicate": "ACQUIRED", "object": "various Internet-related services and products", "confidence": 0.85, "method": "llm", "source_chunk_ids": ["chunk_000044"]}
+{"subject": "Alibaba Group", "predicate": "FOUNDED_BY", "object": "Jack Ma", "confidence": 0.9, "method": "llm", "source_chunk_ids": ["chunk_000045"]}
+{"subject": "Alibaba Group", "predicate": "FOUNDED_IN", "object": "28 June 1999, Hangzhou, Zhejiang, China", "confidence": 0.9, "method": "llm", "source_chunk_ids": ["chunk_000045"]}
+{"subject": "Alibaba Group", "predicate": "HEADQUARTERED_IN", "object": "Yuhang District, Hangzhou, Zhejiang, China and George Town, Cayman Islands", "confidence": 0.85, "method": "llm", "source_chunk_ids": ["chunk_000045"]}
+{"subject": "Alibaba Group", "predicate": "INDUSTRY", "object": "E-commerce, cloud computing, artificial intelligence, entertainment, mobile commerce, retail, mobile media, films, TV shows", "confidence": 0.85, "method": "llm", "source_chunk_ids": ["chunk_000045"]}
+{"subject": "Alibaba Group", "predicate": "PROVIDES_SERVICE", "object": "Alibaba.com, Alibaba Cloud, AliExpress, AliOS, AliGenie, Taobao, Tmall, Lazada, 1688.com, Goofish, Daraz, Miravia", "confidence": 0.85, "method": "llm", "source_chunk_ids": ["chunk_000045"]}
+{"subject": "Alibaba Group", "predicate": "FOUNDED_IN", "object": "1999", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000045"]}
+{"subject": "Alibaba Group", "predicate": "HEADQUARTERED_IN", "object": "Yuhang District", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000045"]}
+{"subject": "Alibaba Group", "predicate": "HEADQUARTERED_IN", "object": "Hangzhou", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000045"]}
+{"subject": "Alibaba Group", "predicate": "HEADQUARTERED_IN", "object": "Zhejiang", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000045"]}
+{"subject": "Alibaba Group", "predicate": "HEADQUARTERED_IN", "object": "China", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000045"]}
+{"subject": "Alibaba Group", "predicate": "HEADQUARTERED_IN", "object": "George Town", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000045"]}
+{"subject": "Alibaba Group", "predicate": "HEADQUARTERED_IN", "object": "Cayman Islands", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000045"]}
+{"subject": "Alibaba Group", "predicate": "INDUSTRY", "object": "E-commerce", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000045"]}
+{"subject": "Alibaba Group", "predicate": "INDUSTRY", "object": "cloud computing", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000045"]}
+{"subject": "Alibaba Group", "predicate": "INDUSTRY", "object": "artificial intelligence", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000045"]}
+{"subject": "Alibaba Group", "predicate": "INDUSTRY", "object": "entertainment", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000045"]}
+{"subject": "Alibaba Group", "predicate": "INDUSTRY", "object": "mobile commerce", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000045"]}
+{"subject": "Alibaba Group", "predicate": "INDUSTRY", "object": "retail", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000045"]}
+{"subject": "Alibaba Group", "predicate": "INDUSTRY", "object": "mobile media", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000045"]}
+{"subject": "Alibaba Group", "predicate": "INDUSTRY", "object": "films", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000045"]}
+{"subject": "Alibaba Group", "predicate": "INDUSTRY", "object": "TV shows", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000045"]}
+{"subject": "Alibaba Group", "predicate": "PROVIDES_SERVICE", "object": "Alibaba.com", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000045"]}
+{"subject": "Alibaba Group", "predicate": "PROVIDES_SERVICE", "object": "Alibaba Cloud", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000045"]}
+{"subject": "Alibaba Group", "predicate": "PROVIDES_SERVICE", "object": "AliExpress", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000045"]}
+{"subject": "Alibaba Group", "predicate": "PROVIDES_SERVICE", "object": "AliOS", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000045"]}
+{"subject": "Alibaba Group", "predicate": "PROVIDES_SERVICE", "object": "AliGenie", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000045"]}
+{"subject": "Alibaba Group", "predicate": "PROVIDES_SERVICE", "object": "Taobao", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000045"]}
+{"subject": "Alibaba Group", "predicate": "PROVIDES_SERVICE", "object": "Tmall", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000045"]}
+{"subject": "Alibaba Group", "predicate": "PROVIDES_SERVICE", "object": "Lazada", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000045"]}
+{"subject": "Alibaba Group", "predicate": "PROVIDES_SERVICE", "object": "1688.com", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000045"]}
+{"subject": "Alibaba Group", "predicate": "PROVIDES_SERVICE", "object": "Goofish", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000045"]}
+{"subject": "Alibaba Group", "predicate": "PROVIDES_SERVICE", "object": "Daraz", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000045"]}
+{"subject": "Alibaba Group", "predicate": "PROVIDES_SERVICE", "object": "Miravia", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000045"]}
+{"subject": "Alibaba", "predicate": "FOUNDED_IN", "object": "28 June 1999", "confidence": 0.95, "method": "llm", "source_chunk_ids": ["chunk_000046"]}
+{"subject": "Alibaba", "predicate": "HEADQUARTERED_IN", "object": "Hangzhou, Zhejiang", "confidence": 0.9, "method": "llm", "source_chunk_ids": ["chunk_000046"]}
+{"subject": "Alibaba", "predicate": "PROVIDES_SERVICE", "object": "C2C, B2C, and B2B sales services", "confidence": 0.85, "method": "llm", "source_chunk_ids": ["chunk_000046"]}
+{"subject": "Alibaba", "predicate": "ACQUIRED", "object": "US$25 billion", "confidence": 0.7, "method": "llm", "source_chunk_ids": ["chunk_000046"]}
+{"subject": "Alibaba", "predicate": "COMPETES_WITH", "object": "Tencent", "confidence": 0.85, "method": "llm", "source_chunk_ids": ["chunk_000046"]}
+{"subject": "Alibaba", "predicate": "INDUSTRY", "object": "e-commerce", "confidence": 0.85, "method": "llm", "source_chunk_ids": ["chunk_000046"]}
+{"subject": "Alibaba", "predicate": "INDUSTRY", "object": "retail", "confidence": 0.85, "method": "llm", "source_chunk_ids": ["chunk_000046"]}
+{"subject": "DeepMind Technologies Limited", "predicate": "FOUNDED_IN", "object": "2010", "confidence": 0.95, "method": "llm", "source_chunk_ids": ["chunk_000047"]}
+{"subject": "DeepMind Technologies Limited", "predicate": "ACQUIRED_BY", "object": "Google", "confidence": 0.9, "method": "llm", "source_chunk_ids": ["chunk_000047"]}
+{"subject": "DeepMind Technologies Limited", "predicate": "HEADQUARTERED_IN", "object": "London", "confidence": 0.85, "method": "llm", "source_chunk_ids": ["chunk_000047"]}
+{"subject": "DeepMind Technologies Limited", "predicate": "SUBSIDIARY_OF", "object": "Alphabet", "confidence": 0.95, "method": "llm", "source_chunk_ids": ["chunk_000047"]}
+{"subject": "DeepMind Technologies Limited", "predicate": "INDUSTRY", "object": "Artificial intelligence", "confidence": 0.95, "method": "llm", "source_chunk_ids": ["chunk_000047"]}
+{"subject": "DeepMind Technologies Limited", "predicate": "CREATED_BY", "object": "Demis Hassabis", "confidence": 0.85, "method": "llm", "source_chunk_ids": ["chunk_000047"]}
+{"subject": "DeepMind Technologies Limited", "predicate": "CREATED_BY", "object": "Shane Legg", "confidence": 0.85, "method": "llm", "source_chunk_ids": ["chunk_000047"]}
+{"subject": "DeepMind Technologies Limited", "predicate": "CREATED_BY", "object": "Mustafa Suleyman", "confidence": 0.85, "method": "llm", "source_chunk_ids": ["chunk_000047"]}
+{"subject": "DeepMind Technologies Limited", "predicate": "COMPETES_WITH", "object": "Google AI", "confidence": 0.8, "method": "llm", "source_chunk_ids": ["chunk_000047"]}
+{"subject": "DeepMind Technologies Limited", "predicate": "DEVELOPED", "object": "neural Turing machines", "confidence": 0.85, "method": "llm", "source_chunk_ids": ["chunk_000047"]}
+{"subject": "Google DeepMind", "predicate": "FOUNDED_BY", "object": "Demis Hassabis", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000047"]}
+{"subject": "Google DeepMind", "predicate": "FOUNDED_BY", "object": "Shane Legg", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000047"]}
+{"subject": "Google DeepMind", "predicate": "FOUNDED_BY", "object": "Mustafa Suleyman", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000047"]}
+{"subject": "Google DeepMind", "predicate": "FOUNDED_IN", "object": "2010", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000047"]}
+{"subject": "Google DeepMind", "predicate": "PARENT_COMPANY", "object": "DeepMind Holdings Limited", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000047"]}
+{"subject": "Google DeepMind", "predicate": "INDUSTRY", "object": "Artificial intelligence", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000047"]}
+{"subject": "Google DeepMind", "predicate": "PRODUCT", "object": "Gemini", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000047"]}
+{"subject": "Google DeepMind", "predicate": "PRODUCT", "object": "Veo", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000047"]}
+{"subject": "Google DeepMind", "predicate": "PRODUCT", "object": "Nano Banana", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000047"]}
+{"subject": "Google DeepMind", "predicate": "PRODUCT", "object": "Imagen", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000047"]}
+{"subject": "Google DeepMind", "predicate": "PRODUCT", "object": "Lyria", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000047"]}
+{"subject": "Google DeepMind", "predicate": "PRODUCT", "object": "AlphaFold", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000047"]}
+{"subject": "Google DeepMind", "predicate": "PRODUCT", "object": "AlphaGo", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000047"]}
+{"subject": "Alphabet", "predicate": "OWNS", "object": "Google DeepMind", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000047"]}
+{"subject": "Google DeepMind", "predicate": "SUBSIDIARY_OF", "object": "Alphabet", "confidence": 0.85, "method": "rule_based", "source_chunk_ids": ["chunk_000047"]}
+{"subject": "Google DeepMind", "predicate": "FOUNDED_BY", "object": "Google in 2014", "confidence": 0.72, "method": "rule_based", "source_chunk_ids": ["chunk_000047"]}
+{"subject": "Google DeepMind", "predicate": "FOUNDED_BY", "object": "merged with Google AI's Google Brain division to become Google DeepMind in April 2023", "confidence": 0.72, "method": "rule_based", "source_chunk_ids": ["chunk_000047"]}
+{"subject": "Google DeepMind", "predicate": "HEADQUARTERED_IN", "object": "London, with research centres in the United States", "confidence": 0.68, "method": "rule_based", "source_chunk_ids": ["chunk_000047", "chunk_000048"]}
+{"subject": "Google DeepMind", "predicate": "ACQUIRED_BY", "object": "Google in 2014 and merged with Google AI's Google Brain division to become Google DeepMind in April 2023", "confidence": 0.7, "method": "rule_based", "source_chunk_ids": ["chunk_000047"]}
+{"subject": "DeepMind", "predicate": "HEADQUARTERED_IN", "object": "London", "confidence": 0.9, "method": "llm", "source_chunk_ids": ["chunk_000048"]}
+{"subject": "DeepMind", "predicate": "CREATED_BY", "object": "neural networks", "confidence": 0.85, "method": "llm", "source_chunk_ids": ["chunk_000048"]}
+{"subject": "DeepMind", "predicate": "DEVELOPED", "object": "AlphaGo", "confidence": 0.9, "method": "llm", "source_chunk_ids": ["chunk_000048"]}
+{"subject": "AlphaGo", "predicate": "COMPETES_WITH", "object": "Lee Sedol", "confidence": 0.85, "method": "llm", "source_chunk_ids": ["chunk_000048"]}
+{"subject": "AlphaZero", "predicate": "DEVELOPED", "object": "DeepMind", "confidence": 0.85, "method": "llm", "source_chunk_ids": ["chunk_000048"]}
+{"subject": "Anthropic", "predicate": "FOUNDED_BY", "object": "Dario Amodei, Daniela Amodei, Jared Kaplan, Jack Clark, Chris Olah, Ben Mann, Sam McCandlish, Tom Brown", "confidence": 0.85, "method": "llm", "source_chunk_ids": ["chunk_000049"]}
+{"subject": "Anthropic", "predicate": "FOUNDED_IN", "object": "2021", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000049"]}
+{"subject": "Anthropic", "predicate": "HEADQUARTERED_IN", "object": "San Francisco", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000049"]}
+{"subject": "Dario Amodei", "predicate": "CEO_OF", "object": "Anthropic", "confidence": 0.85, "method": "llm", "source_chunk_ids": ["chunk_000049"]}
+{"subject": "Anthropic", "predicate": "INDUSTRY", "object": "Artificial intelligence", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000049"]}
+{"subject": "Anthropic", "predicate": "DEVELOPED", "object": "Claude, Claude Code, Claude Cowork, Claude Design, Bun", "confidence": 0.85, "method": "llm", "source_chunk_ids": ["chunk_000049"]}
+{"subject": "Anthropic", "predicate": "FOUNDED_BY", "object": "Dario Amodei", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000049"]}
+{"subject": "Anthropic", "predicate": "FOUNDED_BY", "object": "Daniela Amodei", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000049"]}
+{"subject": "Anthropic", "predicate": "FOUNDED_BY", "object": "Jared Kaplan", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000049"]}
+{"subject": "Anthropic", "predicate": "FOUNDED_BY", "object": "Jack Clark", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000049"]}
+{"subject": "Anthropic", "predicate": "FOUNDED_BY", "object": "Chris Olah", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000049"]}
+{"subject": "Anthropic", "predicate": "FOUNDED_BY", "object": "Ben Mann", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000049"]}
+{"subject": "Anthropic", "predicate": "FOUNDED_BY", "object": "Sam McCandlish", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000049"]}
+{"subject": "Anthropic", "predicate": "FOUNDED_BY", "object": "Tom Brown", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000049"]}
+{"subject": "Anthropic", "predicate": "HEADQUARTERED_IN", "object": "500 Howard Street", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000049"]}
+{"subject": "Anthropic", "predicate": "HEADQUARTERED_IN", "object": "California, U.S", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000049"]}
+{"subject": "Anthropic", "predicate": "PRODUCT", "object": "Claude", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000049"]}
+{"subject": "Anthropic", "predicate": "PRODUCT", "object": "Claude Code", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000049"]}
+{"subject": "Anthropic", "predicate": "PRODUCT", "object": "Claude Cowork", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000049"]}
+{"subject": "Anthropic", "predicate": "PRODUCT", "object": "Claude Design", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000049"]}
+{"subject": "Anthropic", "predicate": "PRODUCT", "object": "Bun", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000049"]}
+{"subject": "Anthropic", "predicate": "FOUNDED_BY", "object": "former members of OpenAI", "confidence": 0.72, "method": "rule_based", "source_chunk_ids": ["chunk_000049"]}
+{"subject": "Anthropic", "predicate": "FOUNDED_BY", "object": "including siblings Daniela Amodei", "confidence": 0.72, "method": "rule_based", "source_chunk_ids": ["chunk_000049"]}
+{"subject": "Anthropic", "predicate": "FOUNDED_BY", "object": "who are president", "confidence": 0.72, "method": "rule_based", "source_chunk_ids": ["chunk_000049"]}
+{"subject": "Anthropic", "predicate": "FOUNDED_BY", "object": "CEO", "confidence": 0.72, "method": "rule_based", "source_chunk_ids": ["chunk_000049"]}
+{"subject": "Anthropic", "predicate": "FOUNDED_BY", "object": "respectively", "confidence": 0.72, "method": "rule_based", "source_chunk_ids": ["chunk_000049"]}
+{"subject": "It has", "predicate": "DEVELOPED", "object": "a range of large language models (LLMs) named Claude and focuses on AI safety", "confidence": 0.62, "method": "rule_based", "source_chunk_ids": ["chunk_000049"]}
+{"subject": "Claude", "predicate": "RELEASED", "object": "March 2023", "confidence": 0.85, "method": "llm", "source_chunk_ids": ["chunk_000050"]}
+{"subject": "Hugging Face, Inc", "predicate": "FOUNDED_BY", "object": "Clément Delangue", "confidence": 0.85, "method": "llm", "source_chunk_ids": ["chunk_000051"]}
+{"subject": "Hugging Face, Inc", "predicate": "FOUNDED_BY", "object": "Julien Chaumond", "confidence": 0.85, "method": "llm", "source_chunk_ids": ["chunk_000051"]}
+{"subject": "Hugging Face, Inc", "predicate": "FOUNDED_BY", "object": "Thomas Wolf", "confidence": 0.85, "method": "llm", "source_chunk_ids": ["chunk_000051"]}
+{"subject": "Hugging Face, Inc", "predicate": "FOUNDED_IN", "object": "2016", "confidence": 0.85, "method": "llm", "source_chunk_ids": ["chunk_000051"]}
+{"subject": "Hugging Face, Inc", "predicate": "HEADQUARTERED_IN", "object": "New York City", "confidence": 0.85, "method": "llm", "source_chunk_ids": ["chunk_000051"]}
+{"subject": "Hugging Face, Inc", "predicate": "CEO_OF", "object": "Clément Delangue", "confidence": 0.85, "method": "llm", "source_chunk_ids": ["chunk_000051"]}
+{"subject": "Hugging Face, Inc", "predicate": "INDUSTRY", "object": "Artificial intelligence; Machine learning; Software development", "confidence": 0.85, "method": "llm", "source_chunk_ids": ["chunk_000051"]}
+{"subject": "Hugging Face, Inc", "predicate": "PRODUCT", "object": "Models, datasets, spaces; learn, inference, libraries", "confidence": 0.85, "method": "llm", "source_chunk_ids": ["chunk_000051"]}
+{"subject": "Hugging Face", "predicate": "FOUNDED_IN", "object": "2016", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000051"]}
+{"subject": "Hugging Face", "predicate": "HEADQUARTERED_IN", "object": "Manhattan", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000051"]}
+{"subject": "Hugging Face", "predicate": "HEADQUARTERED_IN", "object": "New York City", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000051"]}
+{"subject": "Hugging Face", "predicate": "INDUSTRY", "object": "Artificial intelligence", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000051"]}
+{"subject": "Hugging Face", "predicate": "INDUSTRY", "object": "Machine learning", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000051"]}
+{"subject": "Hugging Face", "predicate": "INDUSTRY", "object": "Software development", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000051"]}
+{"subject": "Hugging Face", "predicate": "PRODUCT", "object": "Models, datasets, spaces", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000051"]}
+{"subject": "Hugging Face", "predicate": "PRODUCT", "object": "learn, inference, libraries", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000051"]}
+{"subject": "<!-- or:", "predicate": "OWNS", "object": "Hugging Face", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000051"]}
+{"subject": "Hugging Face", "predicate": "SUBSIDIARY_OF", "object": "<!-- or:", "confidence": 0.85, "method": "rule_based", "source_chunk_ids": ["chunk_000051"]}
+{"subject": "Hugging Face", "predicate": "FOUNDED_BY", "object": "French entrepreneurs Clément Delangue", "confidence": 0.72, "method": "rule_based", "source_chunk_ids": ["chunk_000051"]}
+{"subject": "Hugging Face", "predicate": "FOUNDED_BY", "object": "Julien Chaumond", "confidence": 0.72, "method": "rule_based", "source_chunk_ids": ["chunk_000051"]}
+{"subject": "Hugging Face", "predicate": "FOUNDED_BY", "object": "Thomas Wolf", "confidence": 0.72, "method": "rule_based", "source_chunk_ids": ["chunk_000051"]}
+{"subject": "Hugging Face", "predicate": "FOUNDED_BY", "object": "Unknown", "confidence": 0.85, "method": "llm", "source_chunk_ids": ["chunk_000052"]}
+{"subject": "Hugging Face", "predicate": "PARTNERED_WITH", "object": "Amazon Web Services", "confidence": 0.85, "method": "llm", "source_chunk_ids": ["chunk_000052"]}
+{"subject": "BigScience Research Workshop", "predicate": "DEVELOPED", "object": "BLOOM", "confidence": 0.85, "method": "llm", "source_chunk_ids": ["chunk_000052"]}
+{"subject": "BLOOM", "predicate": "INDUSTRY", "object": "Machine Learning", "confidence": 0.85, "method": "llm", "source_chunk_ids": ["chunk_000052"]}
+{"subject": "Databricks, Inc", "predicate": "FOUNDED_BY", "object": "Ali Ghodsi", "confidence": 0.9, "method": "llm", "source_chunk_ids": ["chunk_000053"]}
+{"subject": "Databricks, Inc", "predicate": "FOUNDED_BY", "object": "Andy Konwinski", "confidence": 0.9, "method": "llm", "source_chunk_ids": ["chunk_000053"]}
+{"subject": "Databricks, Inc", "predicate": "FOUNDED_BY", "object": "Ion Stoica", "confidence": 0.9, "method": "llm", "source_chunk_ids": ["chunk_000053"]}
+{"subject": "Databricks, Inc", "predicate": "FOUNDED_BY", "object": "Patrick Wendell", "confidence": 0.9, "method": "llm", "source_chunk_ids": ["chunk_000053"]}
+{"subject": "Databricks, Inc", "predicate": "FOUNDED_BY", "object": "Reynold Xin", "confidence": 0.9, "method": "llm", "source_chunk_ids": ["chunk_000053"]}
+{"subject": "Databricks, Inc", "predicate": "FOUNDED_BY", "object": "Matei Zaharia", "confidence": 0.9, "method": "llm", "source_chunk_ids": ["chunk_000053"]}
+{"subject": "Databricks, Inc", "predicate": "FOUNDED_BY", "object": "Arsalan Tavakoli", "confidence": 0.9, "method": "llm", "source_chunk_ids": ["chunk_000053"]}
+{"subject": "Databricks, Inc", "predicate": "FOUNDED_IN", "object": "2013", "confidence": 0.95, "method": "llm", "source_chunk_ids": ["chunk_000053"]}
+{"subject": "Databricks, Inc", "predicate": "HEADQUARTERED_IN", "object": "San Francisco, California", "confidence": 0.95, "method": "llm", "source_chunk_ids": ["chunk_000053"]}
+{"subject": "Databricks, Inc", "predicate": "CEO_OF", "object": "Ali Ghodsi", "confidence": 0.9, "method": "llm", "source_chunk_ids": ["chunk_000053"]}
+{"subject": "Databricks, Inc", "predicate": "INDUSTRY", "object": "Computer software", "confidence": 0.9, "method": "llm", "source_chunk_ids": ["chunk_000053"]}
+{"subject": "Databricks, Inc", "predicate": "DEVELOPED", "object": "data lakehouse architecture", "confidence": 0.85, "method": "llm", "source_chunk_ids": ["chunk_000053"]}
+{"subject": "Databricks, Inc", "predicate": "DEVELOPED", "object": "Delta Lake", "confidence": 0.85, "method": "llm", "source_chunk_ids": ["chunk_000053"]}
+{"subject": "Microsoft Azure", "predicate": "PARTNERED_WITH", "object": "Databricks, Inc", "confidence": 0.85, "method": "llm", "source_chunk_ids": ["chunk_000053"]}
+{"subject": "Databricks, Inc", "predicate": "USES_TECHNOLOGY", "object": "Apache Spark", "confidence": 0.9, "method": "llm", "source_chunk_ids": ["chunk_000053"]}
+{"subject": "Databricks", "predicate": "FOUNDED_BY", "object": "Ali Ghodsi", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000053"]}
+{"subject": "Databricks", "predicate": "FOUNDED_BY", "object": "Andy Konwinski", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000053"]}
+{"subject": "Databricks", "predicate": "FOUNDED_BY", "object": "Ion Stoica", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000053"]}
+{"subject": "Databricks", "predicate": "FOUNDED_BY", "object": "Patrick Wendell", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000053"]}
+{"subject": "Databricks", "predicate": "FOUNDED_BY", "object": "Reynold Xin", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000053"]}
+{"subject": "Databricks", "predicate": "FOUNDED_BY", "object": "Matei Zaharia", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000053"]}
+{"subject": "Databricks", "predicate": "FOUNDED_BY", "object": "Arsalan Tavakoli", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000053"]}
+{"subject": "Databricks", "predicate": "FOUNDED_IN", "object": "2013", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000053"]}
+{"subject": "Databricks", "predicate": "HEADQUARTERED_IN", "object": "San Francisco", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000053"]}
+{"subject": "Databricks", "predicate": "HEADQUARTERED_IN", "object": "California", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000053"]}
+{"subject": "Databricks", "predicate": "INDUSTRY", "object": "Computer software", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000053"]}
+{"subject": "Databricks", "predicate": "FOUNDED_BY", "object": "Arsalan Tavakoli-Shiraji", "confidence": 0.72, "method": "rule_based", "source_chunk_ids": ["chunk_000053"]}
+{"subject": "Databricks", "predicate": "FOUNDED_BY", "object": "Ali Ghodsi, Andy Konwinski, Arsalan Tavakoli-Shiraji, Ion Stoica, Matei Zaharia, Patrick Wendell, Reynold Xin", "confidence": 0.85, "method": "llm", "source_chunk_ids": ["chunk_000054"]}
+{"subject": "Azure Databricks", "predicate": "FOUNDED_IN", "object": "2017", "confidence": 0.85, "method": "llm", "source_chunk_ids": ["chunk_000054"]}
+{"subject": "Databricks", "predicate": "PARTNERED_WITH", "object": "Google Cloud", "confidence": 0.85, "method": "llm", "source_chunk_ids": ["chunk_000054"]}
+{"subject": "Databricks", "predicate": "PROVIDES_SERVICE", "object": "integration with the Google Kubernetes Engine and Google's BigQuery platform", "confidence": 0.85, "method": "llm", "source_chunk_ids": ["chunk_000054"]}
+{"subject": "Databricks", "predicate": "OWNS", "object": "more than 5,000 customers", "confidence": 0.85, "method": "llm", "source_chunk_ids": ["chunk_000054"]}
+{"subject": "Snowflake Inc", "predicate": "FOUNDED_BY", "object": "Benoît Dageville", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000055"]}
+{"subject": "Snowflake Inc", "predicate": "FOUNDED_BY", "object": "Thierry Cruanes", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000055"]}
+{"subject": "Snowflake Inc", "predicate": "FOUNDED_BY", "object": "Marcin Żukowski", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000055"]}
+{"subject": "Snowflake Inc", "predicate": "FOUNDED_IN", "object": "2012 in San Mateo, California, U.S", "confidence": 0.85, "method": "llm", "source_chunk_ids": ["chunk_000055"]}
+{"subject": "Snowflake Inc", "predicate": "HEADQUARTERED_IN", "object": "Menlo Park, California, U.S", "confidence": 0.85, "method": "llm", "source_chunk_ids": ["chunk_000055"]}
+{"subject": "Snowflake Inc", "predicate": "CEO_OF", "object": "Sridhar Ramaswamy", "confidence": 0.85, "method": "llm", "source_chunk_ids": ["chunk_000055"]}
+{"subject": "Snowflake Inc", "predicate": "PRODUCT", "object": "Cloud data platform", "confidence": 0.85, "method": "llm", "source_chunk_ids": ["chunk_000055"]}
+{"subject": "Snowflake Inc", "predicate": "PARTNERED_WITH", "object": "Amazon Web Services", "confidence": 0.85, "method": "llm", "source_chunk_ids": ["chunk_000055"]}
+{"subject": "Snowflake Inc", "predicate": "PARTNERED_WITH", "object": "Microsoft Azure", "confidence": 0.85, "method": "llm", "source_chunk_ids": ["chunk_000055"]}
+{"subject": "Snowflake Inc", "predicate": "PARTNERED_WITH", "object": "Google Cloud Platform", "confidence": 0.85, "method": "llm", "source_chunk_ids": ["chunk_000055"]}
+{"subject": "Snowflake Inc", "predicate": "FOUNDED_IN", "object": "2012", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000055"]}
+{"subject": "Snowflake Inc", "predicate": "HEADQUARTERED_IN", "object": "Menlo Park", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000055"]}
+{"subject": "Snowflake Inc", "predicate": "HEADQUARTERED_IN", "object": "California, U.S", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000055"]}
+{"subject": "Snowflake Inc", "predicate": "PROVIDES_SERVICE", "object": "Cloud data platform", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000055"]}
+{"subject": "Snowflake", "predicate": "FOUNDED_BY", "object": "Mike Speiser", "confidence": 0.85, "method": "llm", "source_chunk_ids": ["chunk_000056"]}
+{"subject": "Snowflake", "predicate": "CEO_OF", "object": "Bob Muglia", "confidence": 0.85, "method": "llm", "source_chunk_ids": ["chunk_000056"]}
+{"subject": "Snowflake", "predicate": "CEO_OF", "object": "Frank Slootman", "confidence": 0.85, "method": "llm", "source_chunk_ids": ["chunk_000056"]}
+{"subject": "Snowflake", "predicate": "HEADQUARTERED_IN", "object": "Sutter Hill Ventures", "confidence": 0.85, "method": "llm", "source_chunk_ids": ["chunk_000056"]}
+{"subject": "Snowflake", "predicate": "ACQUIRED_BY", "object": "Amazon Web Services", "confidence": 0.85, "method": "llm", "source_chunk_ids": ["chunk_000056"]}
+{"subject": "Snowflake", "predicate": "RELEASED", "object": "cloud data warehouse", "confidence": 0.85, "method": "llm", "source_chunk_ids": ["chunk_000056"]}
+{"subject": "Palantir Technologies Inc", "predicate": "FOUNDED_BY", "object": "Peter Thiel", "confidence": 0.85, "method": "llm", "source_chunk_ids": ["chunk_000057"]}
+{"subject": "Palantir Technologies Inc", "predicate": "FOUNDED_BY", "object": "Stephen Cohen", "confidence": 0.85, "method": "llm", "source_chunk_ids": ["chunk_000057"]}
+{"subject": "Palantir Technologies Inc", "predicate": "FOUNDED_BY", "object": "Joe Lonsdale", "confidence": 0.85, "method": "llm", "source_chunk_ids": ["chunk_000057"]}
+{"subject": "Palantir Technologies Inc", "predicate": "FOUNDED_BY", "object": "Alex Karp", "confidence": 0.85, "method": "llm", "source_chunk_ids": ["chunk_000057"]}
+{"subject": "Palantir Technologies Inc", "predicate": "FOUNDED_BY", "object": "Nathan Gettings", "confidence": 0.85, "method": "llm", "source_chunk_ids": ["chunk_000057"]}
+{"subject": "Palantir Technologies Inc", "predicate": "FOUNDED_IN", "object": "2003", "confidence": 0.85, "method": "llm", "source_chunk_ids": ["chunk_000057"]}
+{"subject": "Palantir Technologies Inc", "predicate": "HEADQUARTERED_IN", "object": "Miami, Florida", "confidence": 0.85, "method": "llm", "source_chunk_ids": ["chunk_000057"]}
+{"subject": "Palantir Technologies Inc", "predicate": "INDUSTRY", "object": "Software", "confidence": 0.85, "method": "llm", "source_chunk_ids": ["chunk_000057"]}
+{"subject": "Palantir Technologies Inc", "predicate": "PRODUCT", "object": "Palantir Gotham", "confidence": 0.85, "method": "llm", "source_chunk_ids": ["chunk_000057"]}
+{"subject": "Palantir Technologies Inc", "predicate": "PRODUCT", "object": "Palantir Foundry", "confidence": 0.85, "method": "llm", "source_chunk_ids": ["chunk_000057"]}
+{"subject": "Palantir Technologies Inc", "predicate": "PRODUCT", "object": "Palantir Apollo", "confidence": 0.85, "method": "llm", "source_chunk_ids": ["chunk_000057"]}
+{"subject": "Palantir Technologies Inc", "predicate": "PRODUCT", "object": "Palantir AIP", "confidence": 0.85, "method": "llm", "source_chunk_ids": ["chunk_000057"]}
+{"subject": "Palantir", "predicate": "FOUNDED_BY", "object": "Peter Thiel", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000057"]}
+{"subject": "Palantir", "predicate": "FOUNDED_BY", "object": "Stephen Cohen", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000057"]}
+{"subject": "Palantir", "predicate": "FOUNDED_BY", "object": "Alex Karp", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000057"]}
+{"subject": "Palantir", "predicate": "FOUNDED_BY", "object": "Joe Lonsdale", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000057"]}
+{"subject": "Palantir", "predicate": "FOUNDED_BY", "object": "Nathan Gettings", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000057"]}
+{"subject": "Palantir", "predicate": "FOUNDED_IN", "object": "2003", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000057"]}
+{"subject": "Palantir", "predicate": "HEADQUARTERED_IN", "object": "Miami", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000057"]}
+{"subject": "Palantir", "predicate": "HEADQUARTERED_IN", "object": "Florida, U.S", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000057"]}
+{"subject": "Palantir", "predicate": "INDUSTRY", "object": "Software", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000057"]}
+{"subject": "Palantir", "predicate": "PRODUCT", "object": "Palantir Gotham", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000057"]}
+{"subject": "Palantir", "predicate": "PRODUCT", "object": "Palantir Foundry", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000057"]}
+{"subject": "Palantir", "predicate": "PRODUCT", "object": "Palantir Apollo", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000057"]}
+{"subject": "Palantir", "predicate": "HEADQUARTERED_IN", "object": "Miami, Florida", "confidence": 0.68, "method": "rule_based", "source_chunk_ids": ["chunk_000057"]}
+{"subject": "Multiple police departments", "predicate": "USES_TECHNOLOGY", "object": "Gotham", "confidence": 0.85, "method": "llm", "source_chunk_ids": ["chunk_000058"]}
+{"subject": "CEO Alex Karp", "predicate": "CEO_OF", "object": "Gotham", "confidence": 0.85, "method": "llm", "source_chunk_ids": ["chunk_000058"]}
+{"subject": "Gotham", "predicate": "PROVIDES_SERVICE", "object": "crime analysis", "confidence": 0.85, "method": "llm", "source_chunk_ids": ["chunk_000058"]}
+{"subject": "SpaceX", "predicate": "FOUNDED_BY", "object": "Elon Musk", "confidence": 0.95, "method": "llm", "source_chunk_ids": ["chunk_000059", "chunk_000060"]}
+{"subject": "SpaceX", "predicate": "FOUNDED_IN", "object": "2002 in El Segundo, California, U.S", "confidence": 0.85, "method": "llm", "source_chunk_ids": ["chunk_000059"]}
+{"subject": "SpaceX", "predicate": "HEADQUARTERED_IN", "object": "Starbase, Texas", "confidence": 0.95, "method": "llm", "source_chunk_ids": ["chunk_000059", "chunk_000060"]}
+{"subject": "Elon Musk", "predicate": "OWNS", "object": "SpaceX (42% equity; 79% voting control)", "confidence": 0.9, "method": "llm", "source_chunk_ids": ["chunk_000059"]}
+{"subject": "Elon Musk", "predicate": "CEO_OF", "object": "SpaceX", "confidence": 0.95, "method": "llm", "source_chunk_ids": ["chunk_000059"]}
+{"subject": "SpaceX", "predicate": "INDUSTRY", "object": "Space, Telecommunications, Artificial intelligence", "confidence": 0.85, "method": "llm", "source_chunk_ids": ["chunk_000059"]}
+{"subject": "SpaceX", "predicate": "PRODUCT", "object": "Launch vehicles, Dragon capsules, Starshield", "confidence": 0.85, "method": "llm", "source_chunk_ids": ["chunk_000059"]}
+{"subject": "SpaceX", "predicate": "FOUNDED_IN", "object": "2002", "confidence": 0.95, "method": "llm", "source_chunk_ids": ["chunk_000059", "chunk_000060"]}
+{"subject": "SpaceX", "predicate": "HEADQUARTERED_IN", "object": "Starbase", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000059"]}
+{"subject": "SpaceX", "predicate": "HEADQUARTERED_IN", "object": "Texas", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000059"]}
+{"subject": "SpaceX", "predicate": "INDUSTRY", "object": "Space", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000059"]}
+{"subject": "SpaceX", "predicate": "INDUSTRY", "object": "Telecommunications", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000059"]}
+{"subject": "SpaceX", "predicate": "INDUSTRY", "object": "Artificial intelligence", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000059"]}
+{"subject": "SpaceX", "predicate": "PRODUCT", "object": "Launch vehicles", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000059"]}
+{"subject": "SpaceX", "predicate": "PRODUCT", "object": "Dragon capsules", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000059"]}
+{"subject": "SpaceX", "predicate": "PRODUCT", "object": "Starshield", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000059"]}
+{"subject": "Elon Musk (42% equity", "predicate": "OWNS", "object": "SpaceX", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000059"]}
+{"subject": "SpaceX", "predicate": "SUBSIDIARY_OF", "object": "Elon Musk (42% equity", "confidence": 0.85, "method": "rule_based", "source_chunk_ids": ["chunk_000059"]}
+{"subject": "79% voting control)", "predicate": "OWNS", "object": "SpaceX", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000059"]}
+{"subject": "SpaceX", "predicate": "SUBSIDIARY_OF", "object": "79% voting control)", "confidence": 0.85, "method": "rule_based", "source_chunk_ids": ["chunk_000059"]}
+{"subject": "SpaceX", "predicate": "COMPETES_WITH", "object": "Chinese space program", "confidence": 0.85, "method": "llm", "source_chunk_ids": ["chunk_000060"]}
+{"subject": "SpaceX", "predicate": "PARTNERED_WITH", "object": "NASA", "confidence": 0.85, "method": "llm", "source_chunk_ids": ["chunk_000060"]}
+{"subject": "SpaceX", "predicate": "PARTNERED_WITH", "object": "United States Armed Forces", "confidence": 0.85, "method": "llm", "source_chunk_ids": ["chunk_000060"]}
+{"subject": "SpaceX", "predicate": "DEVELOPED", "object": "Falcon 1", "confidence": 0.85, "method": "llm", "source_chunk_ids": ["chunk_000060"]}
+{"subject": "Falcon 1", "predicate": "RELEASED", "object": "2008", "confidence": 0.85, "method": "llm", "source_chunk_ids": ["chunk_000060"]}
+{"subject": "SpaceX", "predicate": "DEVELOPED", "object": "Falcon 9", "confidence": 0.85, "method": "llm", "source_chunk_ids": ["chunk_000060"]}
+{"subject": "SpaceX", "predicate": "DEVELOPED", "object": "Dragon 1", "confidence": 0.85, "method": "llm", "source_chunk_ids": ["chunk_000060"]}
+{"subject": "SpaceX", "predicate": "FOUNDED_BY", "object": "Elon Musk in 2002 with a vision of decreasing the costs of space launches", "confidence": 0.72, "method": "rule_based", "source_chunk_ids": ["chunk_000060"]}
+{"subject": "SpaceX", "predicate": "FOUNDED_BY", "object": "paving the way to a self-sustaining colony on Mars", "confidence": 0.72, "method": "rule_based", "source_chunk_ids": ["chunk_000060"]}
+{"subject": "YouTube", "predicate": "FOUNDED_BY", "object": "Chad Hurley", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000061"]}
+{"subject": "YouTube", "predicate": "FOUNDED_BY", "object": "Jawed Karim", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000061"]}
+{"subject": "YouTube", "predicate": "FOUNDED_BY", "object": "Steve Chen", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000061"]}
+{"subject": "YouTube", "predicate": "FOUNDED_IN", "object": "2005", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000061"]}
+{"subject": "YouTube", "predicate": "PARENT_COMPANY", "object": "Google", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000061"]}
+{"subject": "YouTube", "predicate": "HEADQUARTERED_IN", "object": "San Bruno, California", "confidence": 0.85, "method": "llm", "source_chunk_ids": ["chunk_000061"]}
+{"subject": "YouTube", "predicate": "CEO_OF", "object": "Neal Mohan", "confidence": 0.85, "method": "llm", "source_chunk_ids": ["chunk_000061"]}
+{"subject": "YouTube", "predicate": "INDUSTRY", "object": "Internet", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000061"]}
+{"subject": "YouTube", "predicate": "INDUSTRY", "object": "Video hosting service", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000061"]}
+{"subject": "YouTube", "predicate": "PRODUCT", "object": "YouTube Kids", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000061"]}
+{"subject": "YouTube", "predicate": "PRODUCT", "object": "YouTube Music", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000061"]}
+{"subject": "YouTube", "predicate": "PRODUCT", "object": "YouTube Premium", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000061", "chunk_000062"]}
+{"subject": "YouTube", "predicate": "PRODUCT", "object": "YouTube Shorts", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000061"]}
+{"subject": "YouTube", "predicate": "PRODUCT", "object": "YouTube TV", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000061"]}
+{"subject": "Alphabet", "predicate": "OWNS", "object": "YouTube", "confidence": 0.9, "method": "rule_based", "source_chunk_ids": ["chunk_000061"]}
+{"subject": "YouTube", "predicate": "SUBSIDIARY_OF", "object": "Alphabet", "confidence": 0.85, "method": "rule_based", "source_chunk_ids": ["chunk_000061"]}
+{"subject": "YouTube", "predicate": "FOUNDED_BY", "object": "Steve Chen who were all former employees of PayPal", "confidence": 0.72, "method": "rule_based", "source_chunk_ids": ["chunk_000061"]}
+{"subject": "YouTube", "predicate": "ACQUIRED", "object": "Google", "confidence": 0.95, "method": "llm", "source_chunk_ids": ["chunk_000062"]}
+{"subject": "YouTube", "predicate": "INDUSTRY", "object": "Video Streaming", "confidence": 0.85, "method": "llm", "source_chunk_ids": ["chunk_000062"]}
+{"subject": "Facebook", "predicate": "FOUNDED_BY", "object": "Mark Zuckerberg", "confidence": 0.95, "method": "llm", "source_chunk_ids": ["chunk_000063"]}
+{"subject": "Facebook", "predicate": "FOUNDED_BY", "object": "Dustin Moskovitz", "confidence": 0.95, "method": "llm", "source_chunk_ids": ["chunk_000063"]}
+{"subject": "Facebook", "predicate": "FOUNDED_BY", "object": "Chris Hughes", "confidence": 0.95, "method": "llm", "source_chunk_ids": ["chunk_000063"]}
+{"subject": "Facebook", "predicate": "FOUNDED_BY", "object": "Andrew McCollum", "confidence": 0.95, "method": "llm", "source_chunk_ids": ["chunk_000063"]}
+{"subject": "Facebook", "predicate": "FOUNDED_BY", "object": "Eduardo Saverin", "confidence": 0.95, "method": "llm", "source_chunk_ids": ["chunk_000063"]}
+{"subject": "Facebook", "predicate": "FOUNDED_IN", "object": "2004", "confidence": 0.9, "method": "llm", "source_chunk_ids": ["chunk_000063"]}
+{"subject": "Facebook", "predicate": "HEADQUARTERED_IN", "object": "Cambridge, Massachusetts, US", "confidence": 0.85, "method": "llm", "source_chunk_ids": ["chunk_000063"]}
+{"subject": "Facebook", "predicate": "SUBSIDIARY_OF", "object": "Meta", "confidence": 0.85, "method": "rule_based", "source_chunk_ids": ["chunk_000063"]}
+{"subject": "Facebook", "predicate": "FOUNDED_BY", "object": "along with his Harvard College roommates", "confidence": 0.72, "method": "rule_based", "source_chunk_ids": ["chunk_000063"]}
+{"subject": "Facebook", "predicate": "FOUNDED_BY", "object": "fellow students Eduardo Saverin", "confidence": 0.72, "method": "rule_based", "source_chunk_ids": ["chunk_000063"]}
+{"subject": "Facebook", "predicate": "HEADQUARTERED_IN", "object": "United States", "confidence": 0.85, "method": "llm", "source_chunk_ids": ["chunk_000064"]}
+{"subject": "Facebook", "predicate": "PRODUCT", "object": "mobile application", "confidence": 0.85, "method": "llm", "source_chunk_ids": ["chunk_000064"]}
+{"subject": "Facebook", "predicate": "COMPETES_WITH", "object": "other social media platforms", "confidence": 0.85, "method": "llm", "source_chunk_ids": ["chunk_000064"]}

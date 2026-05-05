@@ -1,0 +1,26 @@
+venv/
+.env
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+data/raw/*.jsonl
+data/raw/*.txt
+data/processed/*.jsonl
+data/processed/*.pkl
+data/benchmark/questions.json
+outputs/*.png
+outputs/*.json
+outputs/*.csv
+
+# Lab deliverables kept in git for grading/review
+!data/raw/tech_company_corpus.jsonl
+!data/raw/tech_company_corpus.txt
+!data/processed/chunks.jsonl
+!data/processed/triples.jsonl
+!data/processed/graph.pkl
+!data/benchmark/questions.json
+!outputs/graph.png
+!outputs/graph_stats.json
+!outputs/indexing_cost_summary.json
+!outputs/benchmark_report.csv
